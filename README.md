@@ -27,6 +27,16 @@ tern plugin remove tern-zh
 
 [Tern 插件命令参考](https://docs.stencil.so/tern/reference/cli.html)
 
+## 界面预览
+
+### 常规
+
+![Tern 中文设置的常规页，显示标签页、分屏和选择设置](docs/screenshots/general.png)
+
+### 快捷键
+
+![Tern 中文设置的快捷键页，显示中文动作名称和原生键帽](docs/screenshots/keyboard.png)
+
 ## 已知限制
 
 设置页的中文由插件样式绘制，原生设置搜索仍使用英文索引。部分动态状态、菜单、实际路径与快捷键按原文显示。Tern 升级后如有界面结构变化，受影响的译文需要更新。
