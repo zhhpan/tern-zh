@@ -1,0 +1,91 @@
+/* Non-row native controls in Tern preferences. */
+.pf.sheet .pf-ctl button:has(+ button[title="Carly: New conversation"]),
+.pf.sheet button[title="Carly: New conversation"],
+.pf.sheet .tn-ct-title[title="Run history for Heartbeat"],
+.pf.sheet .tn-ct-title[title="Run history for Heartbeat"] + .dim,
+.pf.sheet .tn-ct-acts button[title="Run this task now"],
+.pf.sheet .pf-rows:has(.tn-ct-list) > .kit-empty > .kit-empty-body,
+.pf.sheet .pf-row[data-q*="the graph's column widths" i] > .pf-ctl > button:only-child,
+.pf.sheet .pf-row[data-q*="puts the public key on the clipboard" i] > .pf-ctl > button:only-child,
+.pf.sheet .pf-sec:has(.pf-row[data-q*="empty uses the system handler" i]) .pf-row[data-q^="try it" i] > .pf-ctl > button:only-child,
+.pf.sheet .gp-profiles > .gp-prof:first-child .who > .t,
+.pf.sheet .gp-profiles > .gp-prof:first-child .who > .s,
+.pf.sheet .gp-fld:has(input[placeholder="Work"]) > span:first-child,
+.pf.sheet .gp-fld:has(input[placeholder="Ada Lovelace"]) > span:first-child,
+.pf.sheet .gp-fld:has(input[placeholder="ada@example.com"]) > span:first-child,
+.pf.sheet .gp-add-foot > button.accent,
+.pf.sheet .pf-sec:has(+ .pf-sec .pf-row[data-q^="production branch" i]) .pf-status.ok > span:has(+ .mono.dim),
+.pf.sheet .pf-row[data-q*="opens the focused repository" i] > .pf-lbl > .t,
+.pf.sheet .pf-row[data-q*="opens the focused repository" i] > .pf-lbl > .h,
+.pf.sheet .pf-row[data-q*="writes gitflow.*" i] > .pf-lbl > .t,
+.pf.sheet .pf-row[data-q*="writes gitflow.*" i] > .pf-lbl > .h,
+.pf.sheet .pf-row[data-q*="writes gitflow.*" i] > .pf-ctl > button:only-child,
+.pf.sheet .pf-sec:has(.pf-row[data-q*="download, upload or clean up lfs content" i]) > .pf-sec-t,
+.pf.sheet .pf-sec:has(.pf-row[data-q*="download, upload or clean up lfs content" i]) .pf-list .kit-empty-body,
+.pf.sheet .pf-sec:has(.pf-row[data-q*="download, upload or clean up lfs content" i]) .pf-inline > input[placeholder="*.psd"] + button,
+.pf.sheet .pf-row[data-q*="download, upload or clean up lfs content" i] > .pf-lbl > .t,
+.pf.sheet .pf-row[data-q*="download, upload or clean up lfs content" i] > .pf-lbl > .h,
+.pf.sheet .pf-row[data-q*="download, upload or clean up lfs content" i] .pf-btns > button:nth-child(1):nth-last-child(4),
+.pf.sheet .pf-row[data-q*="download, upload or clean up lfs content" i] .pf-btns > button:nth-child(2):nth-last-child(3),
+.pf.sheet .pf-row[data-q*="download, upload or clean up lfs content" i] .pf-btns > button:nth-child(3):nth-last-child(2),
+.pf.sheet .pf-row[data-q*="download, upload or clean up lfs content" i] .pf-btns > button:nth-child(4):nth-last-child(1),
+.pf.sheet .pf-sec:has(.gp-sparse) > .pf-sec-t,
+.pf.sheet .gp-sparse > .pf-hint,
+.pf.sheet .gp-sparse > .pf-btns > button.accent,
+.pf.sheet .gp-sparse > .pf-btns > button.accent + button,
+.pf.sheet .pf-btns > button[title="Reload plugins"],
+.pf.sheet .pf-btns > button[title="Reload plugins"] + button,
+.pf.sheet .pf-btns > input[placeholder="~/src/plugin or github.com/…"] + button,
+.pf.sheet button[title^="Switch session…"],
+.pf.sheet button[title^="Add remote host…"],
+.pf.sheet .tn-ph-who:has(> .s[title$=" (local)"]) > .t > .mono.dim,
+.pf.sheet .pf-sec:has(.pf-row[data-q*="say when a remote host" i]) + .pf-sec > .pf-rows .pf-list .kit-empty-body,
+.pf.sheet .pf-btns > button[title^="Open settings.json"],
+.pf.sheet .pf-btns > button[title^="Reload settings"],
+.pf.sheet .pf-btns > button[title^="Open logs and app state"],
+.pf.sheet .pf-btns > button[title^="Open app data folder"] { font-size:0 !important;line-height:0 !important;letter-spacing:0 !important }
+.pf.sheet .pf-ctl button:has(+ button[title="Carly: New conversation"])::after {content:"打开记忆";font-size:12px;line-height:17px}
+.pf.sheet button[title="Carly: New conversation"]::after {content:"新建对话";font-size:12px;line-height:17px}
+.pf.sheet .tn-ct-title[title="Run history for Heartbeat"]::after {content:"心跳任务";font-size:12px;line-height:17px}
+.pf.sheet .tn-ct-title[title="Run history for Heartbeat"] + .dim::after {content:"· 内置";font-size:12px;line-height:17px}
+.pf.sheet .tn-ct-acts button[title="Run this task now"]::after {content:"立即运行";font-size:12px;line-height:17px}
+.pf.sheet .pf-rows:has(.tn-ct-list) > .kit-empty > .kit-empty-body::after {content:"可让 Carly 定时提醒你，或监视变化。";font-size:12px;line-height:17px}
+.pf.sheet .pf-row[data-q*="the graph's column widths" i] > .pf-ctl > button:only-child::after {content:"重置面板尺寸";font-size:12px;line-height:17px}
+.pf.sheet .pf-row[data-q*="puts the public key on the clipboard" i] > .pf-ctl > button:only-child::after {content:"复制";font-size:12px;line-height:17px}
+.pf.sheet .pf-sec:has(.pf-row[data-q*="empty uses the system handler" i]) .pf-row[data-q^="try it" i] > .pf-ctl > button:only-child::after {content:"打开编辑器";font-size:12px;line-height:17px}
+.pf.sheet .gp-profiles > .gp-prof:first-child .who > .t::after {content:"Git 配置";font-size:13px;line-height:18px}
+.pf.sheet .gp-profiles > .gp-prof:first-child .who > .s::after {content:"使用 Git 配置中的 user.name 和 user.email";font-size:11.5px;line-height:16px}
+.pf.sheet .gp-fld:has(input[placeholder="Work"]) > span:first-child::after {content:"配置名称";font-size:12px;line-height:17px}
+.pf.sheet .gp-fld:has(input[placeholder="Ada Lovelace"]) > span:first-child::after {content:"作者姓名";font-size:12px;line-height:17px}
+.pf.sheet .gp-fld:has(input[placeholder="ada@example.com"]) > span:first-child::after {content:"电子邮箱";font-size:12px;line-height:17px}
+.pf.sheet .gp-add-foot > button.accent::after {content:"添加配置";font-size:12px;line-height:17px}
+.pf.sheet .pf-sec:has(+ .pf-sec .pf-row[data-q^="production branch" i]) .pf-status.ok > span:has(+ .mono.dim)::after {content:"当前仓库";font-size:12px;line-height:17px}
+.pf.sheet .pf-row[data-q*="opens the focused repository" i] > .pf-lbl > .t::after {content:"试用编辑器";font-size:13.5px;line-height:19px}
+.pf.sheet .pf-row[data-q*="opens the focused repository" i] > .pf-lbl > .h::after {content:"打开当前仓库。";font-size:12px;line-height:17px}
+.pf.sheet .pf-row[data-q*="writes gitflow.*" i] > .pf-lbl > .t::after {content:"初始化";font-size:13.5px;line-height:19px}
+.pf.sheet .pf-row[data-q*="writes gitflow.*" i] > .pf-lbl > .h::after {content:"将 gitflow.* 写入 .git/config，并创建开发分支。";font-size:12px;line-height:17px}
+.pf.sheet .pf-row[data-q*="writes gitflow.*" i] > .pf-ctl > button:only-child::after {content:"初始化 Git-flow";font-size:12px;line-height:17px}
+.pf.sheet .pf-sec:has(.pf-row[data-q*="download, upload or clean up lfs content" i]) > .pf-sec-t::after {content:"大文件存储";font-size:12px;line-height:16px}
+.pf.sheet .pf-sec:has(.pf-row[data-q*="download, upload or clean up lfs content" i]) .pf-list .kit-empty-body::after {content:"尚未添加匹配模式，文件仍由 Git 正常存储。";font-size:12px;line-height:17px}
+.pf.sheet .pf-sec:has(.pf-row[data-q*="download, upload or clean up lfs content" i]) .pf-inline > input[placeholder="*.psd"] + button::after {content:"跟踪";font-size:12px;line-height:17px}
+.pf.sheet .pf-row[data-q*="download, upload or clean up lfs content" i] > .pf-lbl > .t::after {content:"LFS 对象";font-size:13.5px;line-height:19px}
+.pf.sheet .pf-row[data-q*="download, upload or clean up lfs content" i] > .pf-lbl > .h::after {content:"下载、上传或清理 LFS 对象。";font-size:12px;line-height:17px}
+.pf.sheet .pf-row[data-q*="download, upload or clean up lfs content" i] .pf-btns > button:nth-child(1):nth-last-child(4)::after {content:"检出";font-size:12px;line-height:17px}
+.pf.sheet .pf-row[data-q*="download, upload or clean up lfs content" i] .pf-btns > button:nth-child(2):nth-last-child(3)::after {content:"拉取";font-size:12px;line-height:17px}
+.pf.sheet .pf-row[data-q*="download, upload or clean up lfs content" i] .pf-btns > button:nth-child(3):nth-last-child(2)::after {content:"推送";font-size:12px;line-height:17px}
+.pf.sheet .pf-row[data-q*="download, upload or clean up lfs content" i] .pf-btns > button:nth-child(4):nth-last-child(1)::after {content:"清理";font-size:12px;line-height:17px}
+.pf.sheet .pf-sec:has(.gp-sparse) > .pf-sec-t::after {content:"稀疏检出";font-size:12px;line-height:16px}
+.pf.sheet .gp-sparse > .pf-hint::after {content:"每行填写一个目录。仓库顶层的文件始终保留。";font-size:12px;line-height:17px}
+.pf.sheet .gp-sparse > .pf-btns > button.accent::after {content:"应用";font-size:12px;line-height:17px}
+.pf.sheet .gp-sparse > .pf-btns > button.accent + button::after {content:"停用";font-size:12px;line-height:17px}
+.pf.sheet .pf-btns > button[title="Reload plugins"]::after {content:"重新加载";font-size:12px;line-height:17px}
+.pf.sheet .pf-btns > button[title="Reload plugins"] + button::after {content:"打开插件目录";font-size:12px;line-height:17px}
+.pf.sheet .pf-btns > input[placeholder="~/src/plugin or github.com/…"] + button::after {content:"安装";font-size:12px;line-height:17px}
+.pf.sheet button[title^="Switch session…"]::after {content:"切换会话…";font-size:12px;line-height:17px}
+.pf.sheet button[title^="Add remote host…"]::after {content:"添加远程主机…";font-size:12px;line-height:17px}
+.pf.sheet .tn-ph-who:has(> .s[title$=" (local)"]) > .t > .mono.dim::after {content:"本机";font-size:12px;line-height:17px}
+.pf.sheet .pf-sec:has(.pf-row[data-q*="say when a remote host" i]) + .pf-sec > .pf-rows .pf-list .kit-empty-body::after {content:"尚未固定主机密钥。首次连接时会显示主机指纹，确认信任后 Tern 会记住该密钥。";font-size:12px;line-height:17px}
+.pf.sheet .pf-btns > button[title^="Open settings.json"]::after {content:"打开 settings.json";font-size:12px;line-height:17px}
+.pf.sheet .pf-btns > button[title^="Reload settings"]::after {content:"重新加载";font-size:12px;line-height:17px}
+.pf.sheet .pf-btns > button[title^="Open logs and app state"]::after {content:"打开日志";font-size:12px;line-height:17px}
+.pf.sheet .pf-btns > button[title^="Open app data folder"]::after {content:"打开应用数据目录";font-size:12px;line-height:17px}

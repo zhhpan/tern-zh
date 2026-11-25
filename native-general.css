@@ -1,0 +1,244 @@
+/* Tern native Preferences UI. Each row is selected by its own search metadata. */
+.pf.sheet .pf-nav .pf-brand .pf-name { font-size: 0 !important; line-height: 0 !important; letter-spacing: 0 !important; }
+.pf.sheet .pf-nav .pf-brand .pf-name::after { content: "设置"; font-size: 15px; line-height: 20px; }
+
+.pf.sheet .pf-nav .pf-group:has(.nav-row[aria-label="General"]) > .nav-head { font-size: 0 !important; line-height: 0 !important; letter-spacing: 0 !important; }
+.pf.sheet .pf-nav .pf-group:has(.nav-row[aria-label="General"]) > .nav-head::after { content: "应用"; font-size: 12px; line-height: 16px; }
+
+.pf.sheet .pf-nav .pf-group:has(.nav-row[aria-label="Sessions"]) > .nav-head { font-size: 0 !important; line-height: 0 !important; letter-spacing: 0 !important; }
+.pf.sheet .pf-nav .pf-group:has(.nav-row[aria-label="Sessions"]) > .nav-head::after { content: "系统"; font-size: 12px; line-height: 16px; }
+
+.pf.sheet .pf-nav .nav-row[aria-label="General"] .pf-txt > .lbl { font-size: 0 !important; line-height: 0 !important; letter-spacing: 0 !important; }
+.pf.sheet .pf-nav .nav-row[aria-label="General"] .pf-txt > .lbl::after { content: "常规"; font-size: 13px; line-height: 18px; }
+
+.pf.sheet .pf-nav .nav-row[aria-label="Agents"] .pf-txt > .lbl { font-size: 0 !important; line-height: 0 !important; letter-spacing: 0 !important; }
+.pf.sheet .pf-nav .nav-row[aria-label="Agents"] .pf-txt > .lbl::after { content: "智能体"; font-size: 13px; line-height: 18px; }
+
+.pf.sheet .pf-nav .nav-row[aria-label="Appearance"] .pf-txt > .lbl { font-size: 0 !important; line-height: 0 !important; letter-spacing: 0 !important; }
+.pf.sheet .pf-nav .nav-row[aria-label="Appearance"] .pf-txt > .lbl::after { content: "外观"; font-size: 13px; line-height: 18px; }
+
+.pf.sheet .pf-nav .nav-row[aria-label="Terminal"] .pf-txt > .lbl { font-size: 0 !important; line-height: 0 !important; letter-spacing: 0 !important; }
+.pf.sheet .pf-nav .nav-row[aria-label="Terminal"] .pf-txt > .lbl::after { content: "终端"; font-size: 13px; line-height: 18px; }
+
+.pf.sheet .pf-nav .nav-row[aria-label="Lenses"] .pf-txt > .lbl { font-size: 0 !important; line-height: 0 !important; letter-spacing: 0 !important; }
+.pf.sheet .pf-nav .nav-row[aria-label="Lenses"] .pf-txt > .lbl::after { content: "命令视图"; font-size: 13px; line-height: 18px; }
+
+.pf.sheet .pf-nav .nav-row[aria-label="Databases"] .pf-txt > .lbl { font-size: 0 !important; line-height: 0 !important; letter-spacing: 0 !important; }
+.pf.sheet .pf-nav .nav-row[aria-label="Databases"] .pf-txt > .lbl::after { content: "数据库"; font-size: 13px; line-height: 18px; }
+
+.pf.sheet .pf-nav .nav-row[aria-label="Notebooks"] .pf-txt > .lbl { font-size: 0 !important; line-height: 0 !important; letter-spacing: 0 !important; }
+.pf.sheet .pf-nav .nav-row[aria-label="Notebooks"] .pf-txt > .lbl::after { content: "笔记本"; font-size: 13px; line-height: 18px; }
+
+.pf.sheet .pf-nav .nav-row[aria-label="Keyboard"] .pf-txt > .lbl { font-size: 0 !important; line-height: 0 !important; letter-spacing: 0 !important; }
+.pf.sheet .pf-nav .nav-row[aria-label="Keyboard"] .pf-txt > .lbl::after { content: "快捷键"; font-size: 13px; line-height: 18px; }
+
+.pf.sheet .pf-nav .nav-row[aria-label="Plugins"] .pf-txt > .lbl { font-size: 0 !important; line-height: 0 !important; letter-spacing: 0 !important; }
+.pf.sheet .pf-nav .nav-row[aria-label="Plugins"] .pf-txt > .lbl::after { content: "插件"; font-size: 13px; line-height: 18px; }
+
+.pf.sheet .pf-nav .nav-row[aria-label="Sessions"] .pf-txt > .lbl { font-size: 0 !important; line-height: 0 !important; letter-spacing: 0 !important; }
+.pf.sheet .pf-nav .nav-row[aria-label="Sessions"] .pf-txt > .lbl::after { content: "会话"; font-size: 13px; line-height: 18px; }
+
+.pf.sheet .pf-nav .nav-row[aria-label="Hosts"] .pf-txt > .lbl { font-size: 0 !important; line-height: 0 !important; letter-spacing: 0 !important; }
+.pf.sheet .pf-nav .nav-row[aria-label="Hosts"] .pf-txt > .lbl::after { content: "主机"; font-size: 13px; line-height: 18px; }
+
+.pf.sheet .pf-nav .nav-row[aria-label="Advanced"] .pf-txt > .lbl { font-size: 0 !important; line-height: 0 !important; letter-spacing: 0 !important; }
+.pf.sheet .pf-nav .nav-row[aria-label="Advanced"] .pf-txt > .lbl::after { content: "高级"; font-size: 13px; line-height: 18px; }
+
+.pf.sheet .pf-nav .pf-search:not(.has-text) { position: relative; }
+.pf.sheet .pf-nav .pf-search:not(.has-text) > input::placeholder { color: transparent; }
+.pf.sheet .pf-nav .pf-search:not(.has-text)::after { content: "搜索设置"; position: absolute; left: 30px; top: 6px; line-height: 17px; font-size: 13px; color: var(--t3); pointer-events: none; }
+
+.pf.sheet .pf-nav:has(.nav-row[aria-label="General"][aria-selected="true"]):not(:has(.pf-search.has-text)) + .pf-scroll > .pf-doc > .pf-head > .pf-title { font-size: 0 !important; line-height: 0 !important; letter-spacing: 0 !important; }
+.pf.sheet .pf-nav:has(.nav-row[aria-label="General"][aria-selected="true"]):not(:has(.pf-search.has-text)) + .pf-scroll > .pf-doc > .pf-head > .pf-title::after { content: "常规"; font-size: 22px; line-height: 28px; }
+
+.pf.sheet .pf-row[data-q*="what new blocks on this pc run" i] > .pf-lbl > .t { font-size: 0 !important; line-height: 0 !important; letter-spacing: 0 !important; }
+.pf.sheet .pf-row[data-q*="what new blocks on this pc run" i] > .pf-lbl > .t::after { content: "登录 Shell"; font-size: 13.5px; line-height: 19px; }
+
+.pf.sheet .pf-row[data-q*="what new blocks on this pc run" i] > .pf-lbl > .h { font-size: 0 !important; line-height: 0 !important; letter-spacing: 0 !important; }
+.pf.sheet .pf-row[data-q*="what new blocks on this pc run" i] > .pf-lbl > .h::after { content: "本机新建区块时启动的登录 Shell。留空使用系统默认的登录 Shell。"; font-size: 12px; line-height: 17px; }
+
+.pf.sheet .pf-row[data-q*="ask every time lists the block types" i] > .pf-lbl > .t { font-size: 0 !important; line-height: 0 !important; letter-spacing: 0 !important; }
+.pf.sheet .pf-row[data-q*="ask every time lists the block types" i] > .pf-lbl > .t::after { content: "新标签页或分屏默认打开"; font-size: 13.5px; line-height: 19px; }
+
+.pf.sheet .pf-row[data-q*="ask every time lists the block types" i] > .pf-lbl > .h { font-size: 0 !important; line-height: 0 !important; letter-spacing: 0 !important; }
+.pf.sheet .pf-row[data-q*="ask every time lists the block types" i] > .pf-lbl > .h::after { content: "选择新标签页和分屏默认使用的区块类型。「每次询问」会显示区块列表。Shell 和智能体的专用快捷键始终直接打开对应区块。"; font-size: 12px; line-height: 17px; }
+
+.pf.sheet .pf-row[data-q*="ask every time lists the block types" i] .pf-seg > button:nth-child(1):nth-last-child(3) { font-size: 0 !important; line-height: 0 !important; letter-spacing: 0 !important; }
+.pf.sheet .pf-row[data-q*="ask every time lists the block types" i] .pf-seg > button:nth-child(1):nth-last-child(3)::after { content: "命令行"; font-size: 12.5px; line-height: 16px; }
+
+.pf.sheet .pf-row[data-q*="ask every time lists the block types" i] .pf-seg > button:nth-child(2):nth-last-child(2) { font-size: 0 !important; line-height: 0 !important; letter-spacing: 0 !important; }
+.pf.sheet .pf-row[data-q*="ask every time lists the block types" i] .pf-seg > button:nth-child(2):nth-last-child(2)::after { content: "智能体"; font-size: 12.5px; line-height: 16px; }
+
+.pf.sheet .pf-row[data-q*="ask every time lists the block types" i] .pf-seg > button:nth-child(3):nth-last-child(1) { font-size: 0 !important; line-height: 0 !important; letter-spacing: 0 !important; }
+.pf.sheet .pf-row[data-q*="ask every time lists the block types" i] .pf-seg > button:nth-child(3):nth-last-child(1)::after { content: "每次询问"; font-size: 12.5px; line-height: 16px; }
+
+.pf.sheet .pf-row[data-q*="splits always start in the directory" i] > .pf-lbl > .t { font-size: 0 !important; line-height: 0 !important; letter-spacing: 0 !important; }
+.pf.sheet .pf-row[data-q*="splits always start in the directory" i] > .pf-lbl > .t::after { content: "新标签页起始目录"; font-size: 13.5px; line-height: 19px; }
+
+.pf.sheet .pf-row[data-q*="splits always start in the directory" i] > .pf-lbl > .h { font-size: 0 !important; line-height: 0 !important; letter-spacing: 0 !important; }
+.pf.sheet .pf-row[data-q*="splits always start in the directory" i] > .pf-lbl > .h::after { content: "分屏始终从原区块的当前目录启动。"; font-size: 12px; line-height: 17px; }
+
+.pf.sheet .pf-row[data-q*="splits always start in the directory" i] .pf-seg > button:nth-child(1):nth-last-child(2) { font-size: 0 !important; line-height: 0 !important; letter-spacing: 0 !important; }
+.pf.sheet .pf-row[data-q*="splits always start in the directory" i] .pf-seg > button:nth-child(1):nth-last-child(2)::after { content: "当前目录"; font-size: 12.5px; line-height: 16px; }
+
+.pf.sheet .pf-row[data-q*="splits always start in the directory" i] .pf-seg > button:nth-child(2):nth-last-child(1) { font-size: 0 !important; line-height: 0 !important; letter-spacing: 0 !important; }
+.pf.sheet .pf-row[data-q*="splits always start in the directory" i] .pf-seg > button:nth-child(2):nth-last-child(1)::after { content: "起始目录"; font-size: 12.5px; line-height: 16px; }
+
+.pf.sheet .pf-row[data-q*="where new windows and sessions on this pc" i] > .pf-lbl > .t { font-size: 0 !important; line-height: 0 !important; letter-spacing: 0 !important; }
+.pf.sheet .pf-row[data-q*="where new windows and sessions on this pc" i] > .pf-lbl > .t::after { content: "起始目录"; font-size: 13.5px; line-height: 19px; }
+
+.pf.sheet .pf-row[data-q*="where new windows and sessions on this pc" i] > .pf-lbl > .h { font-size: 0 !important; line-height: 0 !important; letter-spacing: 0 !important; }
+.pf.sheet .pf-row[data-q*="where new windows and sessions on this pc" i] > .pf-lbl > .h::after { content: "本机新窗口、新会话及无目录可继承的新标签页在此启动。远程标签页使用远程主机的起始目录。留空或目录已不存在时，使用主目录。"; font-size: 12px; line-height: 17px; }
+
+.pf.sheet .pf-row[data-q*="moving focus further towards" i] > .pf-lbl > .t { font-size: 0 !important; line-height: 0 !important; letter-spacing: 0 !important; }
+.pf.sheet .pf-row[data-q*="moving focus further towards" i] > .pf-lbl > .t::after { content: "焦点移出边缘时切换标签页"; font-size: 13.5px; line-height: 19px; }
+
+.pf.sheet .pf-row[data-q*="moving focus further towards" i] > .pf-lbl > .h { font-size: 0 !important; line-height: 0 !important; letter-spacing: 0 !important; }
+.pf.sheet .pf-row[data-q*="moving focus further towards" i] > .pf-lbl > .h::after { content: "焦点位于窗口边缘的区块时，继续向外移动即可切到相邻标签页。顶部标签页用 ← 或 →，侧边标签页用 ↑ 或 ↓。"; font-size: 12px; line-height: 17px; }
+
+.pf.sheet .pf-row[data-q*="moving focus left from a block" i] > .pf-lbl > .t { font-size: 0 !important; line-height: 0 !important; letter-spacing: 0 !important; }
+.pf.sheet .pf-row[data-q*="moving focus left from a block" i] > .pf-lbl > .t::after { content: "向左移入文件栏"; font-size: 13.5px; line-height: 19px; }
+
+.pf.sheet .pf-row[data-q*="moving focus left from a block" i] > .pf-lbl > .h { font-size: 0 !important; line-height: 0 !important; letter-spacing: 0 !important; }
+.pf.sheet .pf-row[data-q*="moving focus left from a block" i] > .pf-lbl > .h::after { content: "文件栏可见时，从最左侧区块向左移动焦点即可进入文件栏。"; font-size: 12px; line-height: 17px; }
+
+.pf.sheet .pf-row[data-q*="finishing a selection puts it" i] > .pf-lbl > .t { font-size: 0 !important; line-height: 0 !important; letter-spacing: 0 !important; }
+.pf.sheet .pf-row[data-q*="finishing a selection puts it" i] > .pf-lbl > .t::after { content: "选中即复制"; font-size: 13.5px; line-height: 19px; }
+
+.pf.sheet .pf-row[data-q*="finishing a selection puts it" i] > .pf-lbl > .h { font-size: 0 !important; line-height: 0 !important; letter-spacing: 0 !important; }
+.pf.sheet .pf-row[data-q*="finishing a selection puts it" i] > .pf-lbl > .h::after { content: "选好文字后自动复制到剪贴板。"; font-size: 12px; line-height: 17px; }
+
+.pf.sheet .pf-row[data-q*="links in terminal output and program views" i] > .pf-lbl > .t { font-size: 0 !important; line-height: 0 !important; letter-spacing: 0 !important; }
+.pf.sheet .pf-row[data-q*="links in terminal output and program views" i] > .pf-lbl > .t::after { content: "打开链接的方式"; font-size: 13.5px; line-height: 19px; }
+
+.pf.sheet .pf-row[data-q*="links in terminal output and program views" i] > .pf-lbl > .h { font-size: 0 !important; line-height: 0 !important; letter-spacing: 0 !important; }
+.pf.sheet .pf-row[data-q*="links in terminal output and program views" i] > .pf-lbl > .h::after { content: "适用于终端输出和程序视图中的链接。Ctrl+单击始终打开链接。选择“单击”后，拖动仍可选中文字；vim 和 tmux 等程序仍接收普通单击。"; font-size: 12px; line-height: 17px; }
+
+.pf.sheet .pf-row[data-q*="links in terminal output and program views" i] .pf-seg > button:nth-child(1):nth-last-child(2) { font-size: 0 !important; line-height: 0 !important; letter-spacing: 0 !important; }
+.pf.sheet .pf-row[data-q*="links in terminal output and program views" i] .pf-seg > button:nth-child(1):nth-last-child(2)::after { content: "单击"; font-size: 12.5px; line-height: 16px; }
+
+.pf.sheet .pf-row[data-q*="links in terminal output and program views" i] .pf-seg > button:nth-child(2):nth-last-child(1) { font-size: 0 !important; line-height: 0 !important; letter-spacing: 0 !important; }
+.pf.sheet .pf-row[data-q*="links in terminal output and program views" i] .pf-seg > button:nth-child(2):nth-last-child(1)::after { content: "Ctrl+单击"; font-size: 12.5px; line-height: 16px; }
+
+.pf.sheet .pf-row[data-q*="file links always open in tern" i] > .pf-lbl > .t { font-size: 0 !important; line-height: 0 !important; letter-spacing: 0 !important; }
+.pf.sheet .pf-row[data-q*="file links always open in tern" i] > .pf-lbl > .t::after { content: "网页链接打开方式"; font-size: 13.5px; line-height: 19px; }
+
+.pf.sheet .pf-row[data-q*="file links always open in tern" i] > .pf-lbl > .h { font-size: 0 !important; line-height: 0 !important; letter-spacing: 0 !important; }
+.pf.sheet .pf-row[data-q*="file links always open in tern" i] > .pf-lbl > .h::after { content: "按住 Alt 单击可临时切换打开方式。文件链接始终在 Tern 中打开。"; font-size: 12px; line-height: 17px; }
+
+.pf.sheet .pf-row[data-q*="file links always open in tern" i] .pf-seg > button:nth-child(2):nth-last-child(1) { font-size: 0 !important; line-height: 0 !important; letter-spacing: 0 !important; }
+.pf.sheet .pf-row[data-q*="file links always open in tern" i] .pf-seg > button:nth-child(2):nth-last-child(1)::after { content: "默认浏览器"; font-size: 12.5px; line-height: 16px; }
+
+.pf.sheet .pf-row[data-q*="dotfiles show in the files pane" i] > .pf-lbl > .t { font-size: 0 !important; line-height: 0 !important; letter-spacing: 0 !important; }
+.pf.sheet .pf-row[data-q*="dotfiles show in the files pane" i] > .pf-lbl > .t::after { content: "显示隐藏文件"; font-size: 13.5px; line-height: 19px; }
+
+.pf.sheet .pf-row[data-q*="dotfiles show in the files pane" i] > .pf-lbl > .h { font-size: 0 !important; line-height: 0 !important; letter-spacing: 0 !important; }
+.pf.sheet .pf-row[data-q*="dotfiles show in the files pane" i] > .pf-lbl > .h::after { content: "在文件栏中显示以点开头的隐藏文件。.git 和 .DS_Store 始终隐藏。"; font-size: 12px; line-height: 17px; }
+
+.pf.sheet .pf-row[data-q*="what git ignores shows dimmed" i] > .pf-lbl > .t { font-size: 0 !important; line-height: 0 !important; letter-spacing: 0 !important; }
+.pf.sheet .pf-row[data-q*="what git ignores shows dimmed" i] > .pf-lbl > .t::after { content: "显示忽略的文件"; font-size: 13.5px; line-height: 19px; }
+
+.pf.sheet .pf-row[data-q*="what git ignores shows dimmed" i] > .pf-lbl > .h { font-size: 0 !important; line-height: 0 !important; letter-spacing: 0 !important; }
+.pf.sheet .pf-row[data-q*="what git ignores shows dimmed" i] > .pf-lbl > .h::after { content: "Git 忽略的文件会以浅色显示。"; font-size: 12px; line-height: 17px; }
+
+.pf.sheet .pf-row[data-q*="also looks inside ignored folders" i] > .pf-lbl > .t { font-size: 0 !important; line-height: 0 !important; letter-spacing: 0 !important; }
+.pf.sheet .pf-row[data-q*="also looks inside ignored folders" i] > .pf-lbl > .t::after { content: "搜索忽略的文件"; font-size: 13.5px; line-height: 19px; }
+
+.pf.sheet .pf-row[data-q*="also looks inside ignored folders" i] > .pf-lbl > .h { font-size: 0 !important; line-height: 0 !important; letter-spacing: 0 !important; }
+.pf.sheet .pf-row[data-q*="also looks inside ignored folders" i] > .pf-lbl > .h::after { content: "文件栏的筛选功能也会搜索被忽略的目录，例如 node_modules。"; font-size: 12px; line-height: 17px; }
+
+.pf.sheet .pf-row[data-q*="a folder holding only one folder" i] > .pf-lbl > .t { font-size: 0 !important; line-height: 0 !important; letter-spacing: 0 !important; }
+.pf.sheet .pf-row[data-q*="a folder holding only one folder" i] > .pf-lbl > .t::after { content: "折叠单层目录"; font-size: 13.5px; line-height: 19px; }
+
+.pf.sheet .pf-row[data-q*="a folder holding only one folder" i] > .pf-lbl > .h { font-size: 0 !important; line-height: 0 !important; letter-spacing: 0 !important; }
+.pf.sheet .pf-row[data-q*="a folder holding only one folder" i] > .pf-lbl > .h::after { content: "仅含一个子目录时合并为一行，例如 crates / tern / src。"; font-size: 12px; line-height: 17px; }
+
+.pf.sheet .pf-row[data-q*="files follows the editor block" i] > .pf-lbl > .t { font-size: 0 !important; line-height: 0 !important; letter-spacing: 0 !important; }
+.pf.sheet .pf-row[data-q*="files follows the editor block" i] > .pf-lbl > .t::after { content: "定位当前文件"; font-size: 13.5px; line-height: 19px; }
+
+.pf.sheet .pf-row[data-q*="files follows the editor block" i] > .pf-lbl > .h { font-size: 0 !important; line-height: 0 !important; letter-spacing: 0 !important; }
+.pf.sheet .pf-row[data-q*="files follows the editor block" i] > .pf-lbl > .h::after { content: "文件栏自动定位到正在编辑的文件，忽略目录内的文件除外。"; font-size: 12px; line-height: 17px; }
+
+.pf.sheet .pf-row[data-q*="a click on a file shows it" i] > .pf-lbl > .t { font-size: 0 !important; line-height: 0 !important; letter-spacing: 0 !important; }
+.pf.sheet .pf-row[data-q*="a click on a file shows it" i] > .pf-lbl > .t::after { content: "单击打开"; font-size: 13.5px; line-height: 19px; }
+
+.pf.sheet .pf-row[data-q*="a click on a file shows it" i] > .pf-lbl > .h { font-size: 0 !important; line-height: 0 !important; letter-spacing: 0 !important; }
+.pf.sheet .pf-row[data-q*="a click on a file shows it" i] > .pf-lbl > .h::after { content: "单击文件可预览，点击其他位置即收起。关闭此项时用双击或空格预览。"; font-size: 12px; line-height: 17px; }
+
+.pf.sheet .pf-row[data-q*="unsaved text survives quitting either way" i] > .pf-lbl > .t { font-size: 0 !important; line-height: 0 !important; letter-spacing: 0 !important; }
+.pf.sheet .pf-row[data-q*="unsaved text survives quitting either way" i] > .pf-lbl > .t::after { content: "自动保存"; font-size: 13.5px; line-height: 19px; }
+
+.pf.sheet .pf-row[data-q*="unsaved text survives quitting either way" i] > .pf-lbl > .h { font-size: 0 !important; line-height: 0 !important; letter-spacing: 0 !important; }
+.pf.sheet .pf-row[data-q*="unsaved text survives quitting either way" i] > .pf-lbl > .h::after { content: "文件区块可自动保存，无需按 Ctrl+S。无论是否启用，退出后均保留未保存的文字，也不会覆盖磁盘上已变更的文件。"; font-size: 12px; line-height: 17px; }
+
+.pf.sheet .pf-row[data-q*="unsaved text survives quitting either way" i] .pf-seg > button:nth-child(1):nth-last-child(3) { font-size: 0 !important; line-height: 0 !important; letter-spacing: 0 !important; }
+.pf.sheet .pf-row[data-q*="unsaved text survives quitting either way" i] .pf-seg > button:nth-child(1):nth-last-child(3)::after { content: "关闭"; font-size: 12.5px; line-height: 16px; }
+
+.pf.sheet .pf-row[data-q*="unsaved text survives quitting either way" i] .pf-seg > button:nth-child(2):nth-last-child(2) { font-size: 0 !important; line-height: 0 !important; letter-spacing: 0 !important; }
+.pf.sheet .pf-row[data-q*="unsaved text survives quitting either way" i] .pf-seg > button:nth-child(2):nth-last-child(2)::after { content: "延时保存"; font-size: 12.5px; line-height: 16px; }
+
+.pf.sheet .pf-row[data-q*="unsaved text survives quitting either way" i] .pf-seg > button:nth-child(3):nth-last-child(1) { font-size: 0 !important; line-height: 0 !important; letter-spacing: 0 !important; }
+.pf.sheet .pf-row[data-q*="unsaved text survives quitting either way" i] .pf-seg > button:nth-child(3):nth-last-child(1)::after { content: "焦点切换时"; font-size: 12.5px; line-height: 16px; }
+
+.pf.sheet .pf-row[data-q*="open in tern on folders" i] > .pf-lbl > .t { font-size: 0 !important; line-height: 0 !important; letter-spacing: 0 !important; }
+.pf.sheet .pf-row[data-q*="open in tern on folders" i] > .pf-lbl > .t::after { content: "资源管理器集成"; font-size: 13.5px; line-height: 19px; }
+
+.pf.sheet .pf-row[data-q*="open in tern on folders" i] > .pf-lbl > .h { font-size: 0 !important; line-height: 0 !important; letter-spacing: 0 !important; }
+.pf.sheet .pf-row[data-q*="open in tern on folders" i] > .pf-lbl > .h::after { content: "在文件夹右键菜单中添加“在 Tern 中打开”，并将 Tern 加入文本、代码、图片、数据库和笔记本的“打开方式”。关闭后移除这些入口。"; font-size: 12px; line-height: 17px; }
+
+.pf.sheet .pf-row[data-q*="new builds come from build.stencil.so" i] > .pf-lbl > .h { font-size: 0 !important; line-height: 0 !important; letter-spacing: 0 !important; }
+.pf.sheet .pf-row[data-q*="new builds come from build.stencil.so" i] > .pf-lbl > .h::after { content: "点击“检查更新”可从 build.stencil.so 获取新版本，点击“重启以更新”即可安装。"; font-size: 12px; line-height: 17px; }
+
+.pf.sheet .pf-row[data-q*="check every hour, download new builds" i] > .pf-lbl > .t { font-size: 0 !important; line-height: 0 !important; letter-spacing: 0 !important; }
+.pf.sheet .pf-row[data-q*="check every hour, download new builds" i] > .pf-lbl > .t::after { content: "自动更新"; font-size: 13.5px; line-height: 19px; }
+
+.pf.sheet .pf-row[data-q*="check every hour, download new builds" i] > .pf-lbl > .h { font-size: 0 !important; line-height: 0 !important; letter-spacing: 0 !important; }
+.pf.sheet .pf-row[data-q*="check every hour, download new builds" i] > .pf-lbl > .h::after { content: "每小时检查更新，在后台下载并于退出时安装。关闭后，需手动选择“检查更新”，再选“重启以更新”安装已下载的版本。"; font-size: 12px; line-height: 17px; }
+
+.pf.sheet .pf-row[data-q*="tern installs omp from" i] > .pf-lbl > .t { font-size: 0 !important; line-height: 0 !important; letter-spacing: 0 !important; }
+.pf.sheet .pf-row[data-q*="tern installs omp from" i] > .pf-lbl > .t::after { content: "由 Tern 管理"; font-size: 13.5px; line-height: 19px; }
+
+.pf.sheet .pf-row[data-q*="tern installs omp from" i] > .pf-lbl > .h { font-size: 0 !important; line-height: 0 !important; letter-spacing: 0 !important; }
+.pf.sheet .pf-row[data-q*="tern installs omp from" i] > .pf-lbl > .h::after { content: "Tern 从 build.stencil.so 安装并更新 omp，将其路径置于内置终端 PATH 的首位，并创建供 Shell 查找的链接。"; font-size: 12px; line-height: 17px; }
+
+.pf.sheet .pf-row[data-q*="tern installs ovnfs from" i] > .pf-lbl > .t { font-size: 0 !important; line-height: 0 !important; letter-spacing: 0 !important; }
+.pf.sheet .pf-row[data-q*="tern installs ovnfs from" i] > .pf-lbl > .t::after { content: "由 Tern 管理"; font-size: 13.5px; line-height: 19px; }
+
+.pf.sheet .pf-row[data-q*="tern installs ovnfs from" i] > .pf-lbl > .h { font-size: 0 !important; line-height: 0 !important; letter-spacing: 0 !important; }
+.pf.sheet .pf-row[data-q*="tern installs ovnfs from" i] > .pf-lbl > .h::after { content: "Tern 从 build.stencil.so 安装并更新 ovnfs，将其路径置于内置终端 PATH 的首位，并创建供 Shell 查找的链接。正在运行的 ovnfs 服务重启后使用新版。"; font-size: 12px; line-height: 17px; }
+
+.pf.sheet .pf-row[data-q*="tern installs abkit" i] > .pf-lbl > .t { font-size: 0 !important; line-height: 0 !important; letter-spacing: 0 !important; }
+.pf.sheet .pf-row[data-q*="tern installs abkit" i] > .pf-lbl > .t::after { content: "由 Tern 管理"; font-size: 13.5px; line-height: 19px; }
+
+.pf.sheet .pf-row[data-q*="tern installs abkit" i] > .pf-lbl > .h { font-size: 0 !important; line-height: 0 !important; letter-spacing: 0 !important; }
+.pf.sheet .pf-row[data-q*="tern installs abkit" i] > .pf-lbl > .h::after { content: "Tern 从 build.stencil.so 安装并更新网页引擎 ABKit，在 ~/.o2\\lib\\abkit 创建链接，供 omp 浏览器和 Tern 网页视图使用。浏览器和网页视图下次启动时使用新版。"; font-size: 12px; line-height: 17px; }
+
+.pf.sheet .pf-row[data-q*="how long after typing stops a file saves" i] > .pf-lbl > .t { font-size: 0 !important; line-height: 0 !important; letter-spacing: 0 !important; }
+.pf.sheet .pf-row[data-q*="how long after typing stops a file saves" i] > .pf-lbl > .t::after { content: "延时"; font-size: 13.5px; line-height: 19px; }
+
+.pf.sheet .pf-row[data-q*="how long after typing stops a file saves" i] > .pf-lbl > .h { font-size: 0 !important; line-height: 0 !important; letter-spacing: 0 !important; }
+.pf.sheet .pf-row[data-q*="how long after typing stops a file saves" i] > .pf-lbl > .h::after { content: "停止输入后多久保存文件。"; font-size: 12px; line-height: 17px; }
+
+.pf.sheet .pf-sec:has(.pf-row[data-q*="what new blocks on this pc run" i]) > .pf-sec-t { font-size: 0 !important; line-height: 0 !important; letter-spacing: 0 !important; }
+.pf.sheet .pf-sec:has(.pf-row[data-q*="what new blocks on this pc run" i]) > .pf-sec-t::after { content: "命令行"; font-size: 12px; line-height: 16px; }
+
+.pf.sheet .pf-sec:has(.pf-row[data-q*="ask every time lists the block types" i]) > .pf-sec-t { font-size: 0 !important; line-height: 0 !important; letter-spacing: 0 !important; }
+.pf.sheet .pf-sec:has(.pf-row[data-q*="ask every time lists the block types" i]) > .pf-sec-t::after { content: "标签页与分屏"; font-size: 12px; line-height: 16px; }
+
+.pf.sheet .pf-sec:has(.pf-row[data-q*="finishing a selection puts it" i]) > .pf-sec-t { font-size: 0 !important; line-height: 0 !important; letter-spacing: 0 !important; }
+.pf.sheet .pf-sec:has(.pf-row[data-q*="finishing a selection puts it" i]) > .pf-sec-t::after { content: "选择"; font-size: 12px; line-height: 16px; }
+
+.pf.sheet .pf-sec:has(.pf-row[data-q*="links in terminal output and program views" i]) > .pf-sec-t { font-size: 0 !important; line-height: 0 !important; letter-spacing: 0 !important; }
+.pf.sheet .pf-sec:has(.pf-row[data-q*="links in terminal output and program views" i]) > .pf-sec-t::after { content: "链接"; font-size: 12px; line-height: 16px; }
+
+.pf.sheet .pf-sec:has(.pf-row[data-q*="dotfiles show in the files pane" i]) > .pf-sec-t { font-size: 0 !important; line-height: 0 !important; letter-spacing: 0 !important; }
+.pf.sheet .pf-sec:has(.pf-row[data-q*="dotfiles show in the files pane" i]) > .pf-sec-t::after { content: "文件"; font-size: 12px; line-height: 16px; }
+
+.pf.sheet .pf-sec:has(.pf-row[data-q*="unsaved text survives quitting either way" i]) > .pf-sec-t { font-size: 0 !important; line-height: 0 !important; letter-spacing: 0 !important; }
+.pf.sheet .pf-sec:has(.pf-row[data-q*="unsaved text survives quitting either way" i]) > .pf-sec-t::after { content: "保存"; font-size: 12px; line-height: 16px; }
+
+.pf.sheet .pf-sec:has(.pf-row[data-q*="open in tern on folders" i]) > .pf-sec-t { font-size: 0 !important; line-height: 0 !important; letter-spacing: 0 !important; }
+.pf.sheet .pf-sec:has(.pf-row[data-q*="open in tern on folders" i]) > .pf-sec-t::after { content: "系统"; font-size: 12px; line-height: 16px; }
+
+.pf.sheet .pf-sec:has(.pf-row[data-q*="new builds come from build.stencil.so" i]) > .pf-sec-t { font-size: 0 !important; line-height: 0 !important; letter-spacing: 0 !important; }
+.pf.sheet .pf-sec:has(.pf-row[data-q*="new builds come from build.stencil.so" i]) > .pf-sec-t::after { content: "更新"; font-size: 12px; line-height: 16px; }

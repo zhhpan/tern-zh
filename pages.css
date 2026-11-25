@@ -1,0 +1,2911 @@
+.pf-nav:has(.nav-row[aria-label="Agents"][aria-selected="true"]):not(:has(.pf-search.has-text)) + .pf-scroll > .pf-doc > .pf-head > .pf-title { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"智能体"; font-size:22px; line-height:28px; }
+}
+
+.pf-row[data-q^="agent" i][data-q*="what agent blocks" i] > .pf-lbl > .t { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"智能体"; font-size:13.5px; line-height:19px; }
+}
+
+.pf-row[data-q^="agent" i][data-q*="what agent blocks" i][data-q*="what agent blocks (ctrl+shift+a) run." i] > .pf-lbl > .h { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"新建智能体区块（Ctrl+Shift+A）时运行的智能体。"; font-size:12px; line-height:17px; }
+}
+
+.pf-row[data-q^="agent opens" i][data-q*="where a new agent block goes. replace takes" i] > .pf-lbl > .t { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"新智能体的打开方式"; font-size:13.5px; line-height:19px; }
+}
+
+.pf-row[data-q^="agent opens" i][data-q*="where a new agent block goes. replace takes" i] > .pf-lbl > .h { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"选择新智能体区块的位置。选择“替换”时，如果当前标签页只有一个停在提示符处的空闲 Shell，就在原处打开；其他情况会分屏打开。"; font-size:12px; line-height:17px; }
+}
+
+.pf-row[data-q^="agent opens" i][data-q*="where a new agent block goes. replace takes" i] .pf-seg > button:nth-child(1):nth-last-child(3) { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"分屏"; font-size:12.5px; line-height:16px; }
+}
+
+.pf-row[data-q^="agent opens" i][data-q*="where a new agent block goes. replace takes" i] .pf-seg > button:nth-child(2):nth-last-child(2) { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"替换"; font-size:12.5px; line-height:16px; }
+}
+
+.pf-row[data-q^="agent opens" i][data-q*="where a new agent block goes. replace takes" i] .pf-seg > button:nth-child(3):nth-last-child(1) { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"新标签页"; font-size:12.5px; line-height:16px; }
+}
+
+.pf-sec:has(.pf-row[data-q^="agent" i][data-q*="what agent blocks" i]) > .pf-sec-t { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"默认设置"; font-size:12px; line-height:16px; }
+}
+
+.pf-row[data-q^="needs attention" i][data-q*="while tern is in the background, an agent" i] > .pf-lbl > .t { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"需要处理时通知"; font-size:13.5px; line-height:19px; }
+}
+
+.pf-row[data-q^="needs attention" i][data-q*="while tern is in the background, an agent" i] > .pf-lbl > .h { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"Tern 在后台时，智能体受阻或等待你回答会发出系统通知。点击通知可跳转到对应窗格。"; font-size:12px; line-height:17px; }
+}
+
+.pf-row[data-q^="turn finished" i][data-q*="while tern is in the background, an agent" i] > .pf-lbl > .t { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"本轮结束时通知"; font-size:13.5px; line-height:19px; }
+}
+
+.pf-row[data-q^="turn finished" i][data-q*="while tern is in the background, an agent" i] > .pf-lbl > .h { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"Tern 在后台时，智能体完成本轮工作或执行失败会发出系统通知。"; font-size:12px; line-height:17px; }
+}
+
+.pf-sec:has(.pf-row[data-q^="needs attention" i][data-q*="while tern is in the background, an agent" i]) > .pf-sec-t { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"通知"; font-size:12px; line-height:16px; }
+}
+
+.pf-row[data-q^="open agent commands as acp chats" i][data-q*="typing claude, codex or copilot in a new" i] > .pf-lbl > .t { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"使用 ACP 对话打开智能体命令"; font-size:13.5px; line-height:19px; }
+}
+
+.pf-row[data-q^="open agent commands as acp chats" i][data-q*="typing claude, codex or copilot in a new" i] > .pf-lbl > .h { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"在新开的 Tern Shell 中输入 claude、codex 或 copilot，会通过 ACP 打开 Tern 的对话界面。输入 `command claude` 可使用 Claude 自带的界面。"; font-size:12px; line-height:17px; }
+}
+
+.pf-row[data-q^="show claude's thinking" i][data-q*="claude's chat shows a summary of its" i] > .pf-lbl > .t { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"显示 Claude 的思考摘要"; font-size:13.5px; line-height:19px; }
+}
+
+.pf-row[data-q^="show claude's thinking" i][data-q*="claude's chat shows a summary of its" i] > .pf-lbl > .h { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"Claude 工作时在对话中显示推理摘要。可以通过环境变量 MAX_THINKING_TOKENS=0 关闭思考。"; font-size:12px; line-height:17px; }
+}
+
+.pf-sec:has(.pf-row[data-q^="open agent commands as acp chats" i][data-q*="typing claude, codex or copilot in a new" i]) > .pf-sec-t { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"ACP 对话"; font-size:12px; line-height:16px; }
+}
+
+.pf-row[data-q^="agents" i][data-q*="commands that speak acp over stdio." i] > .pf-lbl > .t { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"智能体"; font-size:13.5px; line-height:19px; }
+}
+
+.pf-row[data-q^="agents" i][data-q*="commands that speak acp over stdio." i] > .pf-lbl > .h { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"通过标准输入和输出使用 ACP 协议的命令。环境变量可在 settings.json 中设置。"; font-size:12px; line-height:17px; }
+}
+
+.pf-sec:has(.pf-row[data-q^="agents" i][data-q*="commands that speak acp over stdio." i]) > .pf-sec-t { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"自定义智能体"; font-size:12px; line-height:16px; }
+}
+
+.pf-row[data-q^="servers" i][data-q*="tools agents get in tern's chat." i] > .pf-lbl > .t { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"服务器"; font-size:13.5px; line-height:19px; }
+}
+
+.pf-row[data-q^="servers" i][data-q*="tools agents get in tern's chat." i] > .pf-lbl > .h { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"在 Tern 对话中为智能体提供工具。环境变量和请求头可在 settings.json 中设置，用 ${VAR} 引用环境变量。"; font-size:12px; line-height:17px; }
+}
+
+.pf-sec:has(.pf-row[data-q^="servers" i][data-q*="tools agents get in tern's chat." i]) > .pf-sec-t { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"MCP 服务器"; font-size:12px; line-height:16px; }
+}
+
+.pf-nav:has(.nav-row[aria-label="Appearance"][aria-selected="true"]):not(:has(.pf-search.has-text)) + .pf-scroll > .pf-doc > .pf-head > .pf-title { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"外观"; font-size:22px; line-height:28px; }
+}
+
+.pf-row[data-q^="following omp" i] > .pf-lbl > .t { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"跟随 omp"; font-size:13.5px; line-height:19px; }
+}
+
+.pf-row[data-q^="following omp" i][data-q*="omp's default themes: titanium when dark, light when light." i] > .pf-lbl > .h { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"使用 omp 的默认主题，深色模式为 titanium，浅色模式为 light。"; font-size:12px; line-height:17px; }
+}
+
+.pf-sec:has(.pf-row[data-q^="following omp" i]) > .pf-sec-t { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"主题"; font-size:12px; line-height:16px; }
+}
+
+.pf-row[data-q^="appearance" i][data-q*="light, dark, or following the system." i] > .pf-lbl > .t { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"外观"; font-size:13.5px; line-height:19px; }
+}
+
+.pf-row[data-q^="appearance" i][data-q*="light, dark, or following the system." i] > .pf-lbl > .h { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"选择浅色、深色，或跟随系统外观。"; font-size:12px; line-height:17px; }
+}
+
+.pf-row[data-q^="appearance" i][data-q*="light, dark, or following the system." i] .pf-seg > button:nth-child(1):nth-last-child(3) { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"跟随系统"; font-size:12.5px; line-height:16px; }
+}
+
+.pf-row[data-q^="appearance" i][data-q*="light, dark, or following the system." i] .pf-seg > button:nth-child(2):nth-last-child(2) { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"浅色"; font-size:12.5px; line-height:16px; }
+}
+
+.pf-row[data-q^="appearance" i][data-q*="light, dark, or following the system." i] .pf-seg > button:nth-child(3):nth-last-child(1) { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"深色"; font-size:12.5px; line-height:16px; }
+}
+
+.pf-row[data-q^="font" i][data-q*="the terminal grid's family, or several," i] > .pf-lbl > .t { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"字体"; font-size:13.5px; line-height:19px; }
+}
+
+.pf-row[data-q^="font" i][data-q*="the terminal grid's family, or several," i][data-q*="the terminal grid's family, or several, most wanted first; empty uses ioskeley mono term. beside it, the size of the grid and of code in editors, diffs and chats (ctrl+shift+= and ctrl+shift+− cha" i] > .pf-lbl > .h { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"终端网格使用的字体，可按优先级填写多个，留空时使用 Ioskeley Mono Term。右侧数字控制终端及编辑器、差异视图、对话中的代码字号。Ctrl+Shift+= 和 Ctrl+Shift+− 可同时调整这里和界面的字号。"; font-size:12px; line-height:17px; }
+}
+
+.pf-row[data-q^="bold font" i][data-q*="bold text's family, or several, most wanted" i] > .pf-lbl > .t { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"粗体字体"; font-size:13.5px; line-height:19px; }
+}
+
+.pf-row[data-q^="bold font" i][data-q*="bold text's family, or several, most wanted" i][data-q*="bold text's family, or several, most wanted first; empty uses font's ioskeley mono term medium." i] > .pf-lbl > .h { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"粗体文字的字体，可按优先级填写多个。留空时使用“字体”设置对应的粗体，默认为 Ioskeley Mono Term Medium。"; font-size:12px; line-height:17px; }
+}
+
+.pf-row[data-q^="italic font" i][data-q*="italic text's family, or several, most" i] > .pf-lbl > .t { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"斜体字体"; font-size:13.5px; line-height:19px; }
+}
+
+.pf-row[data-q^="italic font" i][data-q*="italic text's family, or several, most" i][data-q*="italic text's family, or several, most wanted first; empty uses font's ioskeley mono term." i] > .pf-lbl > .h { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"斜体文字的字体，可按优先级填写多个。留空时使用“字体”设置对应的斜体，默认为 Ioskeley Mono Term。"; font-size:12px; line-height:17px; }
+}
+
+.pf-row[data-q^="bold italic font" i][data-q*="bold italic text's family, or several, most" i] > .pf-lbl > .t { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"粗斜体字体"; font-size:13.5px; line-height:19px; }
+}
+
+.pf-row[data-q^="bold italic font" i][data-q*="bold italic text's family, or several, most" i][data-q*="bold italic text's family, or several, most wanted first; empty uses font's ioskeley mono term medium." i] > .pf-lbl > .h { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"粗斜体文字的字体，可按优先级填写多个。留空时使用“字体”设置对应的粗斜体，默认为 Ioskeley Mono Term Medium。"; font-size:12px; line-height:17px; }
+}
+
+.pf-row[data-q^="font weight" i][data-q*="the terminal grid's text weight; bold draws" i] > .pf-lbl > .t { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"字重"; font-size:13.5px; line-height:19px; }
+}
+
+.pf-row[data-q^="font weight" i][data-q*="the terminal grid's text weight; bold draws" i] > .pf-lbl > .h { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"终端文字的字重。粗体在此基础上增加 300，最低为 700。"; font-size:12px; line-height:17px; }
+}
+
+.pf-row[data-q^="code font" i][data-q*="monospace text outside the grid: editors," i] > .pf-lbl > .t { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"代码字体"; font-size:13.5px; line-height:19px; }
+}
+
+.pf-row[data-q^="code font" i][data-q*="monospace text outside the grid: editors," i] > .pf-lbl > .h { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"编辑器、区块和标签等终端网格以外的等宽字体。留空时编辑器跟随“字体”设置，其余使用内置 Ioskeley Mono Term。"; font-size:12px; line-height:17px; }
+}
+
+.pf-row[data-q^="ui font" i][data-q*="the interface's family, or several, most" i] > .pf-lbl > .t { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"界面字体"; font-size:13.5px; line-height:19px; }
+}
+
+.pf-row[data-q^="ui font" i][data-q*="the interface's family, or several, most" i] > .pf-lbl > .h { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"标签页、菜单、区块和设置使用的字体。可按优先级填写多个，留空时使用内置 Geist。右侧数字设置界面字号。"; font-size:12px; line-height:17px; }
+}
+
+.pf-row[data-q^="line height" i][data-q*="added to each terminal and code row: whole" i] > .pf-lbl > .t { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"行高"; font-size:13.5px; line-height:19px; }
+}
+
+.pf-row[data-q^="line height" i][data-q*="added to each terminal and code row: whole" i] > .pf-lbl > .h { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"终端和代码行额外增加的高度，可填整数像素（如 2、-1）或百分比（如 20%），对应 Ghostty 的 adjust-cell-height。"; font-size:12px; line-height:17px; }
+}
+
+.pf-row[data-q^="cell width" i][data-q*="added to each terminal and code column:" i] > .pf-lbl > .t { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"字符宽度"; font-size:13.5px; line-height:19px; }
+}
+
+.pf-row[data-q^="cell width" i][data-q*="added to each terminal and code column:" i] > .pf-lbl > .h { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"终端和代码列额外增加的宽度，可填整数像素或百分比。对应 Ghostty 的 adjust-cell-width，不改变字形大小。"; font-size:12px; line-height:17px; }
+}
+
+.pf-row[data-q^="padding" i][data-q*="room between a terminal's text and its" i] > .pf-lbl > .t { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"内边距"; font-size:13.5px; line-height:19px; }
+}
+
+.pf-row[data-q^="padding" i][data-q*="room between a terminal's text and its" i] > .pf-lbl > .h { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"终端文字到区块边缘的距离，依次为水平和垂直边距，对应 Ghostty 的 window-padding-x 和 window-padding-y。"; font-size:12px; line-height:17px; }
+}
+
+.pf-row[data-q^="snap text to pixels" i][data-q*="draws every letter on whole pixels, as most" i] > .pf-lbl > .t { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"文字对齐像素"; font-size:13.5px; line-height:19px; }
+}
+
+.pf-row[data-q^="snap text to pixels" i][data-q*="draws every letter on whole pixels, as most" i] > .pf-lbl > .h { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"将字符绘制在整数像素位置，文字更清晰，间距最多有半个像素的差异。关闭后可按四分之一像素定位。"; font-size:12px; line-height:17px; }
+}
+
+.pf-row[data-q^="contrast correction" i][data-q*="relights program text that reads too" i] > .pf-lbl > .t { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"对比度校正"; font-size:13.5px; line-height:19px; }
+}
+
+.pf-row[data-q^="contrast correction" i][data-q*="relights program text that reads too" i] > .pf-lbl > .h { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"如果程序文字与背景的对比度太低，自动调整至符合 WCAG AA 的对比度。"; font-size:12px; line-height:17px; }
+}
+
+.pf-row[data-q^="contrast correction" i][data-q*="relights program text that reads too" i] .pf-seg > button:nth-child(1):nth-last-child(3) { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"仅浅色主题"; font-size:12.5px; line-height:16px; }
+}
+
+.pf-row[data-q^="contrast correction" i][data-q*="relights program text that reads too" i] .pf-seg > button:nth-child(2):nth-last-child(2) { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"始终"; font-size:12.5px; line-height:16px; }
+}
+
+.pf-row[data-q^="contrast correction" i][data-q*="relights program text that reads too" i] .pf-seg > button:nth-child(3):nth-last-child(1) { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"关闭"; font-size:12.5px; line-height:16px; }
+}
+
+.pf-row[data-q^="reduce motion" i][data-q*="stills animations, the effort fire and the" i] > .pf-lbl > .t { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"减少动态效果"; font-size:13.5px; line-height:19px; }
+}
+
+.pf-row[data-q^="reduce motion" i][data-q*="stills animations, the effort fire and the" i] > .pf-lbl > .h { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"停止动画、推理强度的火焰效果和运行中的脉冲效果，支持此设置的程序也会减少动画。"; font-size:12px; line-height:17px; }
+}
+
+.pf-row[data-q^="reduce motion" i][data-q*="stills animations, the effort fire and the" i] .pf-seg > button:nth-child(1):nth-last-child(3) { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"跟随系统"; font-size:12.5px; line-height:16px; }
+}
+
+.pf-row[data-q^="reduce motion" i][data-q*="stills animations, the effort fire and the" i] .pf-seg > button:nth-child(2):nth-last-child(2) { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"开启"; font-size:12.5px; line-height:16px; }
+}
+
+.pf-row[data-q^="reduce motion" i][data-q*="stills animations, the effort fire and the" i] .pf-seg > button:nth-child(3):nth-last-child(1) { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"关闭"; font-size:12.5px; line-height:16px; }
+}
+
+.pf-sec:has(.pf-row[data-q^="appearance" i][data-q*="light, dark, or following the system." i]) > .pf-sec-t { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"外观"; font-size:12px; line-height:16px; }
+}
+
+.pf-row[data-q^="shape" i][data-q*="auto keeps each place's own, a block in" i] > .pf-lbl > .t { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"形状"; font-size:13.5px; line-height:19px; }
+}
+
+.pf-row[data-q^="shape" i][data-q*="auto keeps each place's own, a block in" i] > .pf-lbl > .h { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"选择“自动”时，终端使用方块，编辑器使用竖线。程序也可以切换光标，例如 Shell 在提示符处使用竖线，Vim 根据模式改变形状。"; font-size:12px; line-height:17px; }
+}
+
+.pf-row[data-q^="shape" i][data-q*="auto keeps each place's own, a block in" i] .pf-seg > button:nth-child(1):nth-last-child(5) { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"自动"; font-size:12.5px; line-height:16px; }
+}
+
+.pf-row[data-q^="shape" i][data-q*="auto keeps each place's own, a block in" i] .pf-seg > button:nth-child(2):nth-last-child(4) { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"方块"; font-size:12.5px; line-height:16px; }
+}
+
+.pf-row[data-q^="shape" i][data-q*="auto keeps each place's own, a block in" i] .pf-seg > button:nth-child(3):nth-last-child(3) { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"柔和"; font-size:12.5px; line-height:16px; }
+}
+
+.pf-row[data-q^="shape" i][data-q*="auto keeps each place's own, a block in" i] .pf-seg > button:nth-child(4):nth-last-child(2) { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"竖线"; font-size:12.5px; line-height:16px; }
+}
+
+.pf-row[data-q^="shape" i][data-q*="auto keeps each place's own, a block in" i] .pf-seg > button:nth-child(5):nth-last-child(1) { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"下划线"; font-size:12.5px; line-height:16px; }
+}
+
+.pf-row[data-q^="programs change it" i][data-q*="shells and programs like vim can switch the" i] > .pf-lbl > .t { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"允许程序更改形状"; font-size:13.5px; line-height:19px; }
+}
+
+.pf-row[data-q^="programs change it" i][data-q*="shells and programs like vim can switch the" i] > .pf-lbl > .h { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"Shell 和 Vim 等程序也可临时更改上方选定的光标形状，用毕后恢复。关闭后始终使用所选形状。"; font-size:12px; line-height:17px; }
+}
+
+.pf-row[data-q^="blink" i][data-q*="the cursor blinks (in terminals, when the" i] > .pf-lbl > .t { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"闪烁"; font-size:13.5px; line-height:19px; }
+}
+
+.pf-row[data-q^="blink" i][data-q*="the cursor blinks (in terminals, when the" i] > .pf-lbl > .h { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"光标闪烁（终端中由程序请求开启）；停止输入 10 秒后光标静止。"; font-size:12px; line-height:17px; }
+}
+
+.pf-row[data-q^="smooth blink" i][data-q*="the cursor fades out and back in as it" i] > .pf-lbl > .t { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"平滑闪烁"; font-size:13.5px; line-height:19px; }
+}
+
+.pf-row[data-q^="smooth blink" i][data-q*="the cursor fades out and back in as it" i] > .pf-lbl > .h { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"闪烁时让光标逐渐淡出、淡入。"; font-size:12px; line-height:17px; }
+}
+
+.pf-row[data-q^="glide" i][data-q*="how long the cursor slides to where it" i] > .pf-lbl > .t { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"滑动时长"; font-size:13.5px; line-height:19px; }
+}
+
+.pf-row[data-q^="glide" i][data-q*="how long the cursor slides to where it" i] > .pf-lbl > .h { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"光标滑动到新位置所需的时间。"; font-size:12px; line-height:17px; }
+}
+
+.pf-row[data-q^="trail" i][data-q*="what the cursor leaves behind when it" i] > .pf-lbl > .t { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"移动轨迹"; font-size:13.5px; line-height:19px; }
+}
+
+.pf-row[data-q^="trail" i][data-q*="what the cursor leaves behind when it" i] > .pf-lbl > .h { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"光标跳转时留下的效果，可选 Neovide 式拉伸、kitty 式彗尾、火焰、火花或逐渐淡出的残影。"; font-size:12px; line-height:17px; }
+}
+
+.pf-row[data-q^="trail" i][data-q*="what the cursor leaves behind when it" i] .pf-seg > button:nth-child(1):nth-last-child(6) { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"关闭"; font-size:12.5px; line-height:16px; }
+}
+
+.pf-row[data-q^="trail" i][data-q*="what the cursor leaves behind when it" i] .pf-seg > button:nth-child(2):nth-last-child(5) { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"拉伸"; font-size:12.5px; line-height:16px; }
+}
+
+.pf-row[data-q^="trail" i][data-q*="what the cursor leaves behind when it" i] .pf-seg > button:nth-child(3):nth-last-child(4) { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"彗尾"; font-size:12.5px; line-height:16px; }
+}
+
+.pf-row[data-q^="trail" i][data-q*="what the cursor leaves behind when it" i] .pf-seg > button:nth-child(4):nth-last-child(3) { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"火焰"; font-size:12.5px; line-height:16px; }
+}
+
+.pf-row[data-q^="trail" i][data-q*="what the cursor leaves behind when it" i] .pf-seg > button:nth-child(5):nth-last-child(2) { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"火花"; font-size:12.5px; line-height:16px; }
+}
+
+.pf-row[data-q^="trail" i][data-q*="what the cursor leaves behind when it" i] .pf-seg > button:nth-child(6):nth-last-child(1) { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"残影"; font-size:12.5px; line-height:16px; }
+}
+
+.pf-row[data-q^="pulse" i][data-q*="what the cursor sets off when a program" i] > .pf-lbl > .t { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"形变效果"; font-size:13.5px; line-height:19px; }
+}
+
+.pf-row[data-q^="pulse" i][data-q*="what the cursor sets off when a program" i] > .pf-lbl > .h { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"程序改变光标形状时播放的效果，例如 Vim 切换模式时从方块变为竖线。光标形状须为自动或允许程序更改。"; font-size:12px; line-height:17px; }
+}
+
+.pf-row[data-q^="pulse" i][data-q*="what the cursor sets off when a program" i] .pf-seg > button:nth-child(1):nth-last-child(5) { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"关闭"; font-size:12.5px; line-height:16px; }
+}
+
+.pf-row[data-q^="pulse" i][data-q*="what the cursor sets off when a program" i] .pf-seg > button:nth-child(2):nth-last-child(4) { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"波纹"; font-size:12.5px; line-height:16px; }
+}
+
+.pf-row[data-q^="pulse" i][data-q*="what the cursor sets off when a program" i] .pf-seg > button:nth-child(3):nth-last-child(3) { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"扩散"; font-size:12.5px; line-height:16px; }
+}
+
+.pf-row[data-q^="pulse" i][data-q*="what the cursor sets off when a program" i] .pf-seg > button:nth-child(4):nth-last-child(2) { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"方形波纹"; font-size:12.5px; line-height:16px; }
+}
+
+.pf-row[data-q^="pulse" i][data-q*="what the cursor sets off when a program" i] .pf-seg > button:nth-child(5):nth-last-child(1) { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"方形扩散"; font-size:12.5px; line-height:16px; }
+}
+
+.pf-row[data-q^="in terminals" i][data-q*="terminal panes take this cursor." i] > .pf-lbl > .t { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"用于终端"; font-size:13.5px; line-height:19px; }
+}
+
+.pf-row[data-q^="in terminals" i][data-q*="terminal panes take this cursor." i] > .pf-lbl > .h { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"在终端窗格中使用此光标。"; font-size:12px; line-height:17px; }
+}
+
+.pf-row[data-q^="in the chat composer" i][data-q*="omp's composer takes it too." i] > .pf-lbl > .t { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"用于对话输入框"; font-size:13.5px; line-height:19px; }
+}
+
+.pf-row[data-q^="in the chat composer" i][data-q*="omp's composer takes it too." i] > .pf-lbl > .h { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"在 omp 的对话输入框中也使用此光标。"; font-size:12px; line-height:17px; }
+}
+
+.pf-row[data-q^="in editors" i][data-q*="file blocks take it while editing code," i] > .pf-lbl > .t { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"用于编辑器"; font-size:13.5px; line-height:19px; }
+}
+
+.pf-row[data-q^="in editors" i][data-q*="file blocks take it while editing code," i] > .pf-lbl > .h { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"在文件区块中编辑代码、文本和 Markdown 时使用此光标。"; font-size:12px; line-height:17px; }
+}
+
+.pf-row[data-q^="pointer" i][data-q*="the mouse pointer over terminals. links a" i] > .pf-lbl > .t { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"鼠标指针"; font-size:13.5px; line-height:19px; }
+}
+
+.pf-row[data-q^="pointer" i][data-q*="the mouse pointer over terminals. links a" i] > .pf-lbl > .h { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"终端上方的鼠标指针形状。可单击的链接仍显示为手形。"; font-size:12px; line-height:17px; }
+}
+
+.pf-row[data-q^="pointer" i][data-q*="the mouse pointer over terminals. links a" i] .pf-seg > button:nth-child(1):nth-last-child(2) { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"文本光标"; font-size:12.5px; line-height:16px; }
+}
+
+.pf-row[data-q^="pointer" i][data-q*="the mouse pointer over terminals. links a" i] .pf-seg > button:nth-child(2):nth-last-child(1) { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"箭头"; font-size:12.5px; line-height:16px; }
+}
+
+.pf-sec:has(.pf-row[data-q^="shape" i][data-q*="auto keeps each place's own, a block in" i]) > .pf-sec-t { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"光标"; font-size:12px; line-height:16px; }
+}
+
+.pf-row[data-q^="layout" i][data-q*="how much chrome frames the terminals" i] > .pf-lbl > .t { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"布局"; font-size:13.5px; line-height:19px; }
+}
+
+.pf-row[data-q^="layout" i][data-q*="how much chrome frames the terminals" i][data-q*="how much chrome frames the terminals (ctrl+shift+l cycles them)." i] > .pf-lbl > .h { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"调整终端周围的界面布局，可按 Ctrl+Shift+L 切换。"; font-size:12px; line-height:17px; }
+}
+
+.pf-row[data-q^="layout" i][data-q*="how much chrome frames the terminals" i] .pf-seg > button:nth-child(1):nth-last-child(4) { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"侧栏"; font-size:12.5px; line-height:16px; }
+}
+
+.pf-row[data-q^="layout" i][data-q*="how much chrome frames the terminals" i] .pf-seg > button:nth-child(2):nth-last-child(3) { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"浮动"; font-size:12.5px; line-height:16px; }
+}
+
+.pf-row[data-q^="layout" i][data-q*="how much chrome frames the terminals" i] .pf-seg > button:nth-child(3):nth-last-child(2) { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"平铺"; font-size:12.5px; line-height:16px; }
+}
+
+.pf-row[data-q^="layout" i][data-q*="how much chrome frames the terminals" i] .pf-seg > button:nth-child(4):nth-last-child(1) { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"工作室"; font-size:12.5px; line-height:16px; }
+}
+
+.pf-row[data-q^="material" i][data-q*="what the window's surfaces are made of." i] > .pf-lbl > .t { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"材质"; font-size:13.5px; line-height:19px; }
+}
+
+.pf-row[data-q^="material" i][data-q*="what the window's surfaces are made of." i] > .pf-lbl > .h { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"窗口表面的显示效果。"; font-size:12px; line-height:17px; }
+}
+
+.pf-row[data-q^="material" i][data-q*="what the window's surfaces are made of." i] .pf-seg > button:nth-child(1):nth-last-child(3) { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"液态玻璃"; font-size:12.5px; line-height:16px; }
+}
+
+.pf-row[data-q^="material" i][data-q*="what the window's surfaces are made of." i] .pf-seg > button:nth-child(2):nth-last-child(2) { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"透明"; font-size:12.5px; line-height:16px; }
+}
+
+.pf-row[data-q^="material" i][data-q*="what the window's surfaces are made of." i] .pf-seg > button:nth-child(3):nth-last-child(1) { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"实色"; font-size:12.5px; line-height:16px; }
+}
+
+.pf-row[data-q^="opacity" i][data-q*="how much the terminal's background hides" i] > .pf-lbl > .t { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"不透明度"; font-size:13.5px; line-height:19px; }
+}
+
+.pf-row[data-q^="opacity" i][data-q*="how much the terminal's background hides" i] > .pf-lbl > .h { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"终端背景遮挡桌面的程度。"; font-size:12px; line-height:17px; }
+}
+
+.pf-row[data-q^="blur" i][data-q*="whether clear blurs the desktop behind the" i] > .pf-lbl > .t { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"模糊"; font-size:13.5px; line-height:19px; }
+}
+
+.pf-row[data-q^="blur" i][data-q*="whether clear blurs the desktop behind the" i] > .pf-lbl > .h { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"使用透明材质时，对窗口后方的桌面应用模糊效果。"; font-size:12px; line-height:17px; }
+}
+
+.pf-row[data-q^="density" i][data-q*="blocks flush against each other, or each a" i] > .pf-lbl > .t { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"密度"; font-size:13.5px; line-height:19px; }
+}
+
+.pf-row[data-q^="density" i][data-q*="blocks flush against each other, or each a" i] > .pf-lbl > .h { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"选择区块紧贴排列，或分别显示成独立卡片。"; font-size:12px; line-height:17px; }
+}
+
+.pf-row[data-q^="density" i][data-q*="blocks flush against each other, or each a" i] .pf-seg > button:nth-child(1):nth-last-child(2) { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"独立卡片"; font-size:12.5px; line-height:16px; }
+}
+
+.pf-row[data-q^="density" i][data-q*="blocks flush against each other, or each a" i] .pf-seg > button:nth-child(2):nth-last-child(1) { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"紧凑"; font-size:12.5px; line-height:16px; }
+}
+
+.pf-row[data-q^="tabs" i][data-q*="along the top, or down the side with every" i] > .pf-lbl > .t { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"标签页"; font-size:13.5px; line-height:19px; }
+}
+
+.pf-row[data-q^="tabs" i][data-q*="along the top, or down the side with every" i][data-q*="along the top, or down the side with every session's tabs (ctrl+shift+\\)." i] > .pf-lbl > .h { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"将标签页横排在顶部，或在侧栏按会话纵向排列（Ctrl+Shift+\\）。"; font-size:12px; line-height:17px; }
+}
+
+.pf-row[data-q^="tabs" i][data-q*="along the top, or down the side with every" i] .pf-seg > button:nth-child(1):nth-last-child(2) { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"顶部"; font-size:12.5px; line-height:16px; }
+}
+
+.pf-row[data-q^="tabs" i][data-q*="along the top, or down the side with every" i] .pf-seg > button:nth-child(2):nth-last-child(1) { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"侧边"; font-size:12.5px; line-height:16px; }
+}
+
+.pf-row[data-q^="hide side tabs" i][data-q*="side tabs tuck into a strip at the window's" i] > .pf-lbl > .t { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"自动隐藏侧边标签页"; font-size:13.5px; line-height:19px; }
+}
+
+.pf-row[data-q^="hide side tabs" i][data-q*="side tabs tuck into a strip at the window's" i][data-q*="side tabs tuck into a strip at the window's edge and slide out while the pointer rests there (ctrl+alt+shift+\\ hides or shows them)." i] > .pf-lbl > .h { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"将侧边标签页收进窗口边缘。鼠标悬停时展开，也可按 Ctrl+Alt+Shift+\\ 隐藏或显示。"; font-size:12px; line-height:17px; }
+}
+
+.pf-row[data-q^="scroll over side tabs to switch tabs" i][data-q*="a mouse wheel or trackpad scroll over the" i] > .pf-lbl > .t { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"滚动侧边标签栏切换标签页"; font-size:13.5px; line-height:19px; }
+}
+
+.pf-row[data-q^="scroll over side tabs to switch tabs" i][data-q*="a mouse wheel or trackpad scroll over the" i] > .pf-lbl > .h { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"在侧边标签栏上滚动鼠标滚轮或触控板时，切换到上一个或下一个标签页。每次触控板滑动切换一个标签页。"; font-size:12px; line-height:17px; }
+}
+
+.pf-row[data-q^="number side tabs across sessions" i][data-q*="tab numbers and their shortcuts count every" i] > .pf-lbl > .t { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"跨会话编号侧边标签页"; font-size:13.5px; line-height:19px; }
+}
+
+.pf-row[data-q^="number side tabs across sessions" i][data-q*="tab numbers and their shortcuts count every" i] > .pf-lbl > .h { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"将所有会话的侧边标签页统一编号，数字快捷键始终指向同一个标签页。关闭后仅为当前会话的标签页编号。"; font-size:12px; line-height:17px; }
+}
+
+.pf-row[data-q^="system title bar" i][data-q*="the system's title bar and window controls" i] > .pf-lbl > .t { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"系统标题栏"; font-size:13.5px; line-height:19px; }
+}
+
+.pf-row[data-q^="system title bar" i][data-q*="the system's title bar and window controls" i] > .pf-lbl > .h { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"在标签栏上方显示系统标题栏和窗口按钮。部分 Linux 桌面（如 GNOME）不提供此标题栏。"; font-size:12px; line-height:17px; }
+}
+
+.pf-row[data-q^="program icons" i][data-q*="icons in place of programs' own on tabs," i] > .pf-lbl > .t { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"程序图标"; font-size:13.5px; line-height:19px; }
+}
+
+.pf-row[data-q^="program icons" i][data-q*="icons in place of programs' own on tabs," i] > .pf-lbl > .h { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"在标签页、窗格列表和暂存卡片上使用指定图标。按“程序=图标”填写，如 codex=provider-openai 或 nvim=sparkle。支持程序名或启动命令；同一程序优先采用插件的图标。对应 settings.json 中的 program_icons。"; font-size:12px; line-height:17px; }
+}
+
+.pf-sec:has(.pf-row[data-q^="layout" i][data-q*="how much chrome frames the terminals" i]) > .pf-sec-t { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"界面样式"; font-size:12px; line-height:16px; }
+}
+
+.pf-row[data-q^="pane headers" i][data-q*="the pane's title with its split, float," i] > .pf-lbl > .t { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"窗格标题栏"; font-size:13.5px; line-height:19px; }
+}
+
+.pf-row[data-q^="pane headers" i][data-q*="the pane's title with its split, float," i] > .pf-lbl > .h { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"标题栏显示窗格名称以及分屏、浮动、缩放和关闭按钮。可选择始终隐藏、仅分屏时显示或始终显示。底部组件栏未显示目录时，标题栏还显示目录与分支。"; font-size:12px; line-height:17px; }
+}
+
+.pf-row[data-q^="pane headers" i][data-q*="the pane's title with its split, float," i] .pf-seg > button:nth-child(1):nth-last-child(3) { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"从不"; font-size:12.5px; line-height:16px; }
+}
+
+.pf-row[data-q^="pane headers" i][data-q*="the pane's title with its split, float," i] .pf-seg > button:nth-child(2):nth-last-child(2) { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"分屏时"; font-size:12.5px; line-height:16px; }
+}
+
+.pf-row[data-q^="pane headers" i][data-q*="the pane's title with its split, float," i] .pf-seg > button:nth-child(3):nth-last-child(1) { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"始终"; font-size:12.5px; line-height:16px; }
+}
+
+.pf-row[data-q^="dim unfocused panes" i][data-q*="how far panes and blocks without focus" i] > .pf-lbl > .t { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"淡化非活动窗格"; font-size:13.5px; line-height:19px; }
+}
+
+.pf-row[data-q^="dim unfocused panes" i][data-q*="how far panes and blocks without focus" i] > .pf-lbl > .h { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"分屏时降低非活动窗格和区块的对比度，便于识别当前焦点。关闭后所有窗格保持原对比度。"; font-size:12px; line-height:17px; }
+}
+
+.pf-row[data-q^="widgets" i][data-q*="widgets along the window's foot: the" i] > .pf-lbl > .t { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"底部组件"; font-size:13.5px; line-height:19px; }
+}
+
+.pf-row[data-q^="widgets" i][data-q*="widgets along the window's foot: the" i] > .pf-lbl > .h { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"窗口底部可显示当前窗格的目录和分支、上一条命令、系统指标、omp 的 AI 用量和插件提供的组件。"; font-size:12px; line-height:17px; }
+}
+
+.pf-row[data-q^="widget bar style" i][data-q*="how the bar sets its widgets apart: an even" i] > .pf-lbl > .t { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"组件栏样式"; font-size:13.5px; line-height:19px; }
+}
+
+.pf-row[data-q^="widget bar style" i][data-q*="how the bar sets its widgets apart: an even" i] > .pf-lbl > .h { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"选择组件之间的分隔样式，可使用等距留白、圆角底色、细边框或分隔线。"; font-size:12px; line-height:17px; }
+}
+
+.pf-row[data-q^="widget bar style" i][data-q*="how the bar sets its widgets apart: an even" i] .pf-seg > button:nth-child(1):nth-last-child(4) { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"留白"; font-size:12.5px; line-height:16px; }
+}
+
+.pf-row[data-q^="widget bar style" i][data-q*="how the bar sets its widgets apart: an even" i] .pf-seg > button:nth-child(2):nth-last-child(3) { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"圆角底色"; font-size:12.5px; line-height:16px; }
+}
+
+.pf-row[data-q^="widget bar style" i][data-q*="how the bar sets its widgets apart: an even" i] .pf-seg > button:nth-child(3):nth-last-child(2) { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"细边框"; font-size:12.5px; line-height:16px; }
+}
+
+.pf-row[data-q^="widget bar style" i][data-q*="how the bar sets its widgets apart: an even" i] .pf-seg > button:nth-child(4):nth-last-child(1) { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"分隔线"; font-size:12.5px; line-height:16px; }
+}
+
+.pf-row[data-q^="tmux status line" i][data-q*="draw the status line of tmux running in a" i] > .pf-lbl > .t { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"tmux 状态栏"; font-size:13.5px; line-height:19px; }
+}
+
+.pf-row[data-q^="tmux status line" i][data-q*="draw the status line of tmux running in a" i] > .pf-lbl > .h { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"把窗格内 tmux 的状态栏渲染为 Tern 窗格标题栏的样式，显示会话与窗口，单击即可切换窗口。"; font-size:12px; line-height:17px; }
+}
+
+.pf-sec:has(.pf-row[data-q^="pane headers" i][data-q*="the pane's title with its split, float," i]) > .pf-sec-t { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"窗格"; font-size:12px; line-height:16px; }
+}
+
+.pf-row[data-q^="chat style" i][data-q*="how omp's conversation reads: reader in a" i] > .pf-lbl > .t { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"对话样式"; font-size:13.5px; line-height:19px; }
+}
+
+.pf-row[data-q^="chat style" i][data-q*="how omp's conversation reads: reader in a" i] > .pf-lbl > .h { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"选择 omp 的对话布局：阅读模式使用居中单栏，时间线按步骤排列，控制台沿用 omp 的终端外观。"; font-size:12px; line-height:17px; }
+}
+
+.pf-row[data-q^="chat style" i][data-q*="how omp's conversation reads: reader in a" i] .pf-seg > button:nth-child(1):nth-last-child(3) { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"阅读模式"; font-size:12.5px; line-height:16px; }
+}
+
+.pf-row[data-q^="chat style" i][data-q*="how omp's conversation reads: reader in a" i] .pf-seg > button:nth-child(2):nth-last-child(2) { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"时间线"; font-size:12.5px; line-height:16px; }
+}
+
+.pf-row[data-q^="chat style" i][data-q*="how omp's conversation reads: reader in a" i] .pf-seg > button:nth-child(3):nth-last-child(1) { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"控制台"; font-size:12.5px; line-height:16px; }
+}
+
+.pf-row[data-q^="spine width" i][data-q*="how wide spine's column runs: standard" i] > .pf-lbl > .t { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"时间线宽度"; font-size:13.5px; line-height:19px; }
+}
+
+.pf-row[data-q^="spine width" i][data-q*="how wide spine's column runs: standard" i] > .pf-lbl > .h { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"标准和宽屏使用不同宽度的居中栏，全宽则像控制台一样铺满窗格。"; font-size:12px; line-height:17px; }
+}
+
+.pf-row[data-q^="spine width" i][data-q*="how wide spine's column runs: standard" i] .pf-seg > button:nth-child(1):nth-last-child(3) { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"标准"; font-size:12.5px; line-height:16px; }
+}
+
+.pf-row[data-q^="spine width" i][data-q*="how wide spine's column runs: standard" i] .pf-seg > button:nth-child(2):nth-last-child(2) { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"宽屏"; font-size:12.5px; line-height:16px; }
+}
+
+.pf-row[data-q^="spine width" i][data-q*="how wide spine's column runs: standard" i] .pf-seg > button:nth-child(3):nth-last-child(1) { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"全宽"; font-size:12.5px; line-height:16px; }
+}
+
+.pf-row[data-q^="omp settings" i][data-q*="how omp's /settings opens: a window over" i] > .pf-lbl > .t { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"omp 设置"; font-size:13.5px; line-height:19px; }
+}
+
+.pf-row[data-q^="omp settings" i][data-q*="how omp's /settings opens: a window over" i] > .pf-lbl > .h { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"选择 omp 的 /settings 在窗格上方的窗口中打开，或显示在对话旁边。"; font-size:12px; line-height:17px; }
+}
+
+.pf-row[data-q^="omp settings" i][data-q*="how omp's /settings opens: a window over" i] .pf-seg > button:nth-child(1):nth-last-child(2) { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"窗口"; font-size:12.5px; line-height:16px; }
+}
+
+.pf-row[data-q^="omp settings" i][data-q*="how omp's /settings opens: a window over" i] .pf-seg > button:nth-child(2):nth-last-child(1) { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"对话旁边"; font-size:12.5px; line-height:16px; }
+}
+
+.pf-row[data-q^="fold tool calls" i][data-q*="runs of tool calls and thoughts collapse" i] > .pf-lbl > .t { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"折叠工具调用"; font-size:13.5px; line-height:19px; }
+}
+
+.pf-row[data-q^="fold tool calls" i][data-q*="runs of tool calls and thoughts collapse" i] > .pf-lbl > .h { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"回复出现后，将连续的工具调用和思考过程折叠为一行摘要。此设置适用于所有对话样式。"; font-size:12px; line-height:17px; }
+}
+
+.pf-row[data-q^="expand thoughts" i][data-q*="omp's thoughts stay open in full, in line" i] > .pf-lbl > .t { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"展开思考过程"; font-size:13.5px; line-height:19px; }
+}
+
+.pf-row[data-q^="expand thoughts" i][data-q*="omp's thoughts stay open in full, in line" i] > .pf-lbl > .h { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"在回复中完整展开 omp 的思考内容。进行中的思考仍显示加载指示器和计时器。"; font-size:12px; line-height:17px; }
+}
+
+.pf-row[data-q^="context line" i][data-q*="the line along the top of omp's composer" i] > .pf-lbl > .t { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"上下文用量"; font-size:13.5px; line-height:19px; }
+}
+
+.pf-row[data-q^="context line" i][data-q*="the line along the top of omp's composer" i] > .pf-lbl > .h { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"在 omp 输入框顶部显示上下文用量。单击用量条可查看占用它的内容。"; font-size:12px; line-height:17px; }
+}
+
+.pf-row[data-q^="keep composer open" i][data-q*="omp's composer stays open in full when you" i] > .pf-lbl > .t { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"保持输入框展开"; font-size:13.5px; line-height:19px; }
+}
+
+.pf-row[data-q^="keep composer open" i][data-q*="omp's composer stays open in full when you" i] > .pf-lbl > .h { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"切换窗格时保持 omp 的输入框展开。关闭后，输入框会折叠成一行，显示会话名称、草稿与用量。"; font-size:12px; line-height:17px; }
+}
+
+.pf-row[data-q^="agents tray" i][data-q*="omp's running subagents and background jobs" i] > .pf-lbl > .t { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"智能体托盘"; font-size:13.5px; line-height:19px; }
+}
+
+.pf-row[data-q^="agents tray" i][data-q*="omp's running subagents and background jobs" i] > .pf-lbl > .h { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"在 omp 输入框上方用卡片显示运行中的子智能体和后台任务。关闭后显示数量，单击打开对应列表。正在运行的会话会立即应用此设置。"; font-size:12px; line-height:17px; }
+}
+
+.pf-row[data-q^="composer" i][data-q*="how omp's composer shows your draft." i] > .pf-lbl > .t { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"对话输入框"; font-size:13.5px; line-height:19px; }
+}
+
+.pf-row[data-q^="composer" i][data-q*="how omp's composer shows your draft." i] > .pf-lbl > .h { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"选择 omp 显示草稿的方式。Markdown 会预览粗体、代码、链接、标题、列表和引用，光标移入时才显示标记。纯文本显示输入的每个字符。"; font-size:12px; line-height:17px; }
+}
+
+.pf-row[data-q^="composer" i][data-q*="how omp's composer shows your draft." i] .pf-seg > button:nth-child(1):nth-last-child(2) { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"纯文本"; font-size:12.5px; line-height:16px; }
+}
+
+.pf-row[data-q^="markdown headings" i][data-q*="annotated keeps headings at text size, bold" i] > .pf-lbl > .t { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"Markdown 标题"; font-size:13.5px; line-height:19px; }
+}
+
+.pf-row[data-q^="markdown headings" i][data-q*="annotated keeps headings at text size, bold" i] > .pf-lbl > .h { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"带标记模式将标题显示为加粗正文，保留淡色 # 标记。自动模式根据对话样式选择：阅读模式按级别调整标题大小，时间线与控制台使用带标记模式。"; font-size:12px; line-height:17px; }
+}
+
+.pf-row[data-q^="markdown headings" i][data-q*="annotated keeps headings at text size, bold" i] .pf-seg > button:nth-child(1):nth-last-child(3) { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"自动"; font-size:12.5px; line-height:16px; }
+}
+
+.pf-row[data-q^="markdown headings" i][data-q*="annotated keeps headings at text size, bold" i] .pf-seg > button:nth-child(2):nth-last-child(2) { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"带标记"; font-size:12.5px; line-height:16px; }
+}
+
+.pf-row[data-q^="markdown headings" i][data-q*="annotated keeps headings at text size, bold" i] .pf-seg > button:nth-child(3):nth-last-child(1) { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"按级别调整大小"; font-size:12.5px; line-height:16px; }
+}
+
+.pf-row[data-q^="wrap code" i][data-q*="long lines in code blocks and code in" i] > .pf-lbl > .t { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"代码自动换行"; font-size:13.5px; line-height:19px; }
+}
+
+.pf-row[data-q^="wrap code" i][data-q*="long lines in code blocks and code in" i] > .pf-lbl > .h { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"让代码块和回复中的长代码按对话宽度换行。关闭后可横向滚动查看长行。"; font-size:12px; line-height:17px; }
+}
+
+.pf-row[data-q^="edits" i][data-q*="how native surfaces show diffs. split puts" i] > .pf-lbl > .t { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"差异视图"; font-size:13.5px; line-height:19px; }
+}
+
+.pf-row[data-q^="edits" i][data-q*="how native surfaces show diffs. split puts" i] > .pf-lbl > .h { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"选择原生界面显示差异的方式。并排模式在窗格足够宽时左右显示修改前后的内容。"; font-size:12px; line-height:17px; }
+}
+
+.pf-row[data-q^="edits" i][data-q*="how native surfaces show diffs. split puts" i] .pf-seg > button:nth-child(1):nth-last-child(2) { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"行内"; font-size:12.5px; line-height:16px; }
+}
+
+.pf-row[data-q^="edits" i][data-q*="how native surfaces show diffs. split puts" i] .pf-seg > button:nth-child(2):nth-last-child(1) { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"并排"; font-size:12.5px; line-height:16px; }
+}
+
+.pf-row[data-q^="tab width" i][data-q*="columns per tab in code and diffs." i] > .pf-lbl > .t { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"制表符宽度"; font-size:13.5px; line-height:19px; }
+}
+
+.pf-row[data-q^="tab width" i][data-q*="columns per tab in code and diffs." i] > .pf-lbl > .h { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"代码和差异视图中每个制表符占用的列数。"; font-size:12px; line-height:17px; }
+}
+
+.pf-sec:has(.pf-row[data-q^="chat style" i][data-q*="how omp's conversation reads: reader in a" i]) > .pf-sec-t { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"程序"; font-size:12px; line-height:16px; }
+}
+
+.pf-nav:has(.nav-row[aria-label="Terminal"][aria-selected="true"]):not(:has(.pf-search.has-text)) + .pf-scroll > .pf-doc > .pf-head > .pf-title { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"终端"; font-size:22px; line-height:28px; }
+}
+
+.pf-row[data-q^="smooth scrolling" i][data-q*="ease mouse-wheel steps in terminals, files," i] > .pf-lbl > .t { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"平滑滚动"; font-size:13.5px; line-height:19px; }
+}
+
+.pf-row[data-q^="smooth scrolling" i][data-q*="ease mouse-wheel steps in terminals, files," i] > .pf-lbl > .h { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"在终端、文件、列表和画布中平滑滚动。关闭后立即滚动，终端按整行移动。此设置遵循“减少动态效果”；触控板直接跟随手势，自行处理鼠标的程序使用自身的滚动方式。"; font-size:12px; line-height:17px; }
+}
+
+.pf-row[data-q^="elastic overscroll" i][data-q*="stretch and spring back when scrolling past" i] > .pf-lbl > .t { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"边缘回弹"; font-size:13.5px; line-height:19px; }
+}
+
+.pf-row[data-q^="elastic overscroll" i][data-q*="stretch and spring back when scrolling past" i] > .pf-lbl > .h { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"滚动超出终端、文件、列表和画布边缘时，内容先拉伸再回弹。关闭后停在边缘。"; font-size:12px; line-height:17px; }
+}
+
+.pf-row[data-q^="scrollbar" i][data-q*="when terminals show their draggable" i] > .pf-lbl > .t { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"滚动条"; font-size:13.5px; line-height:19px; }
+}
+
+.pf-row[data-q^="scrollbar" i][data-q*="when terminals show their draggable" i] > .pf-lbl > .h { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"选择终端显示可拖动滚动条的时机。自动模式会在滚动时或指针靠近右侧边缘时显示。"; font-size:12px; line-height:17px; }
+}
+
+.pf-row[data-q^="scrollbar" i][data-q*="when terminals show their draggable" i] .pf-seg > button:nth-child(1):nth-last-child(3) { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"自动"; font-size:12.5px; line-height:16px; }
+}
+
+.pf-row[data-q^="scrollbar" i][data-q*="when terminals show their draggable" i] .pf-seg > button:nth-child(2):nth-last-child(2) { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"始终"; font-size:12.5px; line-height:16px; }
+}
+
+.pf-row[data-q^="scrollbar" i][data-q*="when terminals show their draggable" i] .pf-seg > button:nth-child(3):nth-last-child(1) { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"从不"; font-size:12.5px; line-height:16px; }
+}
+
+.pf-row[data-q^="scroll speed" i][data-q*="how far the mouse wheel and trackpad scroll" i] > .pf-lbl > .t { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"滚动速度"; font-size:13.5px; line-height:19px; }
+}
+
+.pf-row[data-q^="scroll speed" i][data-q*="how far the mouse wheel and trackpad scroll" i] > .pf-lbl > .h { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"相对系统滚动速度，调整滚轮和触控板在终端、文件、列表和画布中的滚动距离。"; font-size:12px; line-height:17px; }
+}
+
+.pf-row[data-q^="scrollback" i][data-q*="lines each terminal keeps, compressed in" i] > .pf-lbl > .t { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"回滚缓冲区"; font-size:13.5px; line-height:19px; }
+}
+
+.pf-row[data-q^="scrollback" i][data-q*="lines each terminal keeps, compressed in" i] > .pf-lbl > .h { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"每个终端保留的历史行数，在会话后台服务和此窗口的内存中压缩存放。调低上限会立即释放最早的内容，清除操作会释放全部历史。崩溃恢复功能保存每个终端最近的 2 MiB。"; font-size:12px; line-height:17px; }
+}
+
+.pf-sec:has(.pf-row[data-q^="smooth scrolling" i][data-q*="ease mouse-wheel steps in terminals, files," i]) > .pf-sec-t { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"滚动"; font-size:12px; line-height:16px; }
+}
+
+.pf-row[data-q^="native program surfaces" i][data-q*="programs that speak the tern surface" i] > .pf-lbl > .t { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"原生程序界面"; font-size:13.5px; line-height:19px; }
+}
+
+.pf-row[data-q^="native program surfaces" i][data-q*="programs that speak the tern surface" i] > .pf-lbl > .h { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"支持 Tern 界面协议的程序（如 omp）可绘制原生视图。关闭后使用终端的字符网格绘制。"; font-size:12px; line-height:17px; }
+}
+
+.pf-row[data-q^="native command output" i][data-q*="show recognized commands (git, ls, cargo," i] > .pf-lbl > .t { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"原生命令输出"; font-size:13.5px; line-height:19px; }
+}
+
+.pf-row[data-q^="native command output" i][data-q*="show recognized commands (git, ls, cargo," i] > .pf-lbl > .h { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"使用原生视图展示可识别命令的输出（如 git、ls、cargo、docker），仍可单击查看原始输出。"; font-size:12px; line-height:17px; }
+}
+
+.pf-row[data-q^="fold output longer than" i][data-q*="a command's longer output folds to its" i] > .pf-lbl > .t { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"超出行数时折叠输出"; font-size:13.5px; line-height:19px; }
+}
+
+.pf-row[data-q^="fold output longer than" i][data-q*="a command's longer output folds to its" i] > .pf-lbl > .h { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"命令完成后，过长的输出折叠为首尾两行。单个命令最多保留此处指定的行数或回滚缓冲区的八分之一，取较大者。选择“从不”可保留全部行。"; font-size:12px; line-height:17px; }
+}
+
+.pf-row[data-q^="native completion" i][data-q*="show tab completions in a native popover;" i] > .pf-lbl > .t { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"原生补全菜单"; font-size:13.5px; line-height:19px; }
+}
+
+.pf-row[data-q^="native completion" i][data-q*="show tab completions in a native popover;" i] > .pf-lbl > .h { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"在原生弹出菜单中显示 Tab 补全项，候选内容仍由 Shell 决定。"; font-size:12px; line-height:17px; }
+}
+
+.pf-row[data-q^="native composer editing" i][data-q*="select with shift and the arrows or by" i] > .pf-lbl > .t { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"原生输入框编辑"; font-size:13.5px; line-height:19px; }
+}
+
+.pf-row[data-q^="native composer editing" i][data-q*="select with shift and the arrows or by" i][data-q*="select with shift and the arrows or by dragging in omp's composer, then type over it, ctrl+x, ctrl+c or ctrl+a; ctrl+z undoes instead of suspending omp. off, or in vim mode, every key goes to the " i] > .pf-lbl > .h { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"在 omp 输入框中用 Shift 加方向键或拖动选择文本，随后可覆盖输入、剪切、复制或全选。Ctrl+Z 执行撤销。关闭此项或使用 Vim 模式时，所有按键都交给程序。"; font-size:12px; line-height:17px; }
+}
+
+.pf-row[data-q^="autocorrect in chat" i][data-q*="the keyboard corrects words and suggests" i] > .pf-lbl > .t { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"对话中自动纠错"; font-size:13.5px; line-height:19px; }
+}
+
+.pf-row[data-q^="autocorrect in chat" i][data-q*="the keyboard corrects words and suggests" i] > .pf-lbl > .h { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"在 omp 和智能体的对话输入框中启用键盘纠错和下一词建议。关闭后按原样输入。"; font-size:12px; line-height:17px; }
+}
+
+.pf-sec:has(.pf-row[data-q^="native program surfaces" i][data-q*="programs that speak the tern surface" i]) > .pf-sec-t { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"程序"; font-size:12px; line-height:16px; }
+}
+
+.pf-row[data-q^="native prompt" i][data-q*="tern draws the shell's prompt line itself" i] > .pf-lbl > .t { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"原生提示符"; font-size:13.5px; line-height:19px; }
+}
+
+.pf-row[data-q^="native prompt" i][data-q*="tern draws the shell's prompt line itself" i] > .pf-lbl > .h { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"让 Tern 绘制 Shell 提示符，调整窗口大小时可避免错行或重影。支持 zsh、bash、fish、nushell 和 PowerShell，对新建区块生效。"; font-size:12px; line-height:17px; }
+}
+
+.pf-row:has(.tn-ps[role=radiogroup][aria-label="Start from"]) > .pf-lbl > .t { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"起始预设"; font-size:13.5px; line-height:19px; }
+}
+
+.pf-row:has(.tn-ps[role=radiogroup][aria-label="Start from"]) > .pf-lbl > .h { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"选择预设会将下方所有组件恢复为该预设的配置。p10k 配置仅在 zsh 运行 powerlevel10k 时接管。其他预设可直接用于 zsh、bash、fish、nushell 和 PowerShell。"; font-size:12px; line-height:17px; }
+}
+
+.pf-row:has(.tn-ps[role=radiogroup][aria-label="Colors"]) > .pf-lbl > .t { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"配色"; font-size:13.5px; line-height:19px; }
+}
+
+.pf-row:has(.tn-ps[role=radiogroup][aria-label="Colors"]) > .pf-lbl > .h { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"各提示符组件使用的颜色，深色和浅色版本会跟随主题切换。"; font-size:12px; line-height:17px; }
+}
+
+.pf-row:has(.tn-ps[role=radiogroup][aria-label="Fill"]) > .pf-lbl > .t { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"填充"; font-size:13.5px; line-height:19px; }
+}
+
+.pf-row:has(.tn-ps[role=radiogroup][aria-label="Fill"]) > .pf-lbl > .h { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"将组件显示为彩色区块或彩色文字。"; font-size:12px; line-height:17px; }
+}
+
+.pf-row:has(.tn-ps[role=radiogroup][aria-label="Shape"]) > .pf-lbl > .t { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"形状"; font-size:13.5px; line-height:19px; }
+}
+
+.pf-row:has(.tn-ps[role=radiogroup][aria-label="Shape"]) > .pf-lbl > .h { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"区块边缘和分隔处的形状，仅用于区块填充。"; font-size:12px; line-height:17px; }
+}
+
+.pf-row:has(.tn-ps[role=radiogroup][aria-label="Frame"]) > .pf-lbl > .t { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"边框"; font-size:13.5px; line-height:19px; }
+}
+
+.pf-row:has(.tn-ps[role=radiogroup][aria-label="Frame"]) > .pf-lbl > .h { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"将提示符栏与下方输入行连接起来的线条。"; font-size:12px; line-height:17px; }
+}
+
+.pf-row:has(.tn-ps[role=radiogroup][aria-label="Line end"]) > .pf-lbl > .t { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"右侧收边"; font-size:13.5px; line-height:19px; }
+}
+
+.pf-row:has(.tn-ps[role=radiogroup][aria-label="Line end"]) > .pf-lbl > .h { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"在右侧边缘封闭边框，仅在启用边框时生效。"; font-size:12px; line-height:17px; }
+}
+
+.pf-row:has(.tn-ps[role=radiogroup][aria-label="Gap"]) > .pf-lbl > .t { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"中间空隙"; font-size:13.5px; line-height:19px; }
+}
+
+.pf-row:has(.tn-ps[role=radiogroup][aria-label="Gap"]) > .pf-lbl > .h { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"如何填充提示符栏左右两侧之间的空白。"; font-size:12px; line-height:17px; }
+}
+
+.pf-row:has(.tn-ps[role=radiogroup][aria-label="Prompt character"]) > .pf-lbl > .t { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"提示字符"; font-size:13.5px; line-height:19px; }
+}
+
+.pf-row:has(.tn-ps[role=radiogroup][aria-label="Prompt character"]) > .pf-lbl > .h { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"输入内容前显示的字符，上一条命令发生错误时会变红。"; font-size:12px; line-height:17px; }
+}
+
+.pf-row:has(.tn-ps[role=radiogroup][aria-label="Separators"]) > .pf-lbl > .t { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"分隔符"; font-size:13.5px; line-height:19px; }
+}
+
+.pf-row:has(.tn-ps[role=radiogroup][aria-label="Separators"]) > .pf-lbl > .h { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"选择各组件之间的分隔样式，仅用于文字填充。"; font-size:12px; line-height:17px; }
+}
+
+.pf-row:has(.tn-ps[role=radiogroup][aria-label="Git"]) > .pf-lbl > .t { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"Git 状态"; font-size:13.5px; line-height:19px; }
+}
+
+.pf-row:has(.tn-ps[role=radiogroup][aria-label="Git"]) > .pf-lbl > .h { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"分支及其变更的显示方式。"; font-size:12px; line-height:17px; }
+}
+
+.pf-row:has(.tn-ps[role=radiogroup][aria-label="Directory"]) > .pf-lbl > .t { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"目录"; font-size:13.5px; line-height:19px; }
+}
+
+.pf-row:has(.tn-ps[role=radiogroup][aria-label="Directory"]) > .pf-lbl > .h { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"选择显示工作目录路径的哪些部分。"; font-size:12px; line-height:17px; }
+}
+
+.pf-row:has(.tn-ps[role=radiogroup][aria-label="Icons"]) > .pf-lbl > .t { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"图标"; font-size:13.5px; line-height:19px; }
+}
+
+.pf-row:has(.tn-ps[role=radiogroup][aria-label="Icons"]) > .pf-lbl > .h { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"选择用图标或文字显示提示符组件。"; font-size:12px; line-height:17px; }
+}
+
+.pf-row:has(.tn-ps[role=radiogroup][aria-label="Clock"]) > .pf-lbl > .t { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"时钟"; font-size:13.5px; line-height:19px; }
+}
+
+.pf-row:has(.tn-ps[role=radiogroup][aria-label="Clock"]) > .pf-lbl > .h { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"时间的显示格式。"; font-size:12px; line-height:17px; }
+}
+
+.pf-row[data-q^="blank line" i][data-q*="a blank line above each prompt, between one" i] > .pf-lbl > .t { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"空行"; font-size:13.5px; line-height:19px; }
+}
+
+.pf-row[data-q^="blank line" i][data-q*="a blank line above each prompt, between one" i] > .pf-lbl > .h { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"在每个提示符上方插入空行，将上一条命令的输出和下一次输入隔开。"; font-size:12px; line-height:17px; }
+}
+
+.pf-row[data-q^="prompt segments" i][data-q*="what the bar shows, left and right, in" i] > .pf-lbl > .t { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"提示符组件"; font-size:13.5px; line-height:19px; }
+}
+
+.pf-row[data-q^="prompt segments" i][data-q*="what the bar shows, left and right, in" i] > .pf-lbl > .h { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"设置提示符栏左右两侧的组件及顺序。各样式共用此列表，可拖动排序或将组件移到另一侧；更改立即应用于所有窗格。"; font-size:12px; line-height:17px; }
+}
+
+.pf-row[data-q^="prompt segments" i][data-q*="what the bar shows, left and right, in" i] .pf-seg > button:nth-child(1):nth-last-child(2) { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"左侧"; font-size:12.5px; line-height:16px; }
+}
+
+.pf-row[data-q^="prompt segments" i][data-q*="what the bar shows, left and right, in" i] .pf-seg > button:nth-child(2):nth-last-child(1) { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"右侧"; font-size:12.5px; line-height:16px; }
+}
+
+.pf-row[data-q^="collapse past prompts" i][data-q*="earlier prompts shrink to their prompt" i] > .pf-lbl > .t { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"折叠之前的提示符"; font-size:13.5px; line-height:19px; }
+}
+
+.pf-row[data-q^="collapse past prompts" i][data-q*="earlier prompts shrink to their prompt" i] > .pf-lbl > .h { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"将之前的提示符缩成一个提示字符，类似 powerlevel10k 的瞬态提示符。关闭后保留每条提示符栏的淡色副本。"; font-size:12px; line-height:17px; }
+}
+
+.pf-sec:has(.pf-row[data-q^="native prompt" i][data-q*="tern draws the shell's prompt line itself" i]) > .pf-sec-t { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"提示符"; font-size:12px; line-height:16px; }
+}
+
+.pf-row[data-q^="programs copy to the clipboard" i][data-q*="vim, tmux and programs over ssh copy with" i] > .pf-lbl > .t { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"允许程序复制到剪贴板"; font-size:13.5px; line-height:19px; }
+}
+
+.pf-row[data-q^="programs copy to the clipboard" i][data-q*="vim, tmux and programs over ssh copy with" i] > .pf-lbl > .h { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"vim、tmux 和 SSH 中的程序可通过 OSC 52 复制文本。选择“询问”时先显示待复制内容。程序无法读取剪贴板。"; font-size:12px; line-height:17px; }
+}
+
+.pf-row[data-q^="programs copy to the clipboard" i][data-q*="vim, tmux and programs over ssh copy with" i] .pf-seg > button:nth-child(1):nth-last-child(3) { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"允许"; font-size:12.5px; line-height:16px; }
+}
+
+.pf-row[data-q^="programs copy to the clipboard" i][data-q*="vim, tmux and programs over ssh copy with" i] .pf-seg > button:nth-child(2):nth-last-child(2) { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"询问"; font-size:12.5px; line-height:16px; }
+}
+
+.pf-row[data-q^="programs copy to the clipboard" i][data-q*="vim, tmux and programs over ssh copy with" i] .pf-seg > button:nth-child(3):nth-last-child(1) { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"从不"; font-size:12.5px; line-height:16px; }
+}
+
+.pf-row[data-q^="program links" i][data-q*="osc 8 links, whose text need not show where" i] > .pf-lbl > .t { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"程序链接"; font-size:13.5px; line-height:19px; }
+}
+
+.pf-row[data-q^="program links" i][data-q*="osc 8 links, whose text need not show where" i] > .pf-lbl > .h { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"OSC 8 链接的文字可能与目标地址不同。选择“询问”会在打开前显示地址，选择“从不”会忽略这类链接。"; font-size:12px; line-height:17px; }
+}
+
+.pf-row[data-q^="program links" i][data-q*="osc 8 links, whose text need not show where" i] .pf-seg > button:nth-child(1):nth-last-child(3) { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"允许"; font-size:12.5px; line-height:16px; }
+}
+
+.pf-row[data-q^="program links" i][data-q*="osc 8 links, whose text need not show where" i] .pf-seg > button:nth-child(2):nth-last-child(2) { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"询问"; font-size:12.5px; line-height:16px; }
+}
+
+.pf-row[data-q^="program links" i][data-q*="osc 8 links, whose text need not show where" i] .pf-seg > button:nth-child(3):nth-last-child(1) { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"从不"; font-size:12.5px; line-height:16px; }
+}
+
+.pf-row[data-q^="program notifications" i][data-q*="programs' alerts (osc 9, 99 and 777) show" i] > .pf-lbl > .t { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"程序通知"; font-size:13.5px; line-height:19px; }
+}
+
+.pf-row[data-q^="program notifications" i][data-q*="programs' alerts (osc 9, 99 and 777) show" i] > .pf-lbl > .h { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"程序通过 OSC 9、99 和 777 发出的提醒会显示为浮动通知并进入收件箱。可用 settings.json 中的 notification_filters 筛选，类似 kitty 的 filter_notification。"; font-size:12px; line-height:17px; }
+}
+
+.pf-sec:has(.pf-row[data-q^="programs copy to the clipboard" i][data-q*="vim, tmux and programs over ssh copy with" i]) > .pf-sec-t { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"安全"; font-size:12px; line-height:16px; }
+}
+
+.pf-row[data-q^="confirm risky pastes" i][data-q*="ask before pasting control codes, or line" i] > .pf-lbl > .t { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"风险粘贴前确认"; font-size:13.5px; line-height:19px; }
+}
+
+.pf-row[data-q^="confirm risky pastes" i][data-q*="ask before pasting control codes, or line" i] > .pf-lbl > .h { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"粘贴控制码，或向会逐行执行的程序粘贴换行文本前先询问，并提供清理选项。"; font-size:12px; line-height:17px; }
+}
+
+.pf-row[data-q^="sanitize control codes" i][data-q*="control codes paste as visible symbols," i] > .pf-lbl > .t { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"清理控制码"; font-size:13.5px; line-height:19px; }
+}
+
+.pf-row[data-q^="sanitize control codes" i][data-q*="control codes paste as visible symbols," i] > .pf-lbl > .h { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"粘贴时将控制码转换成可见符号，无需询问。"; font-size:12px; line-height:17px; }
+}
+
+.pf-row[data-q^="paste line breaks without enter" i][data-q*="into a program that would run each line," i] > .pf-lbl > .t { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"粘贴换行而不执行"; font-size:13.5px; line-height:19px; }
+}
+
+.pf-row[data-q^="paste line breaks without enter" i][data-q*="into a program that would run each line," i] > .pf-lbl > .h { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"向会逐行执行的程序粘贴时，把换行转换为 NEL，在新行继续而不执行上一行。"; font-size:12px; line-height:17px; }
+}
+
+.pf-row[data-q^="confirm large pastes" i][data-q*="ask before pasting more than 16 kb." i] > .pf-lbl > .t { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"大段粘贴前确认"; font-size:13.5px; line-height:19px; }
+}
+
+.pf-row[data-q^="confirm large pastes" i][data-q*="ask before pasting more than 16 kb." i] > .pf-lbl > .h { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"粘贴超过 16 KB 的内容前先询问。"; font-size:12px; line-height:17px; }
+}
+
+.pf-row[data-q^="quote urls at the prompt" i][data-q*="a url pasted at the shell prompt is quoted," i] > .pf-lbl > .t { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"提示符处粘贴网址时加引号"; font-size:13.5px; line-height:19px; }
+}
+
+.pf-row[data-q^="quote urls at the prompt" i][data-q*="a url pasted at the shell prompt is quoted," i] > .pf-lbl > .h { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"在 Shell 提示符处粘贴网址时自动加引号，保留网址中的 ? 和 &。"; font-size:12px; line-height:17px; }
+}
+
+.pf-sec:has(.pf-row[data-q^="confirm risky pastes" i][data-q*="ask before pasting control codes, or line" i]) > .pf-sec-t { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"粘贴"; font-size:12px; line-height:16px; }
+}
+
+.pf-sec:has(.tn-pf-facts) > .pf-sec-t { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"内置参数"; font-size:12px; line-height:16px; }
+}
+
+.pf-nav:has(.nav-row[aria-label="Lenses"][aria-selected="true"]):not(:has(.pf-search.has-text)) + .pf-scroll > .pf-doc > .pf-head > .pf-title { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"命令视图"; font-size:22px; line-height:28px; }
+}
+
+.pf-row[data-q^="status" i][data-q*="git status" i] > .pf-lbl > .t { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"状态"; font-size:13.5px; line-height:19px; }
+}
+
+.pf-row[data-q^="diffs" i][data-q*="git diff" i] > .pf-lbl > .t { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"差异"; font-size:13.5px; line-height:19px; }
+}
+
+.pf-row[data-q^="branches" i][data-q*="git branch" i] > .pf-lbl > .t { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"分支"; font-size:13.5px; line-height:19px; }
+}
+
+.pf-row[data-q^="tags" i][data-q*="git tag" i] > .pf-lbl > .t { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"标签"; font-size:13.5px; line-height:19px; }
+}
+
+.pf-row[data-q^="remotes" i][data-q*="git remote -v" i] > .pf-lbl > .t { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"远程仓库"; font-size:13.5px; line-height:19px; }
+}
+
+.pf-row[data-q^="fetch and push" i][data-q*="git fetch, git pull, git push, git clone" i] > .pf-lbl > .t { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"拉取与推送"; font-size:13.5px; line-height:19px; }
+}
+
+.pf-row[data-q^="tracked files" i][data-q*="git ls-files, git ls-tree -r" i] > .pf-lbl > .t { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"已跟踪文件"; font-size:13.5px; line-height:19px; }
+}
+
+.pf-row[data-q^="log" i][data-q*="git log" i] > .pf-lbl > .t { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"提交日志"; font-size:13.5px; line-height:19px; }
+}
+
+.pf-row[data-q^="commits and files" i][data-q*="git show" i] > .pf-lbl > .t { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"提交与文件"; font-size:13.5px; line-height:19px; }
+}
+
+.pf-row[data-q^="reflog" i][data-q*="git reflog" i] > .pf-lbl > .t { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"引用日志"; font-size:13.5px; line-height:19px; }
+}
+
+.pf-row[data-q^="stashes" i][data-q*="git stash list, git stash show" i] > .pf-lbl > .t { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"暂存栈"; font-size:13.5px; line-height:19px; }
+}
+
+.pf-row[data-q^="blame" i][data-q*="git blame" i] > .pf-lbl > .t { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"逐行追溯"; font-size:13.5px; line-height:19px; }
+}
+
+.pf-row[data-q^="authors" i][data-q*="git shortlog" i] > .pf-lbl > .t { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"作者"; font-size:13.5px; line-height:19px; }
+}
+
+.pf-sec:has(.pf-row[data-q^="log" i][data-q*="git log" i]) > .pf-sec-t { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"Git 历史"; font-size:12px; line-height:16px; }
+}
+
+.pf-row[data-q^="github lists" i][data-q*="gh pr list, gh issue list, gh run list, gh" i] > .pf-lbl > .t { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"GitHub 列表"; font-size:13.5px; line-height:19px; }
+}
+
+.pf-row[data-q^="github details" i][data-q*="gh pr view, gh issue view, gh pr checks, gh" i] > .pf-lbl > .t { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"GitHub 详情"; font-size:13.5px; line-height:19px; }
+}
+
+.pf-row[data-q^="jujutsu log" i][data-q*="jj log" i] > .pf-lbl > .t { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"Jujutsu 日志"; font-size:13.5px; line-height:19px; }
+}
+
+.pf-row[data-q^="jujutsu status" i][data-q*="jj status" i] > .pf-lbl > .t { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"Jujutsu 状态"; font-size:13.5px; line-height:19px; }
+}
+
+.pf-row[data-q^="jujutsu diffs" i][data-q*="jj diff --git" i] > .pf-lbl > .t { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"Jujutsu 差异"; font-size:13.5px; line-height:19px; }
+}
+
+.pf-sec:has(.pf-row[data-q^="github lists" i][data-q*="gh pr list, gh issue list, gh run list, gh" i]) > .pf-sec-t { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"GitHub 与 Jujutsu"; font-size:12px; line-height:16px; }
+}
+
+.pf-row[data-q^="listings" i][data-q*="ls, eza, lsd" i] > .pf-lbl > .t { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"文件列表"; font-size:13.5px; line-height:19px; }
+}
+
+.pf-row[data-q^="trees" i][data-q*="tree, eza --tree" i] > .pf-lbl > .t { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"目录树"; font-size:13.5px; line-height:19px; }
+}
+
+.pf-row[data-q^="found files" i][data-q*="find, fd" i] > .pf-lbl > .t { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"找到的文件"; font-size:13.5px; line-height:19px; }
+}
+
+.pf-row[data-q^="disk usage" i][data-q*="du, dust" i] > .pf-lbl > .t { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"磁盘用量"; font-size:13.5px; line-height:19px; }
+}
+
+.pf-row[data-q^="counts" i][data-q*="wc" i] > .pf-lbl > .t { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"计数"; font-size:13.5px; line-height:19px; }
+}
+
+.pf-row[data-q^="file details" i][data-q*="stat, file" i] > .pf-lbl > .t { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"文件详情"; font-size:13.5px; line-height:19px; }
+}
+
+.pf-row[data-q^="command lookup" i][data-q*="which, whereis, type, command -v" i] > .pf-lbl > .t { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"查找命令"; font-size:13.5px; line-height:19px; }
+}
+
+.pf-sec:has(.pf-row[data-q^="listings" i][data-q*="ls, eza, lsd" i]) > .pf-sec-t { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"文件"; font-size:12px; line-height:16px; }
+}
+
+.pf-row[data-q^="file contents" i][data-q*="cat, bat, head, tail" i] > .pf-lbl > .t { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"文件内容"; font-size:13.5px; line-height:19px; }
+}
+
+.pf-row[data-q^="followed logs" i][data-q*="tail -f" i] > .pf-lbl > .t { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"实时日志"; font-size:13.5px; line-height:19px; }
+}
+
+.pf-row[data-q^="diffs" i][data-q*="diff -u" i] > .pf-lbl > .t { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"差异"; font-size:13.5px; line-height:19px; }
+}
+
+.pf-row[data-q^="json and yaml" i][data-q*="jq, yq, gron" i] > .pf-lbl > .t { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"JSON 与 YAML"; font-size:13.5px; line-height:19px; }
+}
+
+.pf-row[data-q^="query results" i][data-q*="sqlite3, psql, mysql, duckdb" i] > .pf-lbl > .t { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"查询结果"; font-size:13.5px; line-height:19px; }
+}
+
+.pf-row[data-q^="tables" i][data-q*="column -t, csvlook" i] > .pf-lbl > .t { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"表格"; font-size:13.5px; line-height:19px; }
+}
+
+.pf-sec:has(.pf-row[data-q^="file contents" i][data-q*="cat, bat, head, tail" i]) > .pf-sec-t { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"查看器"; font-size:12px; line-height:16px; }
+}
+
+.pf-row[data-q^="matches" i][data-q*="rg, grep, ag, ack, git grep" i] > .pf-lbl > .t { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"匹配结果"; font-size:13.5px; line-height:19px; }
+}
+
+.pf-sec:has(.pf-row[data-q^="matches" i][data-q*="rg, grep, ag, ack, git grep" i]) > .pf-sec-t { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"搜索"; font-size:12px; line-height:16px; }
+}
+
+.pf-row[data-q^="cargo builds" i][data-q*="cargo build, cargo check, cargo clippy," i] > .pf-lbl > .t { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"Cargo 构建"; font-size:13.5px; line-height:19px; }
+}
+
+.pf-row[data-q^="cargo tests" i][data-q*="cargo test, cargo bench, cargo nextest run" i] > .pf-lbl > .t { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"Cargo 测试"; font-size:13.5px; line-height:19px; }
+}
+
+.pf-row[data-q^="cargo dependency trees" i][data-q*="cargo tree" i] > .pf-lbl > .t { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"Cargo 依赖树"; font-size:13.5px; line-height:19px; }
+}
+
+.pf-row[data-q^="compiler diagnostics" i][data-q*="rustc, clang, gcc, swiftc" i] > .pf-lbl > .t { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"编译器诊断"; font-size:13.5px; line-height:19px; }
+}
+
+.pf-row[data-q^="build runners" i][data-q*="make, ninja, cmake --build, just" i] > .pf-lbl > .t { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"构建工具"; font-size:13.5px; line-height:19px; }
+}
+
+.pf-row[data-q^="swift and xcode" i][data-q*="swift build, swift test, xcodebuild" i] > .pf-lbl > .t { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"Swift 与 Xcode"; font-size:13.5px; line-height:19px; }
+}
+
+.pf-sec:has(.pf-row[data-q^="cargo builds" i][data-q*="cargo build, cargo check, cargo clippy," i]) > .pf-sec-t { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"构建"; font-size:12px; line-height:16px; }
+}
+
+.pf-row[data-q^="type errors" i][data-q*="tsc, vue-tsc" i] > .pf-lbl > .t { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"类型错误"; font-size:13.5px; line-height:19px; }
+}
+
+.pf-row[data-q^="lint and format checks" i][data-q*="eslint, oxlint, biome, prettier --check" i] > .pf-lbl > .t { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"代码规范与格式检查"; font-size:13.5px; line-height:19px; }
+}
+
+.pf-row[data-q^="tests" i][data-q*="jest, vitest run, node --test, mocha, bun" i] > .pf-lbl > .t { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"测试"; font-size:13.5px; line-height:19px; }
+}
+
+.pf-row[data-q^="installs" i][data-q*="npm install, bun add, pnpm update, yarn add" i] > .pf-lbl > .t { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"安装"; font-size:13.5px; line-height:19px; }
+}
+
+.pf-row[data-q^="packages and scripts" i][data-q*="npm outdated, npm ls, npm why, pnpm why," i] > .pf-lbl > .t { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"软件包与脚本"; font-size:13.5px; line-height:19px; }
+}
+
+.pf-row[data-q^="python tests" i][data-q*="pytest" i] > .pf-lbl > .t { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"Python 测试"; font-size:13.5px; line-height:19px; }
+}
+
+.pf-row[data-q^="python checks" i][data-q*="ruff check, mypy, pyright, flake8" i] > .pf-lbl > .t { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"Python 检查"; font-size:13.5px; line-height:19px; }
+}
+
+.pf-row[data-q^="python packages" i][data-q*="pip list, pip show, pip install, uv tree," i] > .pf-lbl > .t { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"Python 软件包"; font-size:13.5px; line-height:19px; }
+}
+
+.pf-row[data-q^="go tests" i][data-q*="go test" i] > .pf-lbl > .t { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"Go 测试"; font-size:13.5px; line-height:19px; }
+}
+
+.pf-row[data-q^="go builds" i][data-q*="go build, go vet, go install, go mod tidy" i] > .pf-lbl > .t { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"Go 构建"; font-size:13.5px; line-height:19px; }
+}
+
+.pf-sec:has(.pf-row[data-q^="python tests" i][data-q*="pytest" i]) > .pf-sec-t { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"Python 与 Go"; font-size:12px; line-height:16px; }
+}
+
+.pf-row[data-q^="processes" i][data-q*="ps, pgrep -l" i] > .pf-lbl > .t { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"进程"; font-size:13.5px; line-height:19px; }
+}
+
+.pf-row[data-q^="disks" i][data-q*="df" i] > .pf-lbl > .t { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"磁盘"; font-size:13.5px; line-height:19px; }
+}
+
+.pf-row[data-q^="environment" i][data-q*="env, printenv, export -p" i] > .pf-lbl > .t { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"环境变量"; font-size:13.5px; line-height:19px; }
+}
+
+.pf-row[data-q^="sockets" i][data-q*="lsof -i, netstat, ss" i] > .pf-lbl > .t { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"套接字"; font-size:13.5px; line-height:19px; }
+}
+
+.pf-row[data-q^="load and memory" i][data-q*="uptime, free, vm_stat" i] > .pf-lbl > .t { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"负载与内存"; font-size:13.5px; line-height:19px; }
+}
+
+.pf-row[data-q^="system info" i][data-q*="uname -a, sw_vers, hostnamectl, lsb_release" i] > .pf-lbl > .t { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"系统信息"; font-size:13.5px; line-height:19px; }
+}
+
+.pf-row[data-q^="shell history" i][data-q*="history, fc -l" i] > .pf-lbl > .t { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"Shell 历史"; font-size:13.5px; line-height:19px; }
+}
+
+.pf-row[data-q^="calendar" i][data-q*="cal" i] > .pf-lbl > .t { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"日历"; font-size:13.5px; line-height:19px; }
+}
+
+.pf-sec:has(.pf-row[data-q^="processes" i][data-q*="ps, pgrep -l" i]) > .pf-sec-t { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"系统"; font-size:12px; line-height:16px; }
+}
+
+.pf-row[data-q^="ping" i][data-q*="ping" i] > .pf-lbl > .t { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"连通性测试"; font-size:13.5px; line-height:19px; }
+}
+
+.pf-row[data-q^="routes" i][data-q*="traceroute, mtr --report" i] > .pf-lbl > .t { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"路由追踪"; font-size:13.5px; line-height:19px; }
+}
+
+.pf-sec:has(.pf-row[data-q^="ping" i][data-q*="ping" i]) > .pf-sec-t { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"网络"; font-size:12px; line-height:16px; }
+}
+
+.pf-row[data-q^="containers and images" i][data-q*="docker ps, docker images, docker compose ps" i] > .pf-lbl > .t { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"容器与镜像"; font-size:13.5px; line-height:19px; }
+}
+
+.pf-row[data-q^="container builds" i][data-q*="docker build, docker pull, docker push," i] > .pf-lbl > .t { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"容器构建"; font-size:13.5px; line-height:19px; }
+}
+
+.pf-row[data-q^="container logs" i][data-q*="docker logs, kubectl logs" i] > .pf-lbl > .t { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"容器日志"; font-size:13.5px; line-height:19px; }
+}
+
+.pf-row[data-q^="kubernetes resources" i][data-q*="kubectl get, kubectl top" i] > .pf-lbl > .t { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"Kubernetes 资源"; font-size:13.5px; line-height:19px; }
+}
+
+.pf-row[data-q^="kubernetes details" i][data-q*="kubectl describe, kubectl get -o yaml" i] > .pf-lbl > .t { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"Kubernetes 详情"; font-size:13.5px; line-height:19px; }
+}
+
+.pf-row[data-q^="helm releases" i][data-q*="helm list, helm status" i] > .pf-lbl > .t { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"Helm 发布"; font-size:13.5px; line-height:19px; }
+}
+
+.pf-row[data-q^="terraform plans" i][data-q*="terraform plan, terraform apply, terraform" i] > .pf-lbl > .t { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"Terraform 计划"; font-size:13.5px; line-height:19px; }
+}
+
+.pf-row[data-q^="cloud clis" i][data-q*="aws, gcloud --format json, az" i] > .pf-lbl > .t { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"云服务命令行"; font-size:13.5px; line-height:19px; }
+}
+
+.pf-sec:has(.pf-row[data-q^="containers and images" i][data-q*="docker ps, docker images, docker compose ps" i]) > .pf-sec-t { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"容器与云服务"; font-size:12px; line-height:16px; }
+}
+
+.pf-row[data-q^="manual pages" i][data-q*="man" i] > .pf-lbl > .t { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"手册页"; font-size:13.5px; line-height:19px; }
+}
+
+.pf-row[data-q^="tldr pages" i][data-q*="tldr" i] > .pf-lbl > .t { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"tldr 速查页"; font-size:13.5px; line-height:19px; }
+}
+
+.pf-row[data-q^="help" i][data-q*="--help, -h, help" i] > .pf-lbl > .t { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"帮助"; font-size:13.5px; line-height:19px; }
+}
+
+.pf-sec:has(.pf-row[data-q^="manual pages" i][data-q*="man" i]) > .pf-sec-t { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"文档"; font-size:12px; line-height:16px; }
+}
+
+.pf-nav:has(.nav-row[aria-label="Databases"][aria-selected="true"]):not(:has(.pf-search.has-text)) + .pf-scroll > .pf-doc > .pf-head > .pf-title { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"数据库"; font-size:22px; line-height:28px; }
+}
+
+.pf-row[data-q^="default location" i][data-q*="where new database and open database start." i] > .pf-lbl > .t { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"默认位置"; font-size:13.5px; line-height:19px; }
+}
+
+.pf-row[data-q^="default location" i][data-q*="where new database and open database start." i] > .pf-lbl > .h { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"新建或打开数据库时默认显示的文件夹。"; font-size:12px; line-height:17px; }
+}
+
+.pf-row[data-q^="folder" i][data-q*="where always use this location starts, and" i] > .pf-lbl > .t { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"文件夹"; font-size:13.5px; line-height:19px; }
+}
+
+.pf-row[data-q^="folder" i][data-q*="where always use this location starts, and" i] > .pf-lbl > .h { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"选择“始终使用此位置”时从此文件夹开始；选择“当前会话的位置”时，每次启动的初始文件夹也使用这里。"; font-size:12px; line-height:17px; }
+}
+
+.pf-row[data-q^="recent files" i][data-q*="how many databases open recent lists." i] > .pf-lbl > .t { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"最近打开的文件"; font-size:13.5px; line-height:19px; }
+}
+
+.pf-row[data-q^="recent files" i][data-q*="how many databases open recent lists." i] > .pf-lbl > .h { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"“最近打开的数据库”最多列出的数量。"; font-size:12px; line-height:17px; }
+}
+
+.pf-row[data-q^="read-only recent shortcuts" i][data-q*="ctrl+alt+shift+–9 open recent databases" i] > .pf-lbl > .t { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"反转最近数据库快捷键的只读模式"; font-size:13.5px; line-height:19px; }
+}
+
+.pf-row[data-q^="read-only recent shortcuts" i][data-q*="ctrl+alt+shift+–9 open recent databases" i][data-q*="ctrl+alt+shift+–9 open recent databases with read-only inverted, as ctrl+–9 open them." i] > .pf-lbl > .h { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"与 Ctrl+数字键相比，Ctrl+Alt+Shift+数字键会反转只读模式来打开同一最近数据库。"; font-size:12px; line-height:17px; }
+}
+
+.pf-row[data-q^="reopen databases on restore" i][data-q*="restored database blocks open their file at" i] > .pf-lbl > .t { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"恢复时重新打开数据库"; font-size:13.5px; line-height:19px; }
+}
+
+.pf-row[data-q^="reopen databases on restore" i][data-q*="restored database blocks open their file at" i] > .pf-lbl > .h { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"恢复数据库区块时立即打开其文件。关闭后，需要点击“打开”。"; font-size:12px; line-height:17px; }
+}
+
+.pf-row[data-q^="ask about sql tabs" i][data-q*="saving a project asks whether to keep each" i] > .pf-lbl > .t { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"保存 SQL 标签页前询问"; font-size:13.5px; line-height:19px; }
+}
+
+.pf-row[data-q^="ask about sql tabs" i][data-q*="saving a project asks whether to keep each" i] > .pf-lbl > .h { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"保存项目时，询问是否保留各 SQL 标签页中的文本。"; font-size:12px; line-height:17px; }
+}
+
+.pf-sec:has(.pf-row[data-q^="default location" i][data-q*="where new database and open database start." i]) > .pf-sec-t { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"常规"; font-size:12px; line-height:16px; }
+}
+
+.pf-row[data-q^="file types" i][data-q*="what the open and save dialogs offer before" i] > .pf-lbl > .t { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"文件类型"; font-size:13.5px; line-height:19px; }
+}
+
+.pf-row[data-q^="file types" i][data-q*="what the open and save dialogs offer before" i] > .pf-lbl > .h { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"在打开和保存对话框的“所有文件”前列出的类型。多个匹配模式用空格分隔。"; font-size:12px; line-height:17px; }
+}
+
+.pf-sec:has(.pf-row[data-q^="file types" i][data-q*="what the open and save dialogs offer before" i]) > .pf-sec-t { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"数据库文件类型"; font-size:12px; line-height:16px; }
+}
+
+.pf-row[data-q^="default encoding" i][data-q*="the text encoding new databases get." i] > .pf-lbl > .t { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"默认编码"; font-size:13.5px; line-height:19px; }
+}
+
+.pf-row[data-q^="default encoding" i][data-q*="the text encoding new databases get." i] > .pf-lbl > .h { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"新建数据库使用的文本编码。"; font-size:12px; line-height:17px; }
+}
+
+.pf-row[data-q^="foreign keys" i][data-q*="turn on foreign key checks when a database" i] > .pf-lbl > .t { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"外键"; font-size:13.5px; line-height:19px; }
+}
+
+.pf-row[data-q^="foreign keys" i][data-q*="turn on foreign key checks when a database" i] > .pf-lbl > .h { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"打开数据库时启用外键检查。"; font-size:12px; line-height:17px; }
+}
+
+.pf-row[data-q^="remove line breaks in schema" i][data-q*="the structure shows each create statement" i] > .pf-lbl > .t { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"移除结构定义中的换行"; font-size:13.5px; line-height:19px; }
+}
+
+.pf-row[data-q^="remove line breaks in schema" i][data-q*="the structure shows each create statement" i] > .pf-lbl > .h { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"在结构视图中用一行显示每条 CREATE 语句。"; font-size:12px; line-height:17px; }
+}
+
+.pf-row[data-q^="prefetch block size" i][data-q*="rows the data browser fetches at a time." i] > .pf-lbl > .t { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"预读取行数"; font-size:13.5px; line-height:19px; }
+}
+
+.pf-row[data-q^="prefetch block size" i][data-q*="rows the data browser fetches at a time." i] > .pf-lbl > .h { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"数据浏览器每次读取的行数。"; font-size:12px; line-height:17px; }
+}
+
+.pf-row[data-q^="default field type" i][data-q*="the type new fields get in edit table." i] > .pf-lbl > .t { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"默认字段类型"; font-size:13.5px; line-height:19px; }
+}
+
+.pf-row[data-q^="default field type" i][data-q*="the type new fields get in edit table." i] > .pf-lbl > .h { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"在“编辑表”中新建字段时使用的类型。"; font-size:12px; line-height:17px; }
+}
+
+.pf-row[data-q^="structure font size" i][data-q*="the size of the structure's text at the" i] > .pf-lbl > .t { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"结构视图字号"; font-size:13.5px; line-height:19px; }
+}
+
+.pf-row[data-q^="structure font size" i][data-q*="the size of the structure's text at the" i] > .pf-lbl > .h { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"结构视图在默认字号下的文字大小，随 Tern 字号缩放。"; font-size:12px; line-height:17px; }
+}
+
+.pf-row[data-q^="refresh read-only databases" i][data-q*="a database opened read-only reloads when" i] > .pf-lbl > .t { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"刷新只读数据库"; font-size:13.5px; line-height:19px; }
+}
+
+.pf-row[data-q^="refresh read-only databases" i][data-q*="a database opened read-only reloads when" i] > .pf-lbl > .h { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"以只读方式打开的数据库在磁盘文件变动时自动重新加载。"; font-size:12px; line-height:17px; }
+}
+
+.pf-row[data-q^="don't ask about collations" i][data-q*="a database using a collation sqlite doesn't" i] > .pf-lbl > .t { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"遇到未知排序规则时不询问"; font-size:13.5px; line-height:19px; }
+}
+
+.pf-row[data-q^="don't ask about collations" i][data-q*="a database using a collation sqlite doesn't" i] > .pf-lbl > .h { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"如 SQLite 不认识数据库的排序规则，直接采用较短文本排在前面的替代规则。"; font-size:12px; line-height:17px; }
+}
+
+.pf-row[data-q^="sql to run after opening" i][data-q*="runs on every database opened for writing," i] > .pf-lbl > .t { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"打开后执行的 SQL"; font-size:13.5px; line-height:19px; }
+}
+
+.pf-row[data-q^="sql to run after opening" i][data-q*="runs on every database opened for writing," i] > .pf-lbl > .h { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"每次以可写方式打开数据库后执行的语句，例如 PRAGMA 语句。"; font-size:12px; line-height:17px; }
+}
+
+.pf-sec:has(.pf-row[data-q^="default encoding" i][data-q*="the text encoding new databases get." i]) > .pf-sec-t { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"数据库"; font-size:12px; line-height:16px; }
+}
+
+.pf-row[data-q^="font" i][data-q*="the grid's font family. empty uses tern's" i] > .pf-lbl > .t { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"字体"; font-size:13.5px; line-height:19px; }
+}
+
+.pf-row[data-q^="font" i][data-q*="the grid's font family. empty uses tern's" i][data-q*="the grid's font family. empty uses tern's monospace face." i] > .pf-lbl > .h { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"数据表格的字体。留空时使用 Tern 的等宽字体。"; font-size:12px; line-height:17px; }
+}
+
+.pf-row[data-q^="font size" i][data-q*="the size of the grid's and edit cell's text" i] > .pf-lbl > .t { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"字号"; font-size:13.5px; line-height:19px; }
+}
+
+.pf-row[data-q^="font size" i][data-q*="the size of the grid's and edit cell's text" i] > .pf-lbl > .h { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"表格和单元格编辑器在默认字号下的文字大小，随界面字号缩放。"; font-size:12px; line-height:17px; }
+}
+
+.pf-row[data-q^="row limit" i][data-q*="most rows a table or query shows in the" i] > .pf-lbl > .t { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"行数上限"; font-size:13.5px; line-height:19px; }
+}
+
+.pf-row[data-q^="row limit" i][data-q*="most rows a table or query shows in the" i] > .pf-lbl > .h { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"表格中最多显示的表记录或查询结果行数。"; font-size:12px; line-height:17px; }
+}
+
+.pf-row[data-q^="symbol limit in cell" i][data-q*="characters a cell shows before it cuts its" i] > .pf-lbl > .t { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"单元格字符上限"; font-size:13.5px; line-height:19px; }
+}
+
+.pf-row[data-q^="symbol limit in cell" i][data-q*="characters a cell shows before it cuts its" i] > .pf-lbl > .h { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"单元格内显示的最大字符数，超出时截断。"; font-size:12px; line-height:17px; }
+}
+
+.pf-row[data-q^="completion threshold" i][data-q*="past this many rows, filters stop" i] > .pf-lbl > .t { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"补全阈值"; font-size:13.5px; line-height:19px; }
+}
+
+.pf-row[data-q^="completion threshold" i][data-q*="past this many rows, filters stop" i] > .pf-lbl > .h { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"超过此行数后，筛选器停止补全字段值，表格停止计算列总和。"; font-size:12px; line-height:17px; }
+}
+
+.pf-row[data-q^="show images in cells" i][data-q*="cells holding an image show it." i] > .pf-lbl > .t { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"显示单元格图像"; font-size:13.5px; line-height:19px; }
+}
+
+.pf-row[data-q^="show images in cells" i][data-q*="cells holding an image show it." i] > .pf-lbl > .h { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"在含有图像的单元格中直接显示图像。"; font-size:12px; line-height:17px; }
+}
+
+.pf-row[data-q^="wrap text in cells" i][data-q*="long text wraps onto more lines in its cell." i] > .pf-lbl > .t { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"单元格内自动换行"; font-size:13.5px; line-height:19px; }
+}
+
+.pf-row[data-q^="wrap text in cells" i][data-q*="long text wraps onto more lines in its cell." i] > .pf-lbl > .h { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"单元格中的长文本自动换行。"; font-size:12px; line-height:17px; }
+}
+
+.pf-row[data-q^="filter delay" i][data-q*="how long after typing stops a filter" i] > .pf-lbl > .t { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"筛选延迟"; font-size:13.5px; line-height:19px; }
+}
+
+.pf-row[data-q^="filter delay" i][data-q*="how long after typing stops a filter" i] > .pf-lbl > .h { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"停止输入后等待多久应用筛选条件。"; font-size:12px; line-height:17px; }
+}
+
+.pf-row[data-q^="escape character" i][data-q*="put before % or _ in a filter to match it" i] > .pf-lbl > .t { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"转义字符"; font-size:13.5px; line-height:19px; }
+}
+
+.pf-row[data-q^="escape character" i][data-q*="put before % or _ in a filter to match it" i] > .pf-lbl > .h { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"在筛选条件中的 % 或 _ 前加上此字符，即可按字面值匹配。"; font-size:12px; line-height:17px; }
+}
+
+.pf-row[data-q^="null text" i][data-q*="what cells holding null read." i] > .pf-lbl > .t { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"NULL 显示文本"; font-size:13.5px; line-height:19px; }
+}
+
+.pf-row[data-q^="null text" i][data-q*="what cells holding null read." i] > .pf-lbl > .h { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"值为 NULL 的单元格所显示的文字。"; font-size:12px; line-height:17px; }
+}
+
+.pf-row[data-q^="blob text" i][data-q*="what cells holding binary data read." i] > .pf-lbl > .t { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"BLOB 显示文本"; font-size:13.5px; line-height:19px; }
+}
+
+.pf-row[data-q^="blob text" i][data-q*="what cells holding binary data read." i] > .pf-lbl > .h { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"含二进制数据的单元格所显示的文字。"; font-size:12px; line-height:17px; }
+}
+
+.pf-sec:has(.pf-row[data-q^="font" i][data-q*="the grid's font family. empty uses tern's" i]) > .pf-sec-t { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"数据浏览器"; font-size:12px; line-height:16px; }
+}
+
+.pf-row[data-q^="null cells" i][data-q*="text and background, as #rrggbb. empty" i] > .pf-lbl > .t { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"NULL 单元格"; font-size:13.5px; line-height:19px; }
+}
+
+.pf-row[data-q^="null cells" i][data-q*="text and background, as #rrggbb. empty" i] > .pf-lbl > .h { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"文字色和背景色使用 #rrggbb 格式。留空时使用主题颜色。"; font-size:12px; line-height:17px; }
+}
+
+.pf-row[data-q^="blob cells" i][data-q*="text and background, as #rrggbb. empty" i] > .pf-lbl > .t { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"BLOB 单元格"; font-size:13.5px; line-height:19px; }
+}
+
+.pf-row[data-q^="blob cells" i][data-q*="text and background, as #rrggbb. empty" i] > .pf-lbl > .h { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"文字色和背景色使用 #rrggbb 格式。留空时使用主题颜色。"; font-size:12px; line-height:17px; }
+}
+
+.pf-row[data-q^="regular cells" i][data-q*="text and background, as #rrggbb. empty" i] > .pf-lbl > .t { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"普通单元格"; font-size:13.5px; line-height:19px; }
+}
+
+.pf-row[data-q^="regular cells" i][data-q*="text and background, as #rrggbb. empty" i] > .pf-lbl > .h { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"文字色和背景色使用 #rrggbb 格式。留空时使用主题颜色。"; font-size:12px; line-height:17px; }
+}
+
+.pf-row[data-q^="formatted cells" i][data-q*="text and background, as #rrggbb. empty" i] > .pf-lbl > .t { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"格式化单元格"; font-size:13.5px; line-height:19px; }
+}
+
+.pf-row[data-q^="formatted cells" i][data-q*="text and background, as #rrggbb. empty" i] > .pf-lbl > .h { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"文字色和背景色使用 #rrggbb 格式。留空时使用主题颜色。"; font-size:12px; line-height:17px; }
+}
+
+.pf-sec:has(.pf-row[data-q^="null cells" i][data-q*="text and background, as #rrggbb. empty" i]) > .pf-sec-t { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"单元格颜色"; font-size:12px; line-height:16px; }
+}
+
+.pf-row[data-q^="compact indent" i][data-q*="json and xml indent with fewer spaces." i] > .pf-lbl > .t { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"紧凑缩进"; font-size:13.5px; line-height:19px; }
+}
+
+.pf-row[data-q^="compact indent" i][data-q*="json and xml indent with fewer spaces." i] > .pf-lbl > .h { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"格式化 JSON 和 XML 时减少每级缩进的空格数。"; font-size:12px; line-height:17px; }
+}
+
+.pf-row[data-q^="sort json keys" i][data-q*="formatting json orders each object's keys." i] > .pf-lbl > .t { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"对 JSON 键排序"; font-size:13.5px; line-height:19px; }
+}
+
+.pf-row[data-q^="sort json keys" i][data-q*="formatting json orders each object's keys." i] > .pf-lbl > .h { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"格式化 JSON 时对每个对象的键排序。"; font-size:12px; line-height:17px; }
+}
+
+.pf-row[data-q^="switch mode automatically" i][data-q*="the editor picks text, json, xml or image" i] > .pf-lbl > .t { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"自动切换模式"; font-size:13.5px; line-height:19px; }
+}
+
+.pf-row[data-q^="switch mode automatically" i][data-q*="the editor picks text, json, xml or image" i] > .pf-lbl > .h { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"编辑器根据单元格内容选择文本、JSON、XML 或图像模式。"; font-size:12px; line-height:17px; }
+}
+
+.pf-row[data-q^="wrap text" i][data-q*="long lines wrap in the cell editor." i] > .pf-lbl > .t { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"文本自动换行"; font-size:13.5px; line-height:19px; }
+}
+
+.pf-row[data-q^="wrap text" i][data-q*="long lines wrap in the cell editor." i] > .pf-lbl > .h { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"单元格编辑器中的长行自动换行。"; font-size:12px; line-height:17px; }
+}
+
+.pf-sec:has(.pf-row[data-q^="compact indent" i][data-q*="json and xml indent with fewer spaces." i]) > .pf-sec-t { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"单元格编辑器"; font-size:12px; line-height:16px; }
+}
+
+.pf-row[data-q^="write a select" i][data-q*="dropping a table or its columns writes a" i] > .pf-lbl > .t { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"生成 SELECT 语句"; font-size:13.5px; line-height:19px; }
+}
+
+.pf-row[data-q^="write a select" i][data-q*="dropping a table or its columns writes a" i] > .pf-lbl > .h { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"拖入表或列时生成相应的查询语句。"; font-size:12px; line-height:17px; }
+}
+
+.pf-row[data-q^="write an insert" i][data-q*="dropping writes an insert of them." i] > .pf-lbl > .t { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"生成 INSERT 语句"; font-size:13.5px; line-height:19px; }
+}
+
+.pf-row[data-q^="write an insert" i][data-q*="dropping writes an insert of them." i] > .pf-lbl > .h { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"拖入时为所选表或列生成 INSERT 语句。"; font-size:12px; line-height:17px; }
+}
+
+.pf-row[data-q^="qualified names" i][data-q*="names come with their schema: main.users." i] > .pf-lbl > .t { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"使用限定名称"; font-size:13.5px; line-height:19px; }
+}
+
+.pf-row[data-q^="qualified names" i][data-q*="names come with their schema: main.users." i] > .pf-lbl > .h { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"名称包含所属架构，例如 main.users。"; font-size:12px; line-height:17px; }
+}
+
+.pf-row[data-q^="quoted names" i][data-q*="names come quoted as the sql page's" i] > .pf-lbl > .t { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"为名称加引号"; font-size:13.5px; line-height:19px; }
+}
+
+.pf-row[data-q^="quoted names" i][data-q*="names come quoted as the sql page's" i] > .pf-lbl > .h { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"按 SQL 编辑器的标识符引号设置引用名称。"; font-size:12px; line-height:17px; }
+}
+
+.pf-sec:has(.pf-row[data-q^="write a select" i][data-q*="dropping a table or its columns writes a" i]) > .pf-sec-t { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"从结构视图拖放"; font-size:12px; line-height:16px; }
+}
+
+.pf-row[data-q^="font" i][data-q*="the sql editor's font family. empty uses" i] > .pf-lbl > .t { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"字体"; font-size:13.5px; line-height:19px; }
+}
+
+.pf-row[data-q^="font" i][data-q*="the sql editor's font family. empty uses" i][data-q*="the sql editor's font family. empty uses tern's monospace face." i] > .pf-lbl > .h { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"SQL 编辑器的字体。留空时使用 Tern 的等宽字体。"; font-size:12px; line-height:17px; }
+}
+
+.pf-row[data-q^="font size" i][data-q*="the size of the sql editor's text at the" i] > .pf-lbl > .t { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"字号"; font-size:13.5px; line-height:19px; }
+}
+
+.pf-row[data-q^="font size" i][data-q*="the size of the sql editor's text at the" i] > .pf-lbl > .h { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"SQL 编辑器在默认字号下的文字大小，随界面字号缩放。"; font-size:12px; line-height:17px; }
+}
+
+.pf-row[data-q^="results font size" i][data-q*="the size of query messages and the sql log" i] > .pf-lbl > .t { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"结果字号"; font-size:13.5px; line-height:19px; }
+}
+
+.pf-row[data-q^="results font size" i][data-q*="the size of query messages and the sql log" i] > .pf-lbl > .h { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"查询消息和 SQL 日志在默认字号下的文字大小，随 Tern 字号缩放。"; font-size:12px; line-height:17px; }
+}
+
+.pf-row[data-q^="tab size" i][data-q*="columns per tab stop." i] > .pf-lbl > .t { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"制表位宽度"; font-size:13.5px; line-height:19px; }
+}
+
+.pf-row[data-q^="tab size" i][data-q*="columns per tab stop." i] > .pf-lbl > .h { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"每个制表位占用的列数。"; font-size:12px; line-height:17px; }
+}
+
+.pf-row[data-q^="indent with tabs" i][data-q*="tab inserts a tab. off, it inserts spaces." i] > .pf-lbl > .t { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"使用制表符缩进"; font-size:13.5px; line-height:19px; }
+}
+
+.pf-row[data-q^="indent with tabs" i][data-q*="tab inserts a tab. off, it inserts spaces." i] > .pf-lbl > .h { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"按 Tab 插入制表符。关闭后插入空格。"; font-size:12px; line-height:17px; }
+}
+
+.pf-row[data-q^="wrap lines" i][data-q*="how long lines in the sql editor wrap." i] > .pf-lbl > .t { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"自动换行"; font-size:13.5px; line-height:19px; }
+}
+
+.pf-row[data-q^="wrap lines" i][data-q*="how long lines in the sql editor wrap." i] > .pf-lbl > .h { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"SQL 编辑器处理长行的方式。"; font-size:12px; line-height:17px; }
+}
+
+.pf-row[data-q^="identifier quotes" i][data-q*="how generated sql quotes table and column" i] > .pf-lbl > .t { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"标识符引号"; font-size:13.5px; line-height:19px; }
+}
+
+.pf-row[data-q^="identifier quotes" i][data-q*="how generated sql quotes table and column" i] > .pf-lbl > .h { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"生成 SQL 时给表名和列名加引号的方式。"; font-size:12px; line-height:17px; }
+}
+
+.pf-row[data-q^="code completion" i][data-q*="the editor completes keywords, tables and" i] > .pf-lbl > .t { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"代码补全"; font-size:13.5px; line-height:19px; }
+}
+
+.pf-row[data-q^="code completion" i][data-q*="the editor completes keywords, tables and" i] > .pf-lbl > .h { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"输入时补全关键字、表名和列名。"; font-size:12px; line-height:17px; }
+}
+
+.pf-row[data-q^="keyword case" i][data-q*="how completion writes keywords." i] > .pf-lbl > .t { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"关键字大小写"; font-size:13.5px; line-height:19px; }
+}
+
+.pf-row[data-q^="keyword case" i][data-q*="how completion writes keywords." i] > .pf-lbl > .h { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"选择补全关键字时使用的大写或小写形式。"; font-size:12px; line-height:17px; }
+}
+
+.pf-row[data-q^="keyword case" i][data-q*="how completion writes keywords." i] .pf-seg > button:nth-child(2):nth-last-child(1) { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"选择"; font-size:12.5px; line-height:16px; }
+}
+
+.pf-row[data-q^="error indicators" i][data-q*="the editor marks the statement that failed." i] > .pf-lbl > .t { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"错误标记"; font-size:13.5px; line-height:19px; }
+}
+
+.pf-row[data-q^="error indicators" i][data-q*="the editor marks the statement that failed." i] > .pf-lbl > .h { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"在编辑器中标出执行失败的语句。"; font-size:12px; line-height:17px; }
+}
+
+.pf-row[data-q^="side-by-side results" i][data-q*="the editor and its results sit side by" i] > .pf-lbl > .t { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"并排显示结果"; font-size:13.5px; line-height:19px; }
+}
+
+.pf-row[data-q^="side-by-side results" i][data-q*="the editor and its results sit side by" i] > .pf-lbl > .h { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"将编辑器与结果并排显示。关闭后，结果显示在编辑器下方。"; font-size:12px; line-height:17px; }
+}
+
+.pf-row[data-q^="close buttons on tabs" i][data-q*="sql tabs show a close button." i] > .pf-lbl > .t { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"标签页显示关闭按钮"; font-size:13.5px; line-height:19px; }
+}
+
+.pf-row[data-q^="close buttons on tabs" i][data-q*="sql tabs show a close button." i] > .pf-lbl > .h { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"在每个 SQL 标签页上显示关闭按钮。"; font-size:12px; line-height:17px; }
+}
+
+.pf-sec:has(.pf-row[data-q^="font" i][data-q*="the sql editor's font family. empty uses" i]) > .pf-sec-t { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"SQL 编辑器"; font-size:12px; line-height:16px; }
+}
+
+.pf-row[data-q^="extensions" i][data-q*="libraries loaded into every database opened." i] > .pf-lbl > .t { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"扩展"; font-size:13.5px; line-height:19px; }
+}
+
+.pf-row[data-q^="extensions" i][data-q*="libraries loaded into every database opened." i] > .pf-lbl > .h { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"每次打开数据库时加载的扩展库。"; font-size:12px; line-height:17px; }
+}
+
+.pf-row[data-q^="disable regexp" i][data-q*="databases get no regexp function, so an" i] > .pf-lbl > .t { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"禁用 REGEXP"; font-size:13.5px; line-height:19px; }
+}
+
+.pf-row[data-q^="disable regexp" i][data-q*="databases get no regexp function, so an" i] > .pf-lbl > .h { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"取消内置的 REGEXP 函数，以便扩展提供自己的实现。"; font-size:12px; line-height:17px; }
+}
+
+.pf-row[data-q^="allow load_extension from sql" i][data-q*="sql may load extension libraries itself." i] > .pf-lbl > .t { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"允许从 SQL 调用 load_extension"; font-size:13.5px; line-height:19px; }
+}
+
+.pf-row[data-q^="allow load_extension from sql" i][data-q*="sql may load extension libraries itself." i] > .pf-lbl > .h { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"允许 SQL 语句自行加载扩展库。请仅对信任的数据库启用。"; font-size:12px; line-height:17px; }
+}
+
+.pf-sec:has(.pf-row[data-q^="extensions" i][data-q*="libraries loaded into every database opened." i]) > .pf-sec-t { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"扩展"; font-size:12px; line-height:16px; }
+}
+
+.pf-nav:has(.nav-row[aria-label="Notebooks"][aria-selected="true"]):not(:has(.pf-search.has-text)) + .pf-scroll > .pf-doc > .pf-head > .pf-title { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"笔记本"; font-size:22px; line-height:28px; }
+}
+
+.pf-row[data-q^="python interpreter on this machine" i][data-q*="the python this machine's notebooks'" i] > .pf-lbl > .t { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"本机 Python 解释器"; font-size:13.5px; line-height:19px; }
+}
+
+.pf-row[data-q^="python interpreter on this machine" i][data-q*="the python this machine's notebooks'" i] > .pf-lbl > .h { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"本机的笔记本内核默认使用此解释器。笔记本可单独选择解释器，留空时自动选择。远程笔记本使用所在主机的解释器。"; font-size:12px; line-height:17px; }
+}
+
+.pf-row[data-q^="start kernel when a notebook opens" i][data-q*="otherwise the kernel starts on the first" i] > .pf-lbl > .t { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"打开笔记本时启动内核"; font-size:13.5px; line-height:19px; }
+}
+
+.pf-row[data-q^="start kernel when a notebook opens" i][data-q*="otherwise the kernel starts on the first" i] > .pf-lbl > .h { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"关闭后，首次运行单元格或请求补全时才启动内核。"; font-size:12px; line-height:17px; }
+}
+
+.pf-sec:has(.pf-row[data-q^="python interpreter on this machine" i][data-q*="the python this machine's notebooks'" i]) > .pf-sec-t { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"内核"; font-size:12px; line-height:16px; }
+}
+
+.pf-row[data-q^="stop after an error" i][data-q*="cells queued after one that fails don't run." i] > .pf-lbl > .t { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"出错后停止"; font-size:13.5px; line-height:19px; }
+}
+
+.pf-row[data-q^="stop after an error" i][data-q*="cells queued after one that fails don't run." i] > .pf-lbl > .h { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"某个单元格运行失败时，停止执行队列中其余单元格。"; font-size:12px; line-height:17px; }
+}
+
+.pf-row[data-q^="ask before restarting" i][data-q*="restarting the kernel loses every variable," i] > .pf-lbl > .t { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"重启前确认"; font-size:13.5px; line-height:19px; }
+}
+
+.pf-row[data-q^="ask before restarting" i][data-q*="restarting the kernel loses every variable," i] > .pf-lbl > .h { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"重启内核会清空所有变量，因此先请求确认。"; font-size:12px; line-height:17px; }
+}
+
+.pf-sec:has(.pf-row[data-q^="stop after an error" i][data-q*="cells queued after one that fails don't run." i]) > .pf-sec-t { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"运行"; font-size:12px; line-height:16px; }
+}
+
+.pf-row[data-q^="line numbers" i][data-q*="code cells show line numbers (l toggles" i] > .pf-lbl > .t { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"行号"; font-size:13.5px; line-height:19px; }
+}
+
+.pf-row[data-q^="line numbers" i][data-q*="code cells show line numbers (l toggles" i] > .pf-lbl > .h { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"在代码单元格中显示行号。按 L 可切换当前单元格的行号显示。"; font-size:12px; line-height:17px; }
+}
+
+.pf-row[data-q^="wrap code" i][data-q*="long lines in code cells wrap. markdown" i] > .pf-lbl > .t { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"代码自动换行"; font-size:13.5px; line-height:19px; }
+}
+
+.pf-row[data-q^="wrap code" i][data-q*="long lines in code cells wrap. markdown" i] > .pf-lbl > .h { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"代码单元格中的长行自动换行。Markdown 单元格始终自动换行。"; font-size:12px; line-height:17px; }
+}
+
+.pf-row[data-q^="complete while typing" i][data-q*="completions show as you type, not only on" i] > .pf-lbl > .t { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"输入时补全"; font-size:13.5px; line-height:19px; }
+}
+
+.pf-row[data-q^="complete while typing" i][data-q*="completions show as you type, not only on" i] > .pf-lbl > .h { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"输入时就显示补全建议，也可以按 Tab 调出。"; font-size:12px; line-height:17px; }
+}
+
+.pf-sec:has(.pf-row[data-q^="line numbers" i][data-q*="code cells show line numbers (l toggles" i]) > .pf-sec-t { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"编辑"; font-size:12px; line-height:16px; }
+}
+
+.pf-row[data-q^="scroll outputs longer than" i][data-q*="longer outputs scroll inside their cell (o" i] > .pf-lbl > .t { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"超过指定行数时滚动输出"; font-size:13.5px; line-height:19px; }
+}
+
+.pf-row[data-q^="scroll outputs longer than" i][data-q*="longer outputs scroll inside their cell (o" i] > .pf-lbl > .h { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"超长的输出在单元格内部滚动。按 O 可切换当前单元格的滚动方式。"; font-size:12px; line-height:17px; }
+}
+
+.pf-row[data-q^="figure format" i][data-q*="how matplotlib figures render: png, sharp" i] > .pf-lbl > .t { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"图像格式"; font-size:13.5px; line-height:19px; }
+}
+
+.pf-row[data-q^="figure format" i][data-q*="how matplotlib figures render: png, sharp" i] > .pf-lbl > .h { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"选择 matplotlib 的图像格式，包括 PNG、适合 Retina 屏幕的高清 PNG 和矢量 SVG。下次启动内核后生效。"; font-size:12px; line-height:17px; }
+}
+
+.pf-row[data-q^="interactive html outputs" i][data-q*="outputs with scripts (plotly, bokeh," i] > .pf-lbl > .t { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"交互式 HTML 输出"; font-size:13.5px; line-height:19px; }
+}
+
+.pf-row[data-q^="interactive html outputs" i][data-q*="outputs with scripts (plotly, bokeh," i] > .pf-lbl > .h { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"在网页视图中运行含脚本的输出，例如 Plotly、Bokeh 或组件生成的 HTML。关闭后显示静态内容。"; font-size:12px; line-height:17px; }
+}
+
+.pf-sec:has(.pf-row[data-q^="scroll outputs longer than" i][data-q*="longer outputs scroll inside their cell (o" i]) > .pf-sec-t { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"输出"; font-size:12px; line-height:16px; }
+}
+
+.pf-row[data-q^="autosave every" i][data-q*="notebooks with changes save by themselves." i] > .pf-lbl > .t { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"自动保存间隔"; font-size:13.5px; line-height:19px; }
+}
+
+.pf-row[data-q^="autosave every" i][data-q*="notebooks with changes save by themselves." i] > .pf-lbl > .h { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"定期保存已修改的笔记本。按 ⌘S 还会写入一个检查点。"; font-size:12px; line-height:17px; }
+}
+
+.pf-row[data-q^="record execution timing" i][data-q*="cells keep when they started and finished" i] > .pf-lbl > .t { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"记录执行时间"; font-size:13.5px; line-height:19px; }
+}
+
+.pf-row[data-q^="record execution timing" i][data-q*="cells keep when they started and finished" i] > .pf-lbl > .h { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"在单元格元数据中保存运行的起止时间，与 JupyterLab 的对应设置一致。"; font-size:12px; line-height:17px; }
+}
+
+.pf-sec:has(.pf-row[data-q^="autosave every" i][data-q*="notebooks with changes save by themselves." i]) > .pf-sec-t { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"保存"; font-size:12px; line-height:16px; }
+}
+
+.pf-row[data-q^="model" i][data-q*="the omp model carly thinks with: a role" i] > .pf-lbl > .t { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"模型"; font-size:13.5px; line-height:19px; }
+}
+
+.pf-row[data-q^="model" i][data-q*="the omp model carly thinks with: a role" i] > .pf-lbl > .h { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"指定 Carly 使用的 omp 模型。可以填写角色（如 @smol、@default）或模型名称。Carly 使用你已在 omp 中登录的账号。"; font-size:12px; line-height:17px; }
+}
+
+.pf-row[data-q^="memory" i][data-q*="markdown carly reads at the start of every" i] > .pf-lbl > .t { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"记忆"; font-size:13.5px; line-height:19px; }
+}
+
+.pf-row[data-q^="memory" i][data-q*="markdown carly reads at the start of every" i] > .pf-lbl > .h { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"每次对话开始时，Carly 都会读取并持续更新这些 Markdown 文件，记录她自己的设定（SOUL.md）、你的信息（USER.md）、长期记忆（MEMORY.md）、每日笔记和定期检查清单（HEARTBEAT.md）。"; font-size:12px; line-height:17px; }
+}
+
+.pf-sec:has(.pf-row[data-q^="model" i][data-q*="the omp model carly thinks with: a role" i]) > .pf-sec-t { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"智能体"; font-size:12px; line-height:16px; }
+}
+
+.pf-row[data-q^="voice" i][data-q*="the realtime voice the microphone talks to" i] > .pf-lbl > .t { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"语音"; font-size:13.5px; line-height:19px; }
+}
+
+.pf-row[data-q^="voice" i][data-q*="the realtime voice the microphone talks to" i] > .pf-lbl > .h { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"选择实时语音对话的声音。Codex 可选 arbor、breeze、cove、ember、juniper、maple、sol、spruce、vale。留空时使用 omp 的设置。使用语音前，请在 omp 中登录 ChatGPT（Codex），或将 live.endpoint 指向自己的实时语音服务。"; font-size:12px; line-height:17px; }
+}
+
+.pf-row[data-q^="start with voice" i][data-q*="opening carly turns the microphone on, so" i] > .pf-lbl > .t { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"打开时启用语音"; font-size:13.5px; line-height:19px; }
+}
+
+.pf-row[data-q^="start with voice" i][data-q*="opening carly turns the microphone on, so" i] > .pf-lbl > .h { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"打开 Carly 时自动开启麦克风。也可以点击麦克风按钮，或在输入框为空时按回车，切换麦克风状态。"; font-size:12px; line-height:17px; }
+}
+
+.pf-sec:has(.pf-row[data-q^="voice" i][data-q*="the realtime voice the microphone talks to" i]) > .pf-sec-t { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"语音"; font-size:12px; line-height:16px; }
+}
+
+.pf-row[data-q^="every" i][data-q*="carly goes through heartbeat.md this often" i] > .pf-lbl > .t { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"检查间隔"; font-size:13.5px; line-height:19px; }
+}
+
+.pf-row[data-q^="every" i][data-q*="carly goes through heartbeat.md this often" i] > .pf-lbl > .h { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"Carly 按此间隔查看 HEARTBEAT.md，仅在有事项需要你处理时提醒。清单为空时暂停检查。"; font-size:12px; line-height:17px; }
+}
+
+.pf-sec:has(.pf-row[data-q^="every" i][data-q*="carly goes through heartbeat.md this often" i]) > .pf-sec-t { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"定时任务"; font-size:12px; line-height:16px; }
+}
+
+.pf-nav:has(.nav-row[aria-label="Keyboard"][aria-selected="true"]):not(:has(.pf-search.has-text)) + .pf-scroll > .pf-doc > .pf-head > .pf-title { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"快捷键"; font-size:22px; line-height:28px; }
+}
+
+.pf-row[data-q^="auto-fetch" i][data-q*="fetch every remote of the repositories git" i] > .pf-lbl > .t { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"自动获取"; font-size:13.5px; line-height:19px; }
+}
+
+.pf-row[data-q^="auto-fetch" i][data-q*="fetch every remote of the repositories git" i] > .pf-lbl > .h { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"按此间隔在后台获取 Git 区块中各仓库的所有远程更新。"; font-size:12px; line-height:17px; }
+}
+
+.pf-row[data-q^="prune on fetch" i][data-q*="remove remote-tracking branches deleted on" i] > .pf-lbl > .t { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"获取时清理失效分支"; font-size:13.5px; line-height:19px; }
+}
+
+.pf-row[data-q^="prune on fetch" i][data-q*="remove remote-tracking branches deleted on" i] > .pf-lbl > .h { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"清理上游已删除分支对应的本地远程跟踪引用。"; font-size:12px; line-height:17px; }
+}
+
+.pf-row[data-q^="pull button" i][data-q*="how the git block toolbar's pull integrates" i] > .pf-lbl > .t { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"拉取按钮"; font-size:13.5px; line-height:19px; }
+}
+
+.pf-row[data-q^="pull button" i][data-q*="how the git block toolbar's pull integrates" i] > .pf-lbl > .h { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"设置 Git 区块工具栏的「拉取」如何整合上游更改。"; font-size:12px; line-height:17px; }
+}
+
+.pf-row[data-q^="pull button" i][data-q*="how the git block toolbar's pull integrates" i] .pf-seg > button:nth-child(1):nth-last-child(4) { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"仅获取"; font-size:12.5px; line-height:16px; }
+}
+
+.pf-row[data-q^="pull button" i][data-q*="how the git block toolbar's pull integrates" i] .pf-seg > button:nth-child(2):nth-last-child(3) { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"优先快进"; font-size:12.5px; line-height:16px; }
+}
+
+.pf-row[data-q^="pull button" i][data-q*="how the git block toolbar's pull integrates" i] .pf-seg > button:nth-child(3):nth-last-child(2) { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"仅允许快进"; font-size:12.5px; line-height:16px; }
+}
+
+.pf-row[data-q^="pull button" i][data-q*="how the git block toolbar's pull integrates" i] .pf-seg > button:nth-child(4):nth-last-child(1) { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"变基"; font-size:12.5px; line-height:16px; }
+}
+
+.pf-sec:has(.pf-row[data-q^="auto-fetch" i][data-q*="fetch every remote of the repositories git" i]) > .pf-sec-t { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"获取远程更新"; font-size:12px; line-height:16px; }
+}
+
+.pf-row[data-q^="commits loaded first" i][data-q*="history depth read when a repository opens." i] > .pf-lbl > .t { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"首次加载的提交数"; font-size:13.5px; line-height:19px; }
+}
+
+.pf-row[data-q^="commits loaded first" i][data-q*="history depth read when a repository opens." i] > .pf-lbl > .h { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"打开仓库时读取的历史提交数量。"; font-size:12px; line-height:17px; }
+}
+
+.pf-row[data-q^="load more while scrolling" i][data-q*="read older history as you near the end of" i] > .pf-lbl > .t { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"滚动时加载更多提交"; font-size:13.5px; line-height:19px; }
+}
+
+.pf-row[data-q^="load more while scrolling" i][data-q*="read older history as you near the end of" i] > .pf-lbl > .h { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"滚动到提交图底部附近时加载更早的历史记录。"; font-size:12px; line-height:17px; }
+}
+
+.pf-row[data-q^="default branch" i][data-q*="the first branch of repositories you create." i] > .pf-lbl > .t { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"默认分支"; font-size:13.5px; line-height:19px; }
+}
+
+.pf-row[data-q^="default branch" i][data-q*="the first branch of repositories you create." i] > .pf-lbl > .h { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"新建仓库时使用的初始分支。"; font-size:12px; line-height:17px; }
+}
+
+.pf-sec:has(.pf-row[data-q^="commits loaded first" i][data-q*="history depth read when a repository opens." i]) > .pf-sec-t { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"历史记录"; font-size:12px; line-height:16px; }
+}
+
+.pf-row[data-q^="author" i][data-q*="avatar and name of each commit's author." i] > .pf-lbl > .t { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"作者"; font-size:13.5px; line-height:19px; }
+}
+
+.pf-row[data-q^="author" i][data-q*="avatar and name of each commit's author." i] > .pf-lbl > .h { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"显示每次提交作者的头像和姓名。"; font-size:12px; line-height:17px; }
+}
+
+.pf-row[data-q^="date" i][data-q*="when each commit was made." i] > .pf-lbl > .t { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"日期"; font-size:13.5px; line-height:19px; }
+}
+
+.pf-row[data-q^="date" i][data-q*="when each commit was made." i] > .pf-lbl > .h { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"显示每次提交的时间。"; font-size:12px; line-height:17px; }
+}
+
+.pf-row[data-q^="sha" i][data-q*="the abbreviated commit id." i] > .pf-lbl > .h { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"显示缩写的提交 ID。"; font-size:12px; line-height:17px; }
+}
+
+.pf-sec:has(.pf-row[data-q^="author" i][data-q*="avatar and name of each commit's author." i]) > .pf-sec-t { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"提交图列"; font-size:12px; line-height:16px; }
+}
+
+.pf-row[data-q^="side by side" i][data-q*="old and new in two columns (else unified)." i] > .pf-lbl > .t { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"并排比较"; font-size:13.5px; line-height:19px; }
+}
+
+.pf-row[data-q^="side by side" i][data-q*="old and new in two columns (else unified)." i] > .pf-lbl > .h { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"用两栏分别显示新旧内容。关闭后使用统一差异视图。"; font-size:12px; line-height:17px; }
+}
+
+.pf-row[data-q^="open as whole file" i][data-q*="show the full file instead of the changed" i] > .pf-lbl > .t { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"显示完整文件"; font-size:13.5px; line-height:19px; }
+}
+
+.pf-row[data-q^="open as whole file" i][data-q*="show the full file instead of the changed" i] > .pf-lbl > .h { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"显示整个文件，包括未修改的部分。"; font-size:12px; line-height:17px; }
+}
+
+.pf-row[data-q^="file tree" i][data-q*="list changed files as a folder tree (else" i] > .pf-lbl > .t { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"文件树"; font-size:13.5px; line-height:19px; }
+}
+
+.pf-row[data-q^="file tree" i][data-q*="list changed files as a folder tree (else" i] > .pf-lbl > .h { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"按目录树列出已修改的文件。关闭后显示路径列表。"; font-size:12px; line-height:17px; }
+}
+
+.pf-row[data-q^="text encoding" i][data-q*="how blob bytes decode to text in diffs and" i] > .pf-lbl > .t { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"文本编码"; font-size:13.5px; line-height:19px; }
+}
+
+.pf-row[data-q^="text encoding" i][data-q*="how blob bytes decode to text in diffs and" i] > .pf-lbl > .h { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"所有仓库的差异视图和文件视图均用此编码将 Git 对象解码为文本。"; font-size:12px; line-height:17px; }
+}
+
+.pf-row[data-q^="panel sizes" i][data-q*="the graph's column widths and the inspector" i] > .pf-lbl > .t { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"面板尺寸"; font-size:13.5px; line-height:19px; }
+}
+
+.pf-row[data-q^="panel sizes" i][data-q*="the graph's column widths and the inspector" i] > .pf-lbl > .h { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"提交图各列及详情面板的宽度。"; font-size:12px; line-height:17px; }
+}
+
+.pf-sec:has(.pf-row[data-q^="side by side" i][data-q*="old and new in two columns (else unified)." i]) > .pf-sec-t { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"差异视图"; font-size:12px; line-height:16px; }
+}
+
+.pf-sec:has(.gp-profiles) > .pf-sec-t { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"提交身份"; font-size:12px; line-height:16px; }
+}
+
+.pf-sec:has(.gp-add) > .pf-sec-t { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"添加身份配置"; font-size:12px; line-height:16px; }
+}
+
+.pf-row[data-q^="use the ssh agent" i][data-q*="authenticate to ssh remotes through the" i] > .pf-lbl > .t { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"使用 SSH 代理"; font-size:13.5px; line-height:19px; }
+}
+
+.pf-row[data-q^="use the ssh agent" i][data-q*="authenticate to ssh remotes through the" i] > .pf-lbl > .h { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"使用系统 SSH 代理和 ~/.ssh/config 向远程仓库进行身份验证。"; font-size:12px; line-height:17px; }
+}
+
+.pf-row[data-q^="private key" i][data-q*="used when the agent is off." i] > .pf-lbl > .t { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"私钥"; font-size:13.5px; line-height:19px; }
+}
+
+.pf-row[data-q^="private key" i][data-q*="used when the agent is off." i] > .pf-lbl > .h { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"关闭 SSH 代理时使用此密钥。"; font-size:12px; line-height:17px; }
+}
+
+.pf-row[data-q^="public key" i][data-q*="add it to your git host." i] > .pf-lbl > .t { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"公钥"; font-size:13.5px; line-height:19px; }
+}
+
+.pf-row[data-q^="public key" i][data-q*="add it to your git host." i] > .pf-lbl > .h { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"将此公钥添加到 Git 托管服务。"; font-size:12px; line-height:17px; }
+}
+
+.pf-row[data-q^="copy public key" i][data-q*="puts the public key on the clipboard." i] > .pf-lbl > .t { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"复制公钥"; font-size:13.5px; line-height:19px; }
+}
+
+.pf-row[data-q^="copy public key" i][data-q*="puts the public key on the clipboard." i] > .pf-lbl > .h { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"将公钥复制到剪贴板。"; font-size:12px; line-height:17px; }
+}
+
+.pf-row[data-q^="gpg program" i][data-q*="gpg, or the full path to it." i] > .pf-lbl > .t { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"GPG 程序"; font-size:13.5px; line-height:19px; }
+}
+
+.pf-row[data-q^="gpg program" i][data-q*="gpg, or the full path to it." i] > .pf-lbl > .h { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"填写 gpg 命令名称或其完整路径。"; font-size:12px; line-height:17px; }
+}
+
+.pf-row[data-q^="signing key" i][data-q*="key id; empty uses git's user.signingkey." i] > .pf-lbl > .t { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"签名密钥"; font-size:13.5px; line-height:19px; }
+}
+
+.pf-row[data-q^="signing key" i][data-q*="key id; empty uses git's user.signingkey." i] > .pf-lbl > .h { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"填写密钥 ID。留空时使用 Git 配置中的 user.signingkey。"; font-size:12px; line-height:17px; }
+}
+
+.pf-row[data-q^="sign commits" i][data-q*="add -s to every commit." i] > .pf-lbl > .t { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"为提交签名"; font-size:13.5px; line-height:19px; }
+}
+
+.pf-row[data-q^="sign commits" i][data-q*="add -s to every commit." i] > .pf-lbl > .h { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"为每次提交添加 -S 参数。"; font-size:12px; line-height:17px; }
+}
+
+.pf-row[data-q^="sign tags" i][data-q*="create signed (-s) tags." i] > .pf-lbl > .t { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"为标签签名"; font-size:13.5px; line-height:19px; }
+}
+
+.pf-row[data-q^="sign tags" i][data-q*="create signed (-s) tags." i] > .pf-lbl > .h { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"使用 -s 创建带签名的标签。"; font-size:12px; line-height:17px; }
+}
+
+.pf-sec:has(.pf-row[data-q^="gpg program" i][data-q*="gpg, or the full path to it." i]) > .pf-sec-t { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"签名"; font-size:12px; line-height:16px; }
+}
+
+.pf-row[data-q^="editor" i][data-q*="runs with the file or repository path;" i] > .pf-lbl > .t { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"编辑器"; font-size:13.5px; line-height:19px; }
+}
+
+.pf-row[data-q^="editor" i][data-q*="runs with the file or repository path;" i] > .pf-lbl > .h { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"以文件或仓库路径为参数启动编辑器。留空时使用系统默认应用。"; font-size:12px; line-height:17px; }
+}
+
+.pf-row[data-q^="try it" i] > .pf-lbl > .t { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"测试编辑器"; font-size:13.5px; line-height:19px; }
+}
+
+.pf-row[data-q^="try it" i][data-q*="focus a git block or a terminal in a checkout on this machine to try it." i] > .pf-lbl > .h { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"将焦点移至本机仓库的 Git 区块或终端即可测试。"; font-size:12px; line-height:17px; }
+}
+
+.pf-sec:has(.pf-row[data-q^="editor" i][data-q*="runs with the file or repository path;" i]) > .pf-sec-t { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"外部编辑器"; font-size:12px; line-height:16px; }
+}
+
+.pf-row[data-q^="custom git executable" i][data-q*="run the program below instead of git from" i] > .pf-lbl > .t { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"自定义 Git 程序"; font-size:13.5px; line-height:19px; }
+}
+
+.pf-row[data-q^="custom git executable" i][data-q*="run the program below instead of git from" i] > .pf-lbl > .h { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"使用下方指定的程序执行 Git 命令。"; font-size:12px; line-height:17px; }
+}
+
+.pf-row[data-q^="git executable" i][data-q*="path or command name." i] > .pf-lbl > .t { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"Git 可执行文件"; font-size:13.5px; line-height:19px; }
+}
+
+.pf-row[data-q^="git executable" i][data-q*="path or command name." i] > .pf-lbl > .h { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"填写程序路径或命令名称。"; font-size:12px; line-height:17px; }
+}
+
+.pf-sec:has(.pf-row[data-q^="custom git executable" i][data-q*="run the program below instead of git from" i]) > .pf-sec-t { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"Git 可执行文件"; font-size:12px; line-height:16px; }
+}
+
+.pf-row[data-q^="operation succeeded" i][data-q*="checkouts, commits, pushes…" i] > .pf-lbl > .t { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"操作成功"; font-size:13.5px; line-height:19px; }
+}
+
+.pf-row[data-q^="operation succeeded" i][data-q*="checkouts, commits, pushes…" i] > .pf-lbl > .h { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"检出、提交、推送等操作成功时通知。"; font-size:12px; line-height:17px; }
+}
+
+.pf-row[data-q^="operation failed" i][data-q*="with git's error message." i] > .pf-lbl > .t { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"操作失败"; font-size:13.5px; line-height:19px; }
+}
+
+.pf-row[data-q^="operation failed" i][data-q*="with git's error message." i] > .pf-lbl > .h { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"显示 Git 返回的错误信息。"; font-size:12px; line-height:17px; }
+}
+
+.pf-sec:has(.pf-row[data-q^="operation succeeded" i][data-q*="checkouts, commits, pushes…" i]) > .pf-sec-t { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"Git 通知"; font-size:12px; line-height:16px; }
+}
+
+.pf-row[data-q^="model" i][data-q*="runs through omp with its sign-ins: an omp" i] > .pf-lbl > .t { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"模型"; font-size:13.5px; line-height:19px; }
+}
+
+.pf-row[data-q^="model" i][data-q*="runs through omp with its sign-ins: an omp" i] > .pf-lbl > .h { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"使用 omp 已登录的账号运行。可填写 omp 模型或角色；留空时优先使用 commit 角色，再回退到 smol。"; font-size:12px; line-height:17px; }
+}
+
+.pf-sec:has(.pf-row[data-q^="model" i][data-q*="runs through omp with its sign-ins: an omp" i]) > .pf-sec-t { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"AI 助手"; font-size:12px; line-height:16px; }
+}
+
+.pf-nav:has(.nav-row[aria-label="Git"][aria-selected="true"]):not(:has(.pf-search.has-text)) + .pf-scroll > .pf-doc > .pf-sec:has(+ .pf-sec .pf-row[data-q^="production branch" i]) > .pf-sec-t { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"仓库"; font-size:12px; line-height:16px; }
+}
+
+.pf-row[data-q^="production branch" i] > .pf-lbl > .t { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"生产分支"; font-size:13.5px; line-height:19px; }
+}
+
+.pf-row[data-q^="development branch" i] > .pf-lbl > .t { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"开发分支"; font-size:13.5px; line-height:19px; }
+}
+
+.pf-row[data-q^="feature prefix" i] > .pf-lbl > .t { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"功能分支前缀"; font-size:13.5px; line-height:19px; }
+}
+
+.pf-row[data-q^="release prefix" i] > .pf-lbl > .t { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"发布分支前缀"; font-size:13.5px; line-height:19px; }
+}
+
+.pf-row[data-q^="hotfix prefix" i] > .pf-lbl > .t { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"热修复分支前缀"; font-size:13.5px; line-height:19px; }
+}
+
+.pf-nav:has(.nav-row[aria-label="Plugins"][aria-selected="true"]):not(:has(.pf-search.has-text)) + .pf-scroll > .pf-doc > .pf-head > .pf-title { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"插件"; font-size:22px; line-height:28px; }
+}
+
+.pf-row[data-q^="load plugins" i][data-q*="plugins in the plugins folder add blocks," i] > .pf-lbl > .t { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"加载插件"; font-size:13.5px; line-height:19px; }
+}
+
+.pf-row[data-q^="load plugins" i][data-q*="plugins in the plugins folder add blocks," i] > .pf-lbl > .h { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"加载插件目录中的区块、命令视图、命令和样式。关闭后停用所有插件。"; font-size:12px; line-height:17px; }
+}
+
+.pf-row[data-q^="plugins folder" i][data-q*="reload picks up plugins added, removed or" i] > .pf-lbl > .t { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"插件目录"; font-size:13.5px; line-height:19px; }
+}
+
+.pf-row[data-q^="plugins folder" i][data-q*="reload picks up plugins added, removed or" i] > .pf-lbl > .h { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"重新加载会使当前窗口和会话后台进程应用插件的新增、删除及修改。"; font-size:12px; line-height:17px; }
+}
+
+.pf-row[data-q^="install…" i][data-q*="a plugin directory or a git url, copied" i] > .pf-lbl > .t { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"安装插件…"; font-size:13.5px; line-height:19px; }
+}
+
+.pf-row[data-q^="install…" i][data-q*="a plugin directory or a git url, copied" i] > .pf-lbl > .h { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"输入插件目录或 Git 地址，Tern 会将插件复制到插件目录。"; font-size:12px; line-height:17px; }
+}
+
+.pf-sec:has(.pf-row[data-q^="load plugins" i][data-q*="plugins in the plugins folder add blocks," i]) > .pf-sec-t { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"插件"; font-size:12px; line-height:16px; }
+}
+
+.pf-nav:has(.nav-row[aria-label="Sessions"][aria-selected="true"]):not(:has(.pf-search.has-text)) + .pf-scroll > .pf-doc > .pf-head > .pf-title { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"会话"; font-size:22px; line-height:28px; }
+}
+
+.pf-row[data-q^="start at login" i][data-q*="the daemon starts when you log in, with no" i] > .pf-lbl > .t { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"登录时启动"; font-size:13.5px; line-height:19px; }
+}
+
+.pf-row[data-q^="start at login" i][data-q*="the daemon starts when you log in, with no" i] > .pf-lbl > .h { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"登录系统时在后台启动并恢复保留的会话。如果智能体因崩溃或断电中断，会从中断处继续。"; font-size:12px; line-height:17px; }
+}
+
+.pf-row[data-q^="show in the system tray" i][data-q*="while the daemon runs, tern's icon in the" i] > .pf-lbl > .t { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"在系统托盘中显示"; font-size:13.5px; line-height:19px; }
+}
+
+.pf-row[data-q^="show in the system tray" i][data-q*="while the daemon runs, tern's icon in the" i] > .pf-lbl > .h { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"后台进程运行时，托盘图标会显示任务状态和待处理事项，并可打开 Tern、新建窗口或恢复窗口，也可从托盘停止会话。"; font-size:12px; line-height:17px; }
+}
+
+.pf-row[data-q^="socket" i][data-q*="where windows, and tern whoami in a block," i] > .pf-lbl > .t { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"套接字"; font-size:13.5px; line-height:19px; }
+}
+
+.pf-row[data-q^="socket" i][data-q*="where windows, and tern whoami in a block," i] > .pf-lbl > .h { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"Tern 窗口和区块内的 tern whoami 通过此地址连接后台进程。"; font-size:12px; line-height:17px; }
+}
+
+.pf-sec:has(.pf-row[data-q^="start at login" i][data-q*="the daemon starts when you log in, with no" i]) > .pf-sec-t { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"会话后台进程"; font-size:12px; line-height:16px; }
+}
+
+.pf-row[data-q^="sessions" i] > .pf-lbl > .t { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"会话"; font-size:13.5px; line-height:19px; }
+}
+
+.pf-row[data-q^="clicking another session's tab" i][data-q*="in the side tab list and mission control." i] > .pf-lbl > .t { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"单击其他会话的标签页"; font-size:13.5px; line-height:19px; }
+}
+
+.pf-row[data-q^="clicking another session's tab" i][data-q*="in the side tab list and mission control." i][data-q*="in the side tab list and mission control. stay keeps this session until a double click; the session switcher (ctrl+shift+space) and the inbox always switch." i] > .pf-lbl > .h { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"适用于侧边标签栏和会话总览。选择「保持当前会话」后，需要双击才会切换；会话切换器（Ctrl+Shift+Space）和收件箱仍会直接切换。"; font-size:12px; line-height:17px; }
+}
+
+.pf-row[data-q^="clicking another session's tab" i][data-q*="in the side tab list and mission control." i] .pf-seg > button:nth-child(1):nth-last-child(2) { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"切换会话"; font-size:12.5px; line-height:16px; }
+}
+
+.pf-row[data-q^="clicking another session's tab" i][data-q*="in the side tab list and mission control." i] .pf-seg > button:nth-child(2):nth-last-child(1) { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"保持当前会话"; font-size:12.5px; line-height:16px; }
+}
+
+.pf-sec:has(.pf-row[data-q^="sessions" i]) > .pf-sec-t { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"当前窗口"; font-size:12px; line-height:16px; }
+}
+
+.pf-row[data-q^="reconnect to remote hosts" i][data-q*="hosts the last window used attach again in" i] > .pf-lbl > .t { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"重新连接远程主机"; font-size:13.5px; line-height:19px; }
+}
+
+.pf-row[data-q^="reconnect to remote hosts" i][data-q*="hosts the last window used attach again in" i] > .pf-lbl > .h { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"在后台重新连接上次使用的远程主机。关闭后，可在「设置 → 主机」手动连接。后台进程始终保留本机会话。"; font-size:12px; line-height:17px; }
+}
+
+.pf-sec:has(.pf-row[data-q^="reconnect to remote hosts" i][data-q*="hosts the last window used attach again in" i]) > .pf-sec-t { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"启动时"; font-size:12px; line-height:16px; }
+}
+
+.pf-row[data-q^="confirm before closing" i][data-q*="closing a block, tab or session ends its" i] > .pf-lbl > .t { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"关闭前确认"; font-size:13.5px; line-height:19px; }
+}
+
+.pf-row[data-q^="confirm before closing" i][data-q*="closing a block, tab or session ends its" i] > .pf-lbl > .h { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"关闭区块、标签页或会话时，其中的程序也会退出。选择「程序运行时」仅在命令执行、智能体处理请求或编辑器打开等情况下询问；空闲的 Shell 和智能体直接关闭。锁定的会话始终无法关闭。"; font-size:12px; line-height:17px; }
+}
+
+.pf-row[data-q^="confirm before closing" i][data-q*="closing a block, tab or session ends its" i] .pf-seg > button:nth-child(1):nth-last-child(3) { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"从不"; font-size:12.5px; line-height:16px; }
+}
+
+.pf-row[data-q^="confirm before closing" i][data-q*="closing a block, tab or session ends its" i] .pf-seg > button:nth-child(2):nth-last-child(2) { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"程序运行时"; font-size:12.5px; line-height:16px; }
+}
+
+.pf-row[data-q^="confirm before closing" i][data-q*="closing a block, tab or session ends its" i] .pf-seg > button:nth-child(3):nth-last-child(1) { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"总是"; font-size:12.5px; line-height:16px; }
+}
+
+.pf-row[data-q^="close empty sessions" i][data-q*="a session closes once its last tab closes" i] > .pf-lbl > .t { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"关闭空会话"; font-size:13.5px; line-height:19px; }
+}
+
+.pf-row[data-q^="close empty sessions" i][data-q*="a session closes once its last tab closes" i] > .pf-lbl > .h { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"最后一个标签页关闭或移出时，自动关闭该会话并显示上一个会话。启用后立即清理已有空会话。锁定的会话、含暂存区块的会话及最后一个会话均会保留。"; font-size:12px; line-height:17px; }
+}
+
+.pf-sec:has(.pf-row[data-q^="confirm before closing" i][data-q*="closing a block, tab or session ends its" i]) > .pf-sec-t { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"关闭会话"; font-size:12px; line-height:16px; }
+}
+
+.pf-nav:has(.nav-row[aria-label="Hosts"][aria-selected="true"]):not(:has(.pf-search.has-text)) + .pf-scroll > .pf-doc > .pf-head > .pf-title { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"主机"; font-size:22px; line-height:28px; }
+}
+
+.pf-row[data-q^="share sessions" i][data-q*="let tern web serve offer the sessions on" i] > .pf-lbl > .t { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"共享会话"; font-size:13.5px; line-height:19px; }
+}
+
+.pf-row[data-q^="share sessions" i][data-q*="let tern web serve offer the sessions on" i] > .pf-lbl > .h { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"允许 tern web serve 将本机会话提供给浏览器。关闭后，该服务无法启动，但仍可连接其他主机。目前手机和其他电脑尚不能连接到 Windows 主机。"; font-size:12px; line-height:17px; }
+}
+
+.pf-sec:has(.pf-row[data-q^="share sessions" i][data-q*="let tern web serve offer the sessions on" i]) > .pf-sec-t { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"共享"; font-size:12px; line-height:16px; }
+}
+
+.pf-row[data-q^="add a host" i][data-q*="set it up with tern remote install --allow" i] > .pf-lbl > .t { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"添加主机"; font-size:13.5px; line-height:19px; }
+}
+
+.pf-row[data-q^="add a host" i][data-q*="set it up with tern remote install --allow" i] > .pf-lbl > .h { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"在远端运行 tern remote install --allow you，并将公钥加入 authorized_keys、将访问规则加入 access.toml。可通过 UDP 8376 使用主机名、IP[:port] 或 tailnet 名称连接，也可使用命令输出的端点 ID 经中继连接，无需开放入站 UDP。"; font-size:12px; line-height:17px; }
+}
+
+.pf-sec:has(.pf-row[data-q^="add a host" i][data-q*="set it up with tern remote install --allow" i]) > .pf-sec-t { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"已连接"; font-size:12px; line-height:16px; }
+}
+
+.pf-row[data-q^="connection notices" i][data-q*="say when a remote host can't be reached or" i] > .pf-lbl > .t { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"连接通知"; font-size:13.5px; line-height:19px; }
+}
+
+.pf-row[data-q^="connection notices" i][data-q*="say when a remote host can't be reached or" i] > .pf-lbl > .h { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"远程主机无法访问或连接中断时通知。关闭通知或将某台主机静音后，仅更新其状态；手动连接失败时仍会显示原因。"; font-size:12px; line-height:17px; }
+}
+
+.pf-sec:has(.pf-row[data-q^="connection notices" i][data-q*="say when a remote host can't be reached or" i]) > .pf-sec-t { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"通知"; font-size:12px; line-height:16px; }
+}
+
+.pf-nav:has(.nav-row[aria-label="Hosts"][aria-selected="true"]):not(:has(.pf-search.has-text)) + .pf-scroll > .pf-doc > .pf-sec:has(.pf-list):not(:has(.pf-row)) > .pf-sec-t { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"主机密钥"; font-size:12px; line-height:16px; }
+}
+
+.pf-row[data-q^="provider" i][data-q*="who runs the machines send to cloud starts" i] > .pf-lbl > .t { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"服务提供方"; font-size:13.5px; line-height:19px; }
+}
+
+.pf-row[data-q^="provider" i][data-q*="who runs the machines send to cloud starts" i] > .pf-lbl > .h { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"选择由谁提供“发送到云端”所启动的机器。"; font-size:12px; line-height:17px; }
+}
+
+.pf-row[data-q^="provider" i][data-q*="who runs the machines send to cloud starts" i] .pf-seg > button:nth-child(2):nth-last-child(1) { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"自托管"; font-size:12.5px; line-height:16px; }
+}
+
+.pf-row[data-q^="machine size" i][data-q*="what send to cloud asks for" i] > .pf-lbl > .t { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"机器规格"; font-size:13.5px; line-height:19px; }
+}
+
+.pf-row[data-q^="machine size" i][data-q*="what send to cloud asks for" i] > .pf-lbl > .h { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"设置“发送到云端”申请的机器规格。"; font-size:12px; line-height:17px; }
+}
+
+.pf-row[data-q^="pause after" i][data-q*="an idle machine pauses after this long and" i] > .pf-lbl > .t { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"闲置后暂停"; font-size:13.5px; line-height:19px; }
+}
+
+.pf-row[data-q^="pause after" i][data-q*="an idle machine pauses after this long and" i] > .pf-lbl > .h { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"机器闲置达到此时长后会暂停，再次打开时恢复。"; font-size:12px; line-height:17px; }
+}
+
+.pf-row[data-q^="send my model sign-ins" i][data-q*="so agents on the machine use your models." i] > .pf-lbl > .t { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"同步模型登录凭据"; font-size:13.5px; line-height:19px; }
+}
+
+.pf-row[data-q^="send my model sign-ins" i][data-q*="so agents on the machine use your models." i] > .pf-lbl > .h { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"让云主机上的智能体使用你的模型。对于会轮换登录令牌的服务，云主机刷新令牌后，本机可能需要重新登录。"; font-size:12px; line-height:17px; }
+}
+
+.pf-row[data-q^="send github sign-in" i][data-q*="your gh (else git credential) token, so" i] > .pf-lbl > .t { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"同步 GitHub 登录凭据"; font-size:13.5px; line-height:19px; }
+}
+
+.pf-row[data-q^="send github sign-in" i][data-q*="your gh (else git credential) token, so" i] > .pf-lbl > .h { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"同步 gh 的令牌（或 Git 凭据），以便在云主机上克隆、推送和使用 gh。"; font-size:12px; line-height:17px; }
+}
+
+.pf-row[data-q^="also send ignored files" i][data-q*="git-ignored files matching these globs" i] > .pf-lbl > .t { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"同时发送被忽略的文件"; font-size:13.5px; line-height:19px; }
+}
+
+.pf-row[data-q^="also send ignored files" i][data-q*="git-ignored files matching these globs" i] > .pf-lbl > .h { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"同时发送已被 Git 忽略但匹配这些通配符的文件。"; font-size:12px; line-height:17px; }
+}
+
+.pf-row[data-q^="rebuild environments after" i][data-q*="self-hosted environment snapshots older" i] > .pf-lbl > .t { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"环境重建周期"; font-size:13.5px; line-height:19px; }
+}
+
+.pf-row[data-q^="rebuild environments after" i][data-q*="self-hosted environment snapshots older" i] > .pf-lbl > .h { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"发送到自托管主机后，早于此时限的环境快照会重新构建。"; font-size:12px; line-height:17px; }
+}
+
+.pf-sec:has(.pf-row[data-q^="provider" i][data-q*="who runs the machines send to cloud starts" i]) > .pf-sec-t { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"云主机"; font-size:12px; line-height:16px; }
+}
+
+.pf-nav:has(.nav-row[aria-label="Advanced"][aria-selected="true"]):not(:has(.pf-search.has-text)) + .pf-scroll > .pf-doc > .pf-head > .pf-title { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"高级"; font-size:22px; line-height:28px; }
+}
+
+.pf-row[data-q^="renderer" i][data-q*="what draws tern's windows. automatic uses" i] > .pf-lbl > .t { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"渲染器"; font-size:13.5px; line-height:19px; }
+}
+
+.pf-row[data-q^="renderer" i][data-q*="what draws tern's windows. automatic uses" i] > .pf-lbl > .h { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"选择绘制 Tern 窗口的渲染器。自动模式优先使用显卡，并会避开失去响应的显卡。重启后生效。"; font-size:12px; line-height:17px; }
+}
+
+.pf-row[data-q^="renderer" i][data-q*="what draws tern's windows. automatic uses" i] .pf-seg > button:nth-child(1):nth-last-child(4) { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"自动"; font-size:12.5px; line-height:16px; }
+}
+
+.pf-row[data-q^="renderer" i][data-q*="what draws tern's windows. automatic uses" i] .pf-seg > button:nth-child(3):nth-last-child(2) { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"集成显卡"; font-size:12.5px; line-height:16px; }
+}
+
+.pf-row[data-q^="drawing with" i] > .pf-lbl > .t { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"当前渲染设备"; font-size:13.5px; line-height:19px; }
+}
+
+.pf-row[data-q^="drawing with" i][data-q*="tern draws on the cpu: glass, blurs and animation cost cpu time." i] > .pf-lbl > .h { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"Tern 当前使用 CPU 渲染，玻璃效果、模糊和动画会占用 CPU 时间。"; font-size:12px; line-height:17px; }
+}
+
+.pf-row[data-q^="anti-aliasing" i][data-q*="smooth edges on shapes, borders and" i] > .pf-lbl > .t { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"抗锯齿"; font-size:13.5px; line-height:19px; }
+}
+
+.pf-row[data-q^="anti-aliasing" i][data-q*="smooth edges on shapes, borders and" i] > .pf-lbl > .h { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"平滑形状、边框和笔画的边缘。文字继续使用自身的平滑设置。"; font-size:12px; line-height:17px; }
+}
+
+.pf-row[data-q^="msaa" i][data-q*="shades every edge at several samples per" i] > .pf-lbl > .h { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"每个像素采样多次，使曲线和细线更平滑，同时增加 GPU 负载。采样数不会超过 GPU 支持的上限。"; font-size:12px; line-height:17px; }
+}
+
+.pf-row[data-q^="msaa" i][data-q*="shades every edge at several samples per" i] .pf-seg > button:nth-child(1):nth-last-child(4) { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"关闭"; font-size:12.5px; line-height:16px; }
+}
+
+.pf-row[data-q^="frame rate" i][data-q*="most frames a second tern draws. lower uses" i] > .pf-lbl > .t { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"帧率"; font-size:13.5px; line-height:19px; }
+}
+
+.pf-row[data-q^="frame rate" i][data-q*="most frames a second tern draws. lower uses" i] > .pf-lbl > .h { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"限制每秒绘制帧数。降低高刷新率屏幕的帧率可节电。实际帧率取刷新率的整数分频，例如 165 Hz 屏幕设为 60 时实际为 55 FPS。"; font-size:12px; line-height:17px; }
+}
+
+.pf-row[data-q^="frame rate" i][data-q*="most frames a second tern draws. lower uses" i] .pf-seg > button:nth-child(1):nth-last-child(4) { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"跟随屏幕"; font-size:12.5px; line-height:16px; }
+}
+
+.pf-row[data-q^="vsync" i][data-q*="frames wait for the display's refresh. off" i] > .pf-lbl > .h { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"等待屏幕刷新后显示每一帧。关闭后可略微降低延迟，但画面可能撕裂。帧率上限独立设置。"; font-size:12px; line-height:17px; }
+}
+
+.pf-row[data-q^="frames queued" i][data-q*="frames the gpu may prepare ahead of the" i] > .pf-lbl > .t { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"帧队列长度"; font-size:13.5px; line-height:19px; }
+}
+
+.pf-row[data-q^="frames queued" i][data-q*="frames the gpu may prepare ahead of the" i] > .pf-lbl > .h { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"允许 GPU 提前准备的帧数。较少可缩短输入延迟，较多可让复杂动画更流畅。"; font-size:12px; line-height:17px; }
+}
+
+.pf-sec:has(.pf-row[data-q^="renderer" i][data-q*="what draws tern's windows. automatic uses" i]) > .pf-sec-t { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"渲染"; font-size:12px; line-height:16px; }
+}
+
+.pf-row[data-q^="settings.json" i][data-q*="the settings changed from their defaults," i] > .pf-lbl > .h { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"JSON 文件中保存与默认值不同的设置。手动编辑后，点击「重新加载」使修改生效。"; font-size:12px; line-height:17px; }
+}
+
+.pf-row[data-q^="configuration folder" i][data-q*="settings.json, known_hosts and the hosts" i] > .pf-lbl > .t { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"配置目录"; font-size:13.5px; line-height:19px; }
+}
+
+.pf-row[data-q^="configuration folder" i][data-q*="settings.json, known_hosts and the hosts" i] > .pf-lbl > .h { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"这里存放 settings.json、known_hosts 和主机列表。"; font-size:12px; line-height:17px; }
+}
+
+.pf-sec:has(.pf-row[data-q^="settings.json" i][data-q*="the settings changed from their defaults," i]) > .pf-sec-t { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"设置文件"; font-size:12px; line-height:16px; }
+}
+
+.pf-row[data-q^="logs and app state" i][data-q*="each tern process's log, a snapshot of what" i] > .pf-lbl > .t { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"日志和应用状态"; font-size:13.5px; line-height:19px; }
+}
+
+.pf-row[data-q^="logs and app state" i][data-q*="each tern process's log, a snapshot of what" i] > .pf-lbl > .h { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"包含各个 Tern 进程的日志、当前界面快照（包括运行中的命令和选区）以及跨启动保存的状态。"; font-size:12px; line-height:17px; }
+}
+
+.pf-row[data-q^="logs folder" i][data-q*="stencil_log sets what the logs record," i] > .pf-lbl > .t { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"日志目录"; font-size:13.5px; line-height:19px; }
+}
+
+.pf-row[data-q^="logs folder" i][data-q*="stencil_log sets what the logs record," i] > .pf-lbl > .h { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"STENCIL_LOG 控制日志内容，STENCIL_TRACE 用于记录性能分析数据。"; font-size:12px; line-height:17px; }
+}
+
+.pf-row[data-q^="send crash reports" i][data-q*="when tern crashes, send the error, recent" i] > .pf-lbl > .t { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"发送崩溃报告"; font-size:13.5px; line-height:19px; }
+}
+
+.pf-row[data-q^="send crash reports" i][data-q*="when tern crashes, send the error, recent" i] > .pf-lbl > .h { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"Tern 崩溃时，将错误信息、最近的日志及系统和 GPU 信息发送给 Stencil。报告也保存在日志目录中。"; font-size:12px; line-height:17px; }
+}
+
+.pf-row[data-q^="themes folder" i][data-q*="css themes here (name.css, each built on" i] > .pf-lbl > .t { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"主题目录"; font-size:13.5px; line-height:19px; }
+}
+
+.pf-row[data-q^="themes folder" i][data-q*="css themes here (name.css, each built on" i] > .pf-lbl > .h { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"将基于现有主题的 NAME.css 放在这里即可加入主题列表。编辑后实时生效。若目录不存在，可自行创建。"; font-size:12px; line-height:17px; }
+}
+
+.pf-row[data-q^="syntaxes folder" i][data-q*="sublime syntaxes here (name.sublime-syntax)" i] > .pf-lbl > .t { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"语法定义目录"; font-size:13.5px; line-height:19px; }
+}
+
+.pf-row[data-q^="syntaxes folder" i][data-q*="sublime syntaxes here (name.sublime-syntax)" i] > .pf-lbl > .h { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"将 NAME.sublime-syntax 放在这里可添加语法高亮或替换内置定义。若目录不存在，可自行创建。修改后重启生效。"; font-size:12px; line-height:17px; }
+}
+
+.pf-row[data-q^="omp folder" i][data-q*="where tern reads omp's theme choice" i] > .pf-lbl > .t { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"omp 目录"; font-size:13.5px; line-height:19px; }
+}
+
+.pf-row[data-q^="omp folder" i][data-q*="where tern reads omp's theme choice" i][data-q*="where tern reads omp's theme choice (config.yml) and your themes in themes/, following them as they change. empty uses the folder omp itself would." i] > .pf-lbl > .h { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"Tern 从这个目录读取 config.yml 中的 omp 主题设置和 themes/ 中的主题，并跟随文件更新。留空使用 omp 的默认目录。"; font-size:12px; line-height:17px; }
+}
+
+.pf-sec:has(.pf-row[data-q^="logs and app state" i][data-q*="each tern process's log, a snapshot of what" i]) > .pf-sec-t { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"诊断"; font-size:12px; line-height:16px; }
+}
+
+.pf-sec:has(.pf-row[data-q*="typing claude in a new tern shell" i]) > .pf-rows > .pf-row:first-child > .pf-lbl > .t { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"命令行工具"; font-size:13.5px; line-height:19px; }
+}
+
+.pf-row[data-q*="typing claude in a new tern shell" i] > .pf-lbl > .t { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"使用 ACP 对话打开 Claude Code"; font-size:13.5px; line-height:19px; }
+}
+
+.pf-row[data-q*="typing claude in a new tern shell" i] > .pf-lbl > .h { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"在新的 Tern Shell 中输入 claude 时打开 Tern 对话。关闭后使用 Claude Code 自带的界面。"; font-size:12px; line-height:17px; }
+}
+
+.pf-row[data-q*="in its acp chat, claude code reads" i] > .pf-lbl > .t { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"使用 Claude Code 自带的文件和终端工具"; font-size:13.5px; line-height:19px; }
+}
+
+.pf-row[data-q*="in its acp chat, claude code reads" i] > .pf-lbl > .h { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"在 ACP 对话中，由 Claude Code 自行读写文件和运行命令。"; font-size:12px; line-height:17px; }
+}
+
+.pf-sec:has(.pf-row[data-q*="typing codex in a new tern shell" i]) > .pf-rows > .pf-row:first-child > .pf-lbl > .t { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"命令行工具"; font-size:13.5px; line-height:19px; }
+}
+
+.pf-row[data-q*="typing codex in a new tern shell" i] > .pf-lbl > .t { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"使用 ACP 对话打开 Codex"; font-size:13.5px; line-height:19px; }
+}
+
+.pf-row[data-q*="typing codex in a new tern shell" i] > .pf-lbl > .h { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"在新的 Tern Shell 中输入 codex 时打开 Tern 对话。关闭后使用 Codex 自带的界面。"; font-size:12px; line-height:17px; }
+}
+
+.pf-row[data-q*="in its acp chat, codex reads" i] > .pf-lbl > .t { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"使用 Codex 自带的文件和终端工具"; font-size:13.5px; line-height:19px; }
+}
+
+.pf-row[data-q*="in its acp chat, codex reads" i] > .pf-lbl > .h { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"在 ACP 对话中，由 Codex 自行读写文件和运行命令。"; font-size:12px; line-height:17px; }
+}
+
+.pf-sec:has(.pf-row[data-q*="typing copilot in a new tern shell" i]) > .pf-rows > .pf-row:first-child > .pf-lbl > .t { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"命令行工具"; font-size:13.5px; line-height:19px; }
+}
+
+.pf-row[data-q*="typing copilot in a new tern shell" i] > .pf-lbl > .t { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"使用 ACP 对话打开 GitHub Copilot"; font-size:13.5px; line-height:19px; }
+}
+
+.pf-row[data-q*="typing copilot in a new tern shell" i] > .pf-lbl > .h { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"在新的 Tern Shell 中输入 copilot 时打开 Tern 对话。关闭后使用 GitHub Copilot 自带的界面。"; font-size:12px; line-height:17px; }
+}
+
+.pf-row[data-q*="in its acp chat, github copilot reads" i] > .pf-lbl > .t { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"使用 GitHub Copilot 自带的文件和终端工具"; font-size:13.5px; line-height:19px; }
+}
+
+.pf-row[data-q*="in its acp chat, github copilot reads" i] > .pf-lbl > .h { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"在 ACP 对话中，由 GitHub Copilot 自行读写文件和运行命令。"; font-size:12px; line-height:17px; }
+}
+
+.pf-row[data-q^="command line tool" i][data-q*="not installed · adapter installs on first use" i] > .pf-lbl > .h { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"尚未安装。首次使用时会安装适配器。"; font-size:12px; line-height:17px; }
+}
+
+.pf-row[data-q^="command line tool" i][data-q*="not installed · adapter installs on first use" i] > .pf-ctl > button.btn.sm { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"安装"; font-size:12px; line-height:16px; }
+}
+
+.pf-row[data-q^="follow omp" i] > .pf-lbl > .t { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"跟随 omp 主题"; font-size:13.5px; line-height:19px; }
+}
+
+.pf-sec:has(.pf-row[data-q^="follow omp" i]) > .pf-sec-t { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"主题"; font-size:12px; line-height:16px; }
+}
+
+.pf-row[data-q^="follow omp" i][data-q$="use the dark and light themes omp shows instead of the ones kept here." i] > .pf-lbl > .h { font-size:0!important; line-height:0!important; letter-spacing:0!important;
+  &::after { content:"使用 omp 的深色和浅色主题。"; font-size:12px; line-height:17px; }
+}
